@@ -1,6 +1,15 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
+
+
 html {
     height: 100%;
 }
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
 
 .background-image {
     background: url("/media/hero_edit.jpg") no-repeat center;
@@ -9,18 +18,15 @@ html {
     color: white;
 }
 
-.hero-font {
-    font-family: Pacifico;
-    font-size:4vw;
-    line-height: 7vw;
+.logo-text{
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
 }
-/* body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
-} */
+
+.hero-font {
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+    line-height: 90px;
+}
+
 
 /* from Bulma */
 .icon {
@@ -33,7 +39,7 @@ html {
 
 .logo-font {
     /* text-transform: uppercase; */
-    font-family: Pacifico;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 .main-logo-link {
@@ -46,7 +52,7 @@ html {
     min-width: 200px;
     border-radius: 20px;
     border: 1px solid white;
-s}
+}
 
 .btn-black {
     background: black;
@@ -69,6 +75,10 @@ s}
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important;
 }
 
 /* -------------------------------- Media Queries */
