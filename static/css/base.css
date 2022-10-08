@@ -25,6 +25,10 @@ body {
 .hero-font {
     font-family: 'Pacifico', Arial, Helvetica, sans-serif;
     line-height: 90px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    letter-spacing: 4.5px;
 }
 
 
@@ -82,7 +86,19 @@ body {
 }
 
 
-/* -------------------------------- Media Queries */
+/* -------------------------------- Testimionals */
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:gold;
+}
+
+/* -------------------------------- Footer */
+
 
 .footer-body {
     background:whitesmoke;
