@@ -55,7 +55,7 @@
   <header class="container-fluid fixed-top">
     <div id="delivery-banner" class="row text-center">
       <div class="col bg-black text-white">
-        <h4 class="logo-font my-1"><i class="fas fa-truck"></i>   Free delivery on orders over €{{ free_shipping_threshold }}!</h4>
+        <h4 class="logo-font my-1"><i class="fas fa-truck"></i>   Free delivery on orders over {{ free_shipping_threshold }}!</h4>
       </div>
     </div>
     <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
@@ -132,7 +132,7 @@
    
   </header>
 
-
+  
   {% if messages %}
   <div class="message-container"></div>
   {% endif %}
@@ -142,11 +142,67 @@
 
   {% block content %}
   {% endblock %}
+    <!-- Footer -->
+    <footer class="bg-white foote-body">
+      <div class="container py-5">
+        <div class="row py-4">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+            <p class="font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <ul class="list-inline mt-4">
+              <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">Products</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Company Details</h6>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Privacy Policy</a></li>
+              <li class="mb-2"><a href="#" class="text-muted">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-lg-0">
+            <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+            <p class="text-muted mb-4">Sign up to today! To get details of our latests deals, secret sales and new products releases</p>
+            <div class="p-1 rounded border">
+              <div class="input-group">
+                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                <div class="input-group-append">
+                  <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Copyrights -->
+      <div class="bg-light py-4">
+        <div class="container text-center">
+          <p class="text-muted mb-0 py-2">© 2022 Tasty Tipples All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
 
   {% block postloadjs %}
   {% endblock %}
 
 
 </body>
+
 
 </html>

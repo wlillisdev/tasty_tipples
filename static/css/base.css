@@ -81,6 +81,34 @@ body {
     background: #000 !important;
 }
 
+
+/* -------------------------------- Media Queries */
+
+.footer-body {
+    background:whitesmoke;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    min-height: 100vh;
+}
+  
+/* #button-addon1 {
+    color: #ffc371;
+}
+  
+i {
+    color: #ffc371;
+}
+   */
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+  
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
