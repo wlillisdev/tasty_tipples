@@ -86,9 +86,8 @@ body {
 
 .footer-body {
     background:whitesmoke;
-    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
-    background: linear-gradient(to right, #ff5f6d, #ffc371);
-    min-height: 100vh;
+    /* background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371); */
 }
   
 /* #button-addon1 {
@@ -130,5 +129,8 @@ i {
 
     .header-container {
         padding-top: 164px;
+    }
+    .footer-body{
+        margin-right: 6px;
     }
 }
