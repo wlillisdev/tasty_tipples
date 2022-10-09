@@ -1,0 +1,82 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "whiskey",
+            "friendly_name": "Whiskey"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "gin",
+            "friendly_name": "Gin"
+        } 
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "vodka",
+            "friendly_name": "Vodka"
+        } 
+    },
+  {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "rum",
+            "friendly_name": "Rum"
+        } 
+    },
+      {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "larger",
+            "friendly_name": "Larger"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "ales",
+            "friendly_name": "Ales"
+        } 
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "cider",
+            "friendly_name": "Cider"
+        } 
+    },
+  {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "red_wine",
+            "friendly_name": "Red Wine"
+        } 
+    },
+  {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "white_wine",
+            "friendly_name": "White Wine"
+        } 
+    },
+  {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "rose",
+            "friendly_name": "Rose"
+        } 
+    }
+]

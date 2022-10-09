@@ -1,0 +1,283 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4500",
+            "name": "Jameson",
+            "description": "This blended whiskey is composed of light and crisp grain whiskey along with an amount of heavier pot still whiskey adding some depth. Most of the ageing is done in first-fill bourbon casks with only a small proportion in sherry wood. The best-selling Irish whiskey worldwide",
+            "price": "31.99",
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Irish%20Whiskey/Jameson%20Original-1000x1000.jpg",
+            "image": "jameson_whiskey.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4501",
+            "name": "Dingle Whiskey",
+            "description": "The fourth Single Pot Still release to come from the Dingle Distillery which has been matured in ex-Bourbon and Oloroso Sherry casks resulting in a rich and full-flavoured whiskey with notes of dark chocolate, figs and ripe fruits. Expect a leathery finish with touches of exotic spices and roasted nut",
+            "price": "90.00",
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Irish%20Whiskey/Dingle%20Pot%20Still-1000x1000.jpg",
+            "image": "dingle_whiskey.jpeg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4502",
+            "name": "Glendalough Wild Botanical Gin",
+            "description": "A unique celebration of the wild Irish countryside, this utilises fresh plants which are sustainably sourced from the surrounding mountains by a full-time forager. These botanicals are then slow-distilled to release all manner of intricate flavours in small batches of less than 250 litres.",
+            "price": "40.00",
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Irish%20Gin/Glendalough%20Wild%20Botanical%20Gin-1000x1000.jpg",
+            "image": "glendalough_gin.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4503",
+            "name": "Drumshanbo Gunpowder Gin",
+            "description": "Drumshanbo Gunpowder Gin comes to you from the Shed Distillery, Co Leitrim. An exciting combination of select oriental and local botanicals are left to soak for a maximum of 30 minutes in the medieval style still while the vapour infusion is being prepared. Delightfully fresh with citrus, juniper, and spicy notes. A very well-balanced and surprising gin.",
+            "price": "17.19",
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Irish%20Gin/Drumshanbo%20Gunpowder%20Gin%20NEW-1000x1000.jpg",
+            "image": "drumshanbo_gin.jpg"
+        }
+    },
+     {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4504",
+            "name": "Grey Goose Vodka",
+            "description": "Grey Goose is made solely from French winter wheat and is distilled in a single column still in the Picardy region of France. One distilled it is transported to the Cognac region where it is blended with artesian spring water that has been naturally filtered through the ancient limestone in the area",
+            "price": "59.00",
+            "category": 3,
+            "rating": 4.2,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Vodka/grey-goose-1000x1000.jpg",
+            "image": "grey_goose_vodka.jpg"
+        }
+    },
+       {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4505",
+            "name": "Grey Goose Vodka",
+            "description": "Grey Goose is made solely from French winter wheat and is distilled in a single column still in the Picardy region of France. One distilled it is transported to the Cognac region where it is blended with artesian spring water that has been naturally filtered through the ancient limestone in the area",
+            "price": "59.00",
+            "category": 3,
+            "rating": 4.2,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Vodka/grey-goose-1000x1000.jpg",
+            "image": "grey_goose_vodka.jpg"
+        }
+    },
+       {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4506",
+            "name": "Absolut Vodka",
+            "description": "Absolut Vodka is made exclusively from natural ingredients, and unlike other vodkas, it doesn't contain any added sugar. In fact, Absolut is as pure as vodka can be. Still, that purity has a certain taste: Rich, full-bodied, and complex, yet smooth and mellow with a distinct character of grain, followed by a hint of dried fruit.",
+            "price": "59.00",
+            "category": 3,
+            "rating": 4.1,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Vodka/Absolut-1000x1000.jpg",
+            "image": "absolut_vodka.jpg"
+        }
+    },
+       {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4507",
+            "name": "Angostura",
+            "description": "A smooth and soft-tasting rum that has been aged carefully in ex-Bourbon barrels. This has some warm flavors of honey, vanilla, and coconut and is great to drink on its own or with a little ice. Winner of gold medal in the Rum Masters in both 2021 and 2022!",
+            "price": "30.00",
+            "category": 4,
+            "rating": 4.7,
+            "image_url": "https://images.pexels.com/photos/9197432/pexels-photo-9197432.jpeg?cs=srgb&dl=pexels-funmiphotography-9197432.jpg&fm=jpg",
+            "image": "angostura_rum.jpg"
+        }
+    },
+       {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4508",
+            "name": "Killarney Brewing Scarlet Pimpernel",
+            "description": "A light-bodied, ruby-red American India Pale Ale from Killarney! Boasts beautiful malty notes along with citrus, resinous and floral flavors.",
+            "price": "3.90",
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Beer/Killarney%20Scarlet%20Pimpernel-600x600%20(1)-1000x1000.jpg",
+            "image": "killarney_ale.jpg"
+        }
+    },
+         {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4509",
+            "name": "8 Degrees Howling Gale Pale",
+            "description": "Like blitzing down the Ballyhouras on a bike with an icy wind in your face, this pale ale delivers a refreshing crisp smack around the gills. With a pleasant grapefruit citrus aroma from Cascade and Simcoe hops. Howling Gale was the first beer we ever brewed, all the way back in 2011, and is still our most popular beer.",
+            "price": "3.50",
+            "category": 6,
+            "rating": 4.9,
+            "image_url": "https://www.eightdegrees.ie/wordpress/wp-content/uploads/2020/11/Eight-Degrees-Brewing-Howling-Gale-Irish-Pale-Ale-can-1600x1600.jpgg",
+            "image": "8_degrees_ale.jpg"
+        }
+    },
+       {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp4510",
+            "name": "Killarney Brewing Devil's Helles Lager",
+            "description": "A clean and crisp Helles Lager from Killarney Brewing! This pale brew tells the story of a fierce battle between Thor and the Devil. Boasts notes of honey, malt, and a touch of noble hops!",
+            "price": "3.95",
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Beer/Killarney%20Brewing%20Devils%20Helles-600x600w%20(1)%20(1)-1000x1000.jpg",
+            "image": "killarney_larger.jpg"
+        }
+    },
+       {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45011",
+            "name": "8 Degrees Bohemian larger",
+            "description": "This is an unorthodox lager with a subtle biscuity malt base, balanced with noble hop bitterness and a spicy aroma. Our soft Mitchelstown water – flowing from Ireland’s highest inland mountains – is uniquely suited to brewing this crisp and adventurous drop.",
+            "price": "3.70",
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "https://www.eightdegrees.ie/wordpress/wp-content/uploads/2021/02/Eight-Degrees-Brewing-Bohemian-Pilsner-Lager-can-900x900.jpg",
+            "image": "8_degrees_larger.jpg"
+        }
+    },
+       {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45012",
+            "name": "Longueville House Cider",
+            "description": "A rich, amber, medium-dry cider from Longueville House in Mallow, Co.Cork. Dabinett and Michelin cider apples have been harvested in the Autumn and are crushed/pressed in an oak cider press machine, resulting in lots of refreshing, fresh apple notes.",
+            "price": "4.50",
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Beer/Longueville%20House%20Cider%201-600x600h-1000x1000.png",
+            "image": "longueville_cider.jpg"
+        }
+    },
+       {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45013",
+            "name": "Legacy Dry Cider",
+            "description": "Legacy  Dry Cider is the first and the ‘Original Legacy Cider’. It’s my favorite as I think it has a lovely balance between sweet and Dry. There is a “good bite to it” as I’ve been told often times, this “bite” is the strong Bramley flavor coming through. The Medium Dry is made with only three apple varieties; Elstar, Bramley, and Michellin",
+            "price": "3.80",
+            "category": 7,
+            "rating": 4.7,
+            "image_url": "https://dlvnjk3a1hoj2.cloudfront.net/gli/legacyirishcider.ie/fullsize/https_legacyirishcider_ie_wp_content_uploads_2020_04_dry_jpg.jpg",
+            "image": "legacy_cider.jpg"
+        }
+    },
+         {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45014",
+            "name": "Finca San Martin Crianza",
+            "description": "2017 saw an April frost that greatly reduced the production in Torre de Ona. However as a result of Finca Martello not being made that year the quality of grapes that went into the Crianza rose significantly. This is a smooth very high-quality Crianza at fantastic value for money. ",
+            "price": "18.00",
+            "category": 8,
+            "rating": 4.0,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Wine/Finca%20san%20martin%20crianza%202017-1000x1000.jpg",
+            "image": "finca_red_wine.jpg"
+        }
+    },       
+  {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45015",
+            "name": "Lopez Cristobal Roble",
+            "description": "The family estates of Lopez de Cristobal are run sustainably and all harvesting is done by hand from 20-year-old vines in the Ribera del Duero. This is a classic Roble displaying great typicity with fantastic value for money. Drinking very well now. ",
+            "price": "17.00",
+            "category": 8,
+            "rating": 4.4,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Wine/Lopez%20Cristobal%20Roble-1000x1000.jpg",
+            "image": "lopez_red_wine.jpg"
+        }
+    },       
+  {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45016",
+            "name": "Lagar de Cevera Albarino",
+            "description": "This is a 100% Albarino from La Rioja Alta's vineyards in O Rosa and Cambados in Rias Baixas. The wine is heavily influenced by the Atlantic and portrays wonderful oceanic characteristics. It is drinking perfectly now and can be enjoyed with most seafood dishes and appetizers.",
+            "price": "22.00",
+            "category": 9,
+            "rating": 4.6,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Wine/Lagar%20de%20Cevera%20Albarino-1000x1000.jpg",
+            "image": "lagar_white_wine.jpg"
+        }
+    },       
+  {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45017",
+            "name": "Godeval 2021",
+            "description": "From Bodegas Godeval comes this very expressive 2021 vintage wine. Year after year, wines from Bodegas Godeval are recognized in the best world wine guide books and this release is no exception. Made from 100% Godello and harvested by hand, this white wine is wonderfully light and balanced with delicate fruit flavors and good acidity",
+            "price": "18.00",
+            "category": 9,
+            "rating": 4.8,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Wine/godeval%20(1)-1000x1000.jpg",
+            "image": "godeval_white_wine.jpg"
+        }
+    },
+   {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45018",
+            "name": "Chateau La Tour De By Rose 2020",
+            "description": "A fantastic Bordeaux Rose made from 100% Cabernet Sauvignon from 35-year-old vines planted on pebbly soils on the banks of the Gironde. Fresh notes of red currant, garden strawberry, red cherry, lemon, and light floral notes on the nose. Citrussy flavor with notes of red berries, a good degree of minerality, and a short citrus aftertaste.",
+            "price": "16.00",
+            "category": 10,
+            "rating": 4.7,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Wine/Chateau%20La%20Tour%20De%20By%20Rose%202020-1000x1000.jpg",
+            "image": "chateau_rose.jpg"
+        }
+    }, 
+  {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku":"tp45019",
+            "name": "Bodegas Bentomiz Ariyanas Rosé",
+            "description": "A wonderful floral Rosé from this highly respected Spanish producer that is Vegan-friendly! Made from 100% Romé grapes. Declared the best rosé in Andalucia by Jancis Robinson's Purple Pages. Velvety, floral, dry, and refreshing. ",
+            "price": "24.00",
+            "category": 10,
+            "rating": 4.8,
+            "image_url": "https://www.irishdrinkshop.com/image/cache/catalog/Wine/Bodegas%20Bentomiz%20Rose-1000x1000.jpg",
+            "image": "bodegas_rose.jpg"
+        }
+    }
+   
+]
