@@ -15,6 +15,14 @@ a {
     color:black;
 }
 
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card {
+    transition: transform .3s;
+}
+
 .nav-hover{
     position: relative;
     text-decoration: none;
