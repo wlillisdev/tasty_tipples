@@ -10,6 +10,11 @@ body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none !important;
+    color:black;
+}
+
 .nav-hover{
     position: relative;
     text-decoration: none;
