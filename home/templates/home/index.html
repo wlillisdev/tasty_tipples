@@ -36,7 +36,7 @@
         <!-- First -->
         <div class="col-12 col-md-4 bg-brand-blue text-center pt-5 px-auto">
             <h2>Whiskey</h2>
-            <a href="" class="btn btn-outline-dark rounded-0 py-2 m-3 theme-btn">Shop Now</a>
+            <a href="{% url 'products' %}?category=whiskey" class="btn btn-outline-dark rounded-0 py-2 m-3 theme-btn">Shop Now</a>
             <div class="home-product">
                 <img width="350" height="450" class="d-none d-lg-inline"
                     src="{{ MEDIA_URL }}truffle-milk-chocolate-nobg.webp" alt="Milk Chocolate Truffle Bites">
@@ -47,7 +47,7 @@
         <!-- Second -->
         <div class="col-12 col-md-4 bg-brand-pink text-center pt-5 px-auto">
             <h2>Gin</h2>
-            <a href="" class="btn btn-outline-dark rounded-0 py-2 m-3 theme-btn">Shop Now</a>
+            <a href="{% url 'products' %}?category=gin" class="btn btn-outline-dark rounded-0 py-2 m-3 theme-btn">Shop Now</a>
             <div class="home-product">
                 <img width="350" height="450" class="d-none d-lg-inline"
                     src="{{ MEDIA_URL }}truffle-white-chocolate-strawberry-champagne-nobg.webp"
@@ -60,7 +60,7 @@
         <!-- Third -->
         <div class="col-12 col-md-4 bg-primary text-center pt-5 px-auto">
             <h2>Larger</h2>
-            <a href="" class="btn btn-outline-dark rounded-0 py-2 m-3 theme-btn">Shop Now</a>
+            <a href="{% url 'products' %}?category=larger" class="btn btn-outline-dark rounded-0 py-2 m-3 theme-btn">Shop Now</a>
             <div class="home-product">
                 <img width="350" height="450" class="d-none d-lg-inline"
                     src="{{ MEDIA_URL }}truffle-vegan-dark-chocolate-coffee-nobg.webp"
