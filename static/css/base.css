@@ -15,6 +15,7 @@ a {
     color:black;
 }
 
+
 .card:hover {
     transform: scale(1.015);
 }
@@ -106,12 +107,21 @@ a {
 
 
 .p-button{
-    background:#BEBEBE;
+    background:	#808080;
     color: black;
     text-transform: uppercase;
     border-radius: 2px;
 }
 
+.p-button:hover,
+.p-button:active,
+.p-button:focus,
+.p-button:hover,
+.p-button:active,
+.p-button:focus {
+    background: green;
+    color: white;
+}
 
 .shop-now-button:hover,
 .shop-now-button:active,
