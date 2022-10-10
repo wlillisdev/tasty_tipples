@@ -103,6 +103,13 @@ a {
     color: white;
 }
 
+.p-button{
+    background:#BEBEBE;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
