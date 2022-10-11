@@ -113,12 +113,7 @@ a {
     border-radius: 2px;
 }
 
-.p-button:hover,
-.p-button:active,
-.p-button:focus,
-.p-button:hover,
-.p-button:active,
-.p-button:focus {
+.p-button:hover {
     background: green;
     color: white;
 }
@@ -127,6 +122,11 @@ a {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
+}
+
+.btn-outline-black:hover {
+    background: yellow;
+    color: white;
 }
 
 .shop-now-button:hover,
