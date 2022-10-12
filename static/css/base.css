@@ -20,6 +20,10 @@ a {
     transform: scale(1.015);
 }
 
+.heart-home{
+    color: red;
+}
+
 .card {
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -70,6 +74,12 @@ a {
 
 .header-top{
     background: silver;
+}
+
+.tilte-product{
+    background-color: silver;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
 .van{
