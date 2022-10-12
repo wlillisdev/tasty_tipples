@@ -133,6 +133,11 @@ a {
     border-width: 1.5px;
 }
 
+.add-bag-btn{
+    border-width: 1.5px;
+    border-color: black;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
