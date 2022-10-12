@@ -59,8 +59,21 @@ a {
     color: white;
 }
 
+
 .logo-text{
     font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+}
+
+.logo-text:hover{
+    font-size: 34px;
+}
+
+.header-top{
+    background: silver;
+}
+
+.van{
+    color: #000;
 }
 
 .hero-font {
@@ -222,6 +235,10 @@ i {
     padding-right: 10px;
 }
 
+.footer-bottom{
+    background-color: silver;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -237,6 +254,10 @@ i {
 
 .toast-capper {
     height: 2px;
+}
+
+.image-stripe{
+    margin-right: 5px;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -326,4 +347,10 @@ i {
     body {
         height: calc(100vh - 116px);
     }
+
+    .image-stripe{
+        margin-left: 3px;
+        margin: 0 auto;
+    }
+
 }
