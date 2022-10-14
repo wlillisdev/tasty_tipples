@@ -30,7 +30,7 @@
 <section>
     <div class="row">
         <div class="col-12 text-center">
-            <h2 class="diplay-1 bg-light py-1">Popular Drink Products</h2>
+            <h2 class="diplay-1 bg-light py-1">Best Selling Drink Products</h2>
         </div>
     </div>
     <!-- <div class="row bg-green">
@@ -80,7 +80,7 @@
 
 
     <!-- Card group -->
-    <div class="card-group mx-2">
+    <div class="card-group">
 
         <!-- Card -->
         <div class="card mb-4">
@@ -89,9 +89,6 @@
             <div class="view overlay">
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/49.webp"
                     alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
             </div>
 
             <!-- Card content -->
@@ -100,11 +97,9 @@
                 <!-- Title -->
                 <h4 class="card-title">Whiskey</h4>
                 <!-- Text -->
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
+                <p class="card-text">We stock some of worlds best whiskeys. Perfect for the whikey connoisseur.</p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <button type="button" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2">Shop Now</button>
+                <a href="{% url 'products' %}?category=whiskey" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
 
             </div>
             <!-- Card content -->
@@ -119,21 +114,18 @@
             <div class="view overlay">
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/48.webp"
                     alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
             </div>
 
             <!-- Card content -->
-            <div class="card-body">
+            <div class="card-body text-center">
                 <!-- Title -->
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Gin</h4>
                 <!-- Text -->
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's
                     content.</p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <button type="button" class="btn btn-primary btn-md">Read more</button>
+                <a href="{% url 'products' %}?category=gin" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
 
             </div>
             <!-- Card content -->
@@ -148,22 +140,45 @@
             <div class="view overlay">
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/77.webp"
                     alt="Card image cap">
-                <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                </a>
             </div>
 
             <!-- Card content -->
-            <div class="card-body">
+            <div class="card-body text-center">
 
                 <!-- Title -->
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Red Wine</h4>
                 <!-- Text -->
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's
                     content.</p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <button type="button" class="btn btn-primary btn-md">Read more</button>
+                <a href="{% url 'products' %}?category=red_wine" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
+
+            </div>
+            <!-- Card content -->
+
+        </div>
+        <!-- Card -->
+         <!-- Card -->
+         <div class="card mb-4">
+
+            <!-- Card image -->
+            <div class="view overlay">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/77.webp"
+                    alt="Card image cap">
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body text-center">
+
+                <!-- Title -->
+                <h4 class="card-title">Larger</h4>
+                <!-- Text -->
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="{% url 'products' %}?category=larger" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
 
             </div>
             <!-- Card content -->
