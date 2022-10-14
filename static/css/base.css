@@ -141,6 +141,11 @@ a {
     color: white;
 }
 
+.popular-products:hover{
+    background: green;
+    color: white;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
