@@ -83,14 +83,7 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
-                                            <p>
-                                                {% if request.user.is_superuser %}
-                                                    <small class="mt-3">
-                                                        <a class="btn btn-primary btn-sm" href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                                        <a class="btn btn-danger btn-sm" href="{% url 'delete_product' product.id %}">Delete</a>
-                                                    </small>
-                                                {% endif %}
-                                            </p>
+                                            
                                             <div class="col-12 p-button my-2 border border-dark">
                                                 <a href="{% url 'product_detail' product.id %}"style="color: white">
                                                     <p class="shop-btn text-center my-2 font-weight-bold ">

@@ -45,10 +45,30 @@
                     {% endif %}
                     <p>
                         {% if request.user.is_superuser %}
-                            <small class="mt-2">
-                                <a class="btn btn-primary btn-sm" href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                <a class="btn btn-danger btn-sm" href="{% url 'delete_product' product.id %}">Delete</a>
-                            </small>
+                            <p>
+                                <a class="btn btn-primary" href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                <a type="button" class="btn btn-danger text-light" data-toggle="modal" data-target="#deletproduct{{ product.id }}">Delete</a>
+                            </p>
+                            <!-- Modal -->
+                            <div class="modal fade" id="deletproduct{{ product.id }}" tabindex="-1" role="dialog" aria-labelledby="Delete {{ product.name }}" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Delete Product</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Are you sure you want to delete <strong>{{ product.name }}</strong> ?
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+                                    <a href="{% url 'delete_product' product.id %}" aria-label="Delete {{ product.name }}" class="btn btn-danger">Yes Delete</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         {% endif %}
                     </p>
                     <hr class="w-80 mb-1">
@@ -105,5 +125,9 @@
 
 {% block postloadjs %}
 {{ block.super }}
+    <script>$('a[href$="#Modal"]').on( "click", function() {
+        $('#Modal').modal('show');
+    });
+    </script>
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
