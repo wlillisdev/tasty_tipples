@@ -101,7 +101,13 @@
                             </td>
                         </tr>
                     </table>
+                    <p>
+                        <a href="https://stripe.com/ie" target="_blank">
+                            <img class="img-fluid float-right" src="{{ MEDIA_URL }}secure_payments.png" alt="secure payment strip" width="350" height="200">
+                        </a>
+                    </p>
                 </div>
+                
             {% else %}
                 <p class="lead mb-5">Your bag is empty.</p>
                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
