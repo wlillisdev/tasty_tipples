@@ -411,10 +411,9 @@ i {
 
 .card-img-top-blog {
     width: 100%;
-    height: 15vw;
+    height: 20vw;
     object-fit: cover;
-    margin-top: 1em;
-}
+    }
 
 /* -------------------------------- Media Queries */
 
@@ -509,7 +508,7 @@ i {
         width: 100%;
         height: 60vw;
         object-fit: cover;
-        margin-top: 1em;
+        
     }
 
 }
