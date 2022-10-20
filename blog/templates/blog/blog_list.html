@@ -20,21 +20,20 @@
         </div>
 
         <div class="row">
-
-            <div class="mx-auto" >
+            <div class="col-11 mx-auto border border-secondary" >
                 {% for post in posts %}
-                    <div class="card m-5 g-0">
-                        <div class="col text-center">
+                    <div class="card m-5 m-1">
+                        <div class="text-center">
                             {% if post.image %}
                             <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image card-img-top-blog">
                             {% else %}
                             <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image card-img-top-blog">
                             {% endif %}
                         </div>
-                        <div class="col">
+                        <div class="">
                             <div class="card-body">
                                 <h4 class="card-title">{{ post.title }}</h5>
-                                <p class="card-text">{{ post.content|slice:":250"|safe }}</p>
+                                <p class="card-text">{{ post.content|slice:":300"|safe }}</p>
                                 <p class="card-text"><small class="text-muted">{{ post.created_on}}</small></p>
                             </div>
                             <p class="text-center">
