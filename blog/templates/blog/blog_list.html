@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -14,39 +14,37 @@
     <div class="container">
         <div class="row">
             <div class="col text-center mt-5 mb-3 pt-3">
-                <h2> The Tipple Blog. </h2>
+                <h2> The Tipple Blog </h2>
                 <hr class="w-50 m-auto">
             </div>
         </div>
-       
+
         <div class="row">
-            <div class="col-md-8 mx-auto m-4">
-                {% if posts %}
-                    {% for post in posts %}
-                        <div class="blog-card" class="card d-flex mt-4 flex-column flex-sm-row bg-one p-3 pt-4">
-                            <div class="blog-list-container card-body d-flex flex-row">
-                                {% if post.image %}
-                                <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image">
-                                {% else %}
-                                <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image">
-                                {% endif %}
-                                <div class="blog-desc">
-                                    <h2 class="card-title">{{ post.title }}</h2>
-                                    <p class="card-text text-muted h6">{{ post.created_on}} </p>
-                                    <p class="pt-3 card-text">{{ post.content|slice:":400"|safe }}</p>
-                                </div>
-                            </div>
-                            <aside class="read-more align-self-end">
-                                <a href="{% url 'blog_detail' post.slug  %}" class="btn btn-primary">Read Post</a>
-                            </aside>
+
+            <div class="mx-auto" >
+                {% for post in posts %}
+                    <div class="card m-5 g-0">
+                        <div class="col text-center">
+                            {% if post.image %}
+                            <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image">
+                            {% else %}
+                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image">
+                            {% endif %}
                         </div>
-                    {% endfor %}
-                    {% else %}
-                    <p>No blog posts at the moment. Please check back later!</p>
-                {% endif %}
+                        <div class="col">
+                            <div class="card-body">
+                                <h4 class="card-title">{{ post.title }}</h5>
+                                <p class="card-text">{{ post.content|slice:":250"|safe }}</p>
+                                <p class="card-text"><small class="text-muted">{{ post.created_on}}</small></p>
+                            </div>
+                            <p class="text-center">
+                                <a href="{% url 'blog_list'  %}" class="btn btn-primary">Back to Blog</a>
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
         </div>
-        <hr class="mt-5">
     </div>
 </section>
 
