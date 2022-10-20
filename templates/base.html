@@ -183,10 +183,11 @@
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">All Products</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Whiskey</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Gin</a></li>
+            <li class="mb-2"><a href="{% url 'account_login' %}" class="text-muted">Login</a></li>
+            <li class="mb-2"><a href="{% url 'products' %}" class="text-muted">All Products</a></li>
+            <li class="mb-2"><a href="{% url 'products' %}?category=whiskey,gin,vodka,rum" class="text-muted">Spirits</a></li>
+            <li class="mb-2"><a href="{% url 'products' %}?category=larger,ales,cider"  class="text-muted">Beers</a></li>
+            <li class="mb-2"><a href="{% url 'products' %}?category=red_wine,white_wine,rose" class="text-muted">Wines</a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -195,7 +196,7 @@
             <li class="mb-2"><a href="{% url 'blog_list' %}" class="text-muted">Our Blog</a></li>
             <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Privacy Policy</a></li>
-            <li class="mb-2"><a href="{% url 'contact' %}" class="text-muted">Contact us</a></li>
+            <li class="mb-2"><a href="{% url 'contact' %}" class="text-muted">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">
