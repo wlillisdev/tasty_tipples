@@ -15,9 +15,9 @@
         <div class="row d-flex flex-column">
             <div class="col-10 mx-auto d-flex mb-2">
             {% if post.image %}
-                <img src="{{ post.image.url }}" alt="{{ post.title }}" class="mx-auto blog-card" >
+                <img src="{{ post.image.url }}" alt="{{ post.title }}" class="mx-auto blog-card card-img-top-blog" >
             {% else %}
-                <img src="{{ MEDIA }}noimage.png" alt="{{ post.title }}" class="mx-auto blog-card">
+                <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="mx-auto blog-card card-img-top-blog">
             {% endif %}
             </div>
             <div id="blog-detail-desc" class="col-10 mx-auto card card-body p-5">

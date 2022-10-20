@@ -26,9 +26,9 @@
                     <div class="card m-5 g-0">
                         <div class="col text-center">
                             {% if post.image %}
-                            <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image">
+                            <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image card-img-top-blog">
                             {% else %}
-                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image">
+                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image card-img-top-blog">
                             {% endif %}
                         </div>
                         <div class="col">
@@ -38,7 +38,7 @@
                                 <p class="card-text"><small class="text-muted">{{ post.created_on}}</small></p>
                             </div>
                             <p class="text-center">
-                                <a href="{% url 'blog_list'  %}" class="btn btn-primary">Back to Blog</a>
+                                <a href="{% url 'blog_detail' post.slug  %}" class="btn btn-primary">View Post</a>
                             </p>
                         </div>
                     </div>
