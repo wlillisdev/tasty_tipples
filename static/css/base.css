@@ -73,7 +73,7 @@ a {
 }
 
 .header-top{
-    background: silver;
+    background: green;
 }
 
 .tilte-product{
@@ -83,7 +83,7 @@ a {
 }
 
 .van{
-    color: #000;
+    color: whitesmoke;
 }
 
 .hero-font {
@@ -309,15 +309,16 @@ a.category-badge > span.badge:hover {
     /* background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
     background: linear-gradient(to right, #ff5f6d, #ffc371); */
 }
-  
-/* #button-addon1 {
-    color: #ffc371;
+ 
+footer a:hover {
+    color: green;
+}   
+
+.hover-footer a:hover{
+    color:green;
 }
+
   
-i {
-    color: #ffc371;
-}
-   */
    
 .form-control::placeholder {
     font-size: 0.95rem;
@@ -334,7 +335,7 @@ i {
 }
 
 .footer-bottom{
-    background-color: silver;
+    background-color: green;
 }
 
 /* ------------------------------- bootstrap toasts */
