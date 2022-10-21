@@ -1,32 +1,38 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
 
 <div class="overlay"></div>
-<div class="container mt-5 pt-5">
+<div class="container bg-success col-md-8">
     <div class="row">
-        <div class="col mt-5 pt-5 mb-2">
-            <h2 class="logo-font mb-4">Contact Us <i class="far fa-envelope"></i></h2>
-
-
+        <div class="col mt-2 pt-2 mb-2 ">
+            <h2 class="logo-font mb-4 text-white">Contact Us <i class="far fa-envelope"></i></h2>
         </div>
     </div>
 </div>
 
 
-<div class="container">
+<div class="container col-md-8 bg-light">
     <div class="row">
-        <div class="col-md-6">
-            <p class="product-details text-muted">Feel free to contact us if you have any questions.
+        <div class="col  text-center">
+            <p class="product-details mt-3 h5">Feel free to contact us if you have any questions.
                 <br>A member of our team will contact you a.s.a.p</p>
             <form class="mt-3" action="{% url 'contact' %}" method="POST" id="contact_form">
                 {% csrf_token %}
-                <div class="mb-3">
+                <div class="mb-3 h5s mt-1 mb-1">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                    <input type="text" class="mb-1 form-control" id="name" name="name" placeholder="Name" required>
                     <label for="subject" class="form-label">Subject</label>
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                    <input type="text" class="mt-1 mb-1 form-control" id="subject" name="subject" placeholder="Subject" required>
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" name="email"
                         placeholder="tastytipples@example.com" required>
@@ -36,7 +42,7 @@
                     <textarea class="form-control" id="message" rows="3" name="message"
                         style="height:230px;"></textarea>
                 </div>
-                <button class="btn btn-primary text-uppercase basket-btn float-left mb-5">Send</button>
+                <button class="btn btn-primary text-uppercase basket-btn mt-3 mb-5">Send Message</button>
             </form class="mb-5">
         </div>
        
