@@ -205,3 +205,22 @@ def edit_review(request, review_id):
         'product': product,
     }
     return render(request, 'products/edit_review.html', context)
+
+
+
+@login_required
+def delete_review(request, review_id):
+    """
+    View enables user to delete their own reviews
+    and superuser to delete reviews by others besides.
+    """
+    review = get_object_or_404(ProductReview, pk=review_id)
+    product = review.product
+    current_user = CustomerProfile.objects.get(user=request.user)
+    if review.user != current_user and not request.user.is_superuser:
+        messages.error(request, 'You are tring to delete a review by someone else.')
+        return redirect(reverse('product_detail', args=[product.id]))
+    if review.user == current_user or request.user.is_superuser:
+        review.delete()
+        messages.success(request, 'Review deleted!')
+    return redirect(reverse('product_detail', args=[product.id]))
