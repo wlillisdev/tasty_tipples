@@ -7,12 +7,7 @@ from .models import Product, Category, ProductReview
 from .forms import ProductForm, ReviewForm
 from profiles.models import UserProfile
 
-
-
-
-
 # Create your views here.
-
 
 
 def all_products(request):
@@ -150,8 +145,9 @@ def add_review(request, product_id):
     """
     Function to add product review
     """
-    product = get_object_or_404(Product, pk=product_id)
+
     if request.method == 'POST':
+        product = get_object_or_404(Product, pk=product_id)
         review_form = ReviewForm(request.POST)
         if review_form.is_valid():
             review_form.instance.user = request.user
@@ -171,3 +167,41 @@ def add_review(request, product_id):
             'review_form': review_form,
         }
     return render(request, 'products/product_detail.html', context)
+
+
+@login_required
+def edit_review(request, review_id):
+    """
+    Edit exisiting review
+    """
+    review = get_object_or_404(ProductReview, pk=review_id)
+    product = review.product
+    if request.user != review.user:
+        messages.error(request, (
+                                'You have no permission to access this page'
+                                ))
+        return redirect('home')
+    if request.method == 'POST':
+        review_form = ReviewForm(request.POST, instance=review)
+        if review_form.is_valid():
+            review = review_form.save(commit=False)
+            review.user = request.user
+            review.product = product
+            review.save()
+            messages.info(request, 'Your review has been updated')
+            return redirect(reverse('product_detail', args=[product.id]))
+        else:
+            messages.error(request, (
+                                    'Failed to edit the review. Please ensure'
+                                    'the form is valid.'))
+
+    else:
+        review_form = ReviewForm(instance=review)
+
+    messages.info(request, 'You are updating your review')
+    context = {
+        'review_form': review_form,
+        'review': review,
+        'product': product,
+    }
+    return render(request, 'products/edit_review.html', context)
