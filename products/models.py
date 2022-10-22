@@ -1,6 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
+
 
 class Category(models.Model):
 
@@ -28,3 +30,41 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class ProductReview(models.Model):
+    """
+    Product Review Model
+    """
+    rating_selection = (
+        (5, '5 stars'),
+        (4, '4 stars'),
+        (3, '3 stars'),
+        (2, '2 stars'),
+        (1, '1 stars'),
+    )
+
+    product = models.ForeignKey(Product,
+                                related_name='reviews',
+                                null=True,
+                                blank=True,
+                                on_delete=models.SET_NULL)
+    user = models.ForeignKey(User,
+                             null=True,
+                             blank=True,
+                             on_delete=models.CASCADE)
+    content = models.TextField(default='', null=True, blank=True)
+    date_added = models.DateTimeField(auto_now_add=True)
+    rating = models.IntegerField(choices=rating_selection,
+                                 default=4,
+                                 null=True,
+                                 blank=True)
+
+    class Meta:
+        """
+        Defines review rating values.
+        """
+        ordering = ['-date_added']
+
+    def __str__(self):
+        return self.title
