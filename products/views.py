@@ -207,7 +207,6 @@ def edit_review(request, review_id):
     return render(request, 'products/edit_review.html', context)
 
 
-
 @login_required
 def delete_review(request, review_id):
     """

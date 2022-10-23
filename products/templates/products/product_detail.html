@@ -51,7 +51,7 @@
                         <a type="button" class="btn btn-danger text-light" data-toggle="modal"
                             data-target="#deletproduct{{ product.id }}">Delete</a>
                     </p>
-                    <!-- Modal -->
+                    <!-- Modal Delete Product -->
                     <div class="modal fade" id="deletproduct{{ product.id }}" tabindex="-1" role="dialog"
                         aria-labelledby="Delete {{ product.name }}" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -130,10 +130,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h4 class="subtitle mb-3">Reviews</h4>
+                <h4 class="subtitle mb-1">Reviews</h4>
                 <div class="reviews-wrapper">
                     {% for review in product.reviews.all %}
-                    <div class="notification space-below">
+                    <div class="stars-reviews space-below">
                         {% if review.rating is 1 %}
                         <p><i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
@@ -168,39 +168,37 @@
                         <i class="fas fa-star"></i></p>
                         {% endif %}
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="">
-                                    <div class="review-elements">
-                                        <p class=" text-muted">{{ review.content }}</p>
-                                    </div>
-                                    <p class="small text-muted"> by {{ review.user }} on
-                                        {{ review.date_added|date:"d-m-Y"}}
-                                    </p>
+                        
+                        <div class="pt-2">
+                            <div class="p-1">
+                                <div class="review-elements">
+                                    <p class=" text-muted">{{ review.content }}</p>
                                 </div>
+                                <p class="small text-muted"> by {{ review.user }} on
+                                    {{ review.date_added|date:"d-m-Y"}}
+                                </p>
                             </div>
                         </div>
 
-                        {% if review.review.user == current_user or request.user.is_superuser %}
+                        {% if user.is_authenticated and user.id == review.user.id %}
                         <div class="button-group">
-                            <a class="btn btn-secondary btn-sm mb-1" href="{% url 'edit_review' review.id %}">
+                            <a class="btn btn-success btn-sm mb-1" href="{% url 'edit_review' review.id %}">
                                 Edit Review
                             </a>
 
-                            <a class="btn btn-secondary btn-sm mb-1" href="">
+                            <a class="btn btn-danger btn-sm mb-1" href="">
                                 Delete Review
                             </a>
                         </div>
 
                         {% endif %}
 
-
                         <hr class="text-muted w-50">
                     </div>
 
                     {% empty %}
 
-                    <div class="notification space-below">
+                    <div class="space-below">
                         No reviews yet for {{ product.name }}... be the first one to review this product.
                     </div>
                     {% endfor %}
@@ -210,7 +208,7 @@
             <div class="col-md-6">
                 {% if request.user.is_authenticated %}
                     <div class="review-container">
-                        <h4 class="subtitle mb-3 text-body">Write a Review about {{ product.name }}</h4>
+                        <h5 class="subtitle mb-3 text-body">Write a Review about {{ product.name }}</h5>
                         <form class="form mb-2" action="{% url 'add_review' product.id %}" method="POST">
                             
                             {% csrf_token %}
@@ -221,8 +219,8 @@
                         </form>
 
                         {% else %}
-                            <p>Please <a href="{% url 'account_login' %}">sign in</a> or <a
-                                    href="{% url 'account_signup' %}"> register</a> to add a review!</p>
+                            <p>Please <a href="{% url 'account_login' %}" class="font-weight-bold">Sign In</a> or <a
+                                    href="{% url 'account_signup' %}" class="font-weight-bold"> egister</a> to add a review!</p>
                         </div>
                     </div>
                 {% endif %}

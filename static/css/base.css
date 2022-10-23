@@ -289,6 +289,10 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+/* -------------------------------- Reviews */
+.stars-reviews{
+    color: goldenrod;
+}
 
 /* -------------------------------- Testimionals */
 .user-content p{
