@@ -23,9 +23,9 @@
 
 <div class="container col-md-8 bg-light">
     <div class="row">
-        <div class="col  text-center">
+        <div class="col-md-6  text-center">
             <p class="product-details mt-3 h5">Feel free to contact us if you have any questions.
-                <br>A member of our team will contact you a.s.a.p</p>
+                A member of our team will contact you a.s.a.p</p>
             <form class="mt-3" action="{% url 'contact' %}" method="POST" id="contact_form">
                 {% csrf_token %}
                 <div class="mb-3 h5s mt-1 mb-1">
@@ -45,7 +45,11 @@
                 <button class="btn btn-primary text-uppercase basket-btn mt-3 mb-5">Send Message</button>
             </form class="mb-5">
         </div>
+        <div class="col-md-6  text-center">
+            <img class="img-fluid" src="{{ MEDIA_URL }}contact_edit.jpg" alt="people drinking beer" height="400">
+        </div>
     </div>
+    
 </div>
 
 {% endblock %}
