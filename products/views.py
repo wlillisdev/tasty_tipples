@@ -207,18 +207,23 @@ def edit_review(request, review_id):
     return render(request, 'products/edit_review.html', context)
 
 
-@login_required
+@login_required()
 def delete_review(request, review_id):
     """
-    View to delete reviews
+    To delete the review on a specific product.
     """
     review = get_object_or_404(ProductReview, pk=review_id)
     product = review.product
-    current_user = UserProfile.objects.get(user=request.user)
-    if review.user != current_user and not request.user.is_superuser:
-        messages.error(request, 'You are trying to delete a review by someone else.')
-        return redirect(reverse('product_detail', args=[product.id]))
-    if review.user == current_user or request.user.is_superuser:
+
+    try:
         review.delete()
-        messages.success(request, 'Your Review is deleted!')
+        messages.info(
+            request, (
+                'Successfully deleted your review')
+        )
+
+    except Exception as e:
+        messages.error(request, 'Error removing review: {e}')
+        return HttpResponse(status=500)
+
     return redirect(reverse('product_detail', args=[product.id]))
