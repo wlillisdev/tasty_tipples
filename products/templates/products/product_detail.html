@@ -130,7 +130,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h4 class="subtitle mb-1">Reviews</h4>
+                <hr>
+                <h5 class="subtitle mb-1">Reviews</h5>
+                <hr>
                 <div class="reviews-wrapper">
                     {% for review in product.reviews.all %}
                     <div class="stars-reviews space-below">
@@ -186,19 +188,19 @@
                                 Edit Review
                             </a>
                             <button class="btn btn-danger btn-sm mb-1" data-toggle="modal" data-target="#review-modal-{{ review.id }}">delete</button>
-                            <!-- Modal Delete Product -->
+                            <!-- Modal Delete Review -->
                             <div class="modal fade" id="review-modal-{{ review.id }}" tabindex="-1" role="dialog"
                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Delete Review</h5>
+                                        <div class="modal-header bg-danger">
+                                            <h5 class="text-white text-uppercase" id="exampleModalLabel">Delete Review</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
-                                        <div class="modal-body">
-                                            Are you sure you want to delete your review?
+                                        <div class="modal-body ">
+                                            Are you 100% sure you want to delete your review?
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
@@ -227,9 +229,12 @@
             </div>
 
             <div class="col-md-6">
-                {% if request.user.is_authenticated %}
-                <div class="card-body">
+                <hr>
                     <h5 class="subtitle mb-1 text-body">Write a Review about {{ product.name }}</h5>
+                <hr>
+                {% if request.user.is_authenticated %}
+                <div class="card-body ">
+                    
                     <form class="form mb-2" action="{% url 'add_review' product.id %}" method="POST">
 
                         {% csrf_token %}
@@ -246,7 +251,7 @@
                         </div>
 
                         <div class="mb-3 mt-1 pt-1">
-                            <label for="conent" class="font-weight-bold form-label ">Your review</label>
+                            <label for="conent" class="font-weight-bold form-label ">Your Review</label>
                             <textarea class="form-control" id="content" rows="2" name="content"
                                 style="height:230px;" placeholder="Did you like this product was it ☆☆☆☆☆ ?" required></textarea>
                         </div>
