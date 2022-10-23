@@ -2,49 +2,43 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <hr>
-                <h2 class="logo-font mb-4">Edit review</h2>
-                <hr>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-md-6 offset-md-3">
-                                                         
-                      
-                <div class="col-md-8">
-                <div class="card-body">
-                    
-                    <h5 class="card-title">{{ product.name }}</h5>
-                </div>
-                </div>
-                    
-                  
-                <form action="{% url 'edit_review' review.id %}" method="POST">
-                    {% csrf_token %}
-
-                    {{ review_form | crispy }}
-
-                    <div class="text-right">
-                        <a href="{% url 'product_detail' review.product.id %}" class="btn btn-outline-dark">Cancel</a>
-                        <button type="submit" class="btn btn-success link-btn ">Update Review</button>
-                        <!-- <a class="btn btn-outline-dark rounded-0" href=>Cancel</a>
-                        <button class="btn btn-dark rounded-0" type="submit">Update your review</button> -->
-                    </div>
-                </form>
-            </div>            
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4">Update Your Review</h2>
+            <hr>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                </div>
+            </div>
+
+            <form action="{% url 'edit_review' review.id %}" method="POST">
+                {% csrf_token %}
+
+                {{ review_form | crispy }}
+
+                <div class="text-right">
+                    <a href="{% url 'product_detail' review.product.id %}" class="btn btn-outline-dark">Cancel</a>
+                    <button type="submit" class="btn btn-success link-btn ">Update Review</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 {% endblock %}

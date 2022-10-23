@@ -168,7 +168,7 @@
                         <i class="fas fa-star"></i></p>
                         {% endif %}
 
-                        
+
                         <div class="pt-2">
                             <div class="p-1">
                                 <div class="review-elements">
@@ -185,10 +185,31 @@
                             <a class="btn btn-success btn-sm mb-1" href="{% url 'edit_review' review.id %}">
                                 Edit Review
                             </a>
-
-                            <a class="btn btn-danger btn-sm mb-1" href="">
-                                Delete Review
-                            </a>
+                            <button class="btn btn-danger btn-sm mb-1" data-toggle="modal" data-target="#review-modal-{{ review.id }}">delete</button>
+                            <!-- Modal Delete Product -->
+                            <div class="modal fade" id="review-modal-{{ review.id }}" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Delete Review</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Are you sure you want to delete your review?
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Exit</button>
+                                            <a href="{% url 'delete_review' review.id %}"
+                                                aria-label="Delete review" class="btn btn-danger">Yes
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         {% endif %}
@@ -207,26 +228,44 @@
 
             <div class="col-md-6">
                 {% if request.user.is_authenticated %}
-                    <div class="review-container">
-                        <h5 class="subtitle mb-3 text-body">Write a Review about {{ product.name }}</h5>
-                        <form class="form mb-2" action="{% url 'add_review' product.id %}" method="POST">
-                            
-                            {% csrf_token %}
+                <div class="card-body">
+                    <h5 class="subtitle mb-1 text-body">Write a Review about {{ product.name }}</h5>
+                    <form class="form mb-2" action="{% url 'add_review' product.id %}" method="POST">
 
-                            {{ review_form | crispy }}
-
-                            <button type="submit" class="btn btn-primary  font-weight-bold">Add Review</button>
-                        </form>
-
-                        {% else %}
-                            <p>Please <a href="{% url 'account_login' %}" class="font-weight-bold">Sign In</a> or <a
-                                    href="{% url 'account_signup' %}" class="font-weight-bold"> egister</a> to add a review!</p>
+                        {% csrf_token %}
+                        <div>
+                            <label for="rating" class="font-weight-bold">Choose a Rating</label><br>
+                                    <select name='rating' id="rating" name="Rating" >
+                                    <option class="rating" name='rating' id="rating" value="1">☆</option>
+                                    <option name='rating' id="rating" value="2">☆☆</option>
+                                    <option name='rating' id="rating" value="3">☆☆☆</option>
+                                    <option name='rating' id="rating" value="4">☆☆☆☆</option>
+                                    <option name='rating' id="rating"value="5">☆☆☆☆☆</option>
+                                    </select>
+                           
                         </div>
-                    </div>
-                {% endif %}
+
+                        <div class="mb-3 mt-1 pt-1">
+                            <label for="conent" class="font-weight-bold form-label ">Your review</label>
+                            <textarea class="form-control" id="content" rows="2" name="content"
+                                style="height:230px;" placeholder="Did you like this product was it ☆☆☆☆☆ ?" required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn btn-primary  font-weight-bold">Add Review</button>
+                        </div>
+                    </form>
+
+                    {% else %}
+                    <p>Please <a href="{% url 'account_login' %}" class="font-weight-bold">Sign In</a> or <a
+                            href="{% url 'account_signup' %}" class="font-weight-bold"> Register</a> to add a review!
+                    </p>
+                </div>
             </div>
+            {% endif %}
         </div>
     </div>
+</div>
 </div>
 
 
