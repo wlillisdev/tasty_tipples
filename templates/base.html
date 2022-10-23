@@ -169,7 +169,7 @@
             <img src="{{ MEDIA_URL }}trustpilot.png" alt="trust pilot rating" width="180" class="mb-1">
           </a>
           <p class="font-weight-bold">Follow Us On</p>
-          <ul class="list-inline mt-1">
+          <ul class="list-inline">
             <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Go to Twitter" title="twitter">
               <i class="fa fa-twitter fa-2x"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Go to Facebook" title="facebook">
@@ -180,10 +180,10 @@
             <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo fa-2x"></i></a></li> -->
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 hover-footer">
           <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
           <ul class="hover-footer list-unstyled mb-0">
-            <li class="mb-2"><a href="{% url 'account_login' %}" class="text-muted">Login</a></li>
+            <li class=" mb-2"><a href="{% url 'account_login' %}" class="text-muted">Login</a></li>
             <li class="mb-2"><a href="{% url 'products' %}" class="text-muted">All Products</a></li>
             <li class="mb-2"><a href="{% url 'products' %}?category=whiskey,gin,vodka,rum" class="text-muted">Spirits</a></li>
             <li class="mb-2"><a href="{% url 'products' %}?category=larger,ales,cider"  class="text-muted">Beers</a></li>
