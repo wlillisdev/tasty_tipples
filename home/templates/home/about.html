@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %}- About Us{% endblock %}
+
+{% block page_header %}
+<div class="container-flex">
+    <div class="row">
+        <div class="col-8 offset-2 mt-3">
+            <h2 class="text-center">About Us</h2>
+            <hr>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <!-- Image -->
+        <div class="col-md-6">
+            <img src="{{ MEDIA_URL }}founder.jpg" class="img-fluid" alt="A picture of Dry Drops founder, Jack Daniels">
+            <p class="text-center font-italic text-muted mt-1">Jack Daniels - Founder of Dry Drops</p>
+            <div class="text-center">
+                <a href="{% url 'contact' %}" class="btn link-btn rounded-pill">Contact Us</a>
+                <a href="{% url 'products' %}" class="btn link-btn rounded-pill">View Our Products</a>
+            </div>
+        </div>
+        <!-- Bio -->
+        <div class="col-md-6 mt-4 mt-md-0">
+            <p><strong>Dry Drops</strong> was founded in late 2018 after Jack Daniels' lifelong battle with alcohol finally came to an
+                end. Instead of investing all his time, energy and money into his addiction he decided to invest it into
+                a business to help others get out of the downward spiral he found himself in.</p>
+
+            <p>One key part to Jack's journey was <strong>alcohol free beverages</strong>. Not wanting to miss out on all the fantastic
+                flavours one comes accustomed to when drinking, and finding that sometimes you just need that little
+                something to fill the void but without the added guilt, <strong>zero percent alcohol</strong> seemed like a no brainer!
+                However, Jack noticed a notable gap in this market when trying to shop for his favourite drinks that
+                were also suitable for <strong>people practising sobriety</strong>.
+                Seeing this as an opportunity to not only help himself but to help others, Jack, with nothing to lose,
+                jumped in feet first and as a result this website was born!</p>
+            
+            <div class="d-none d-lg-block">
+                <p class="text-muted text-center my-5"><em>'Now and again you just need something to scratch the itch without undoing all the hard work you've
+                    achieved' - Jack Daniels.</em></p>
+
+                <p>Shortly after conceiving <strong>Dry Drops</strong>, Jack came to realise that <strong>Alcohol free drinks</strong> was not just limited to
+                    people who struggle with Alcohol Abuse, but could also be extended to and not limited by <strong>teetotalers,
+                    designated drivers, pregnant women, religious practitioners</strong> and anybody who just wants to enjoy the many
+                    flavours found in alcohol but does not want that ever impending dreaded hangover! The idea was set, the
+                    market was ripe and <strong>Dry Drops</strong> was ready to step up to the plate.</p>
+                
+                <p class="text-muted text-center my-5"><em>'A problem shared is a problem halved' - Jack Daniels</em></p>
+
+                <p>Like everything in life, it's always easier with a little help. Building <strong>Dry Drops</strong> was no different. We
+                    here are a team of many very passionate people who all believe in the same goal, Help people to <strong>quit
+                    drinking</strong>. To partner that sentiment a percentage of all our profits go to registered charities all devoted to
+                    helping people like Jack who struggled for years with alcoholism.</p>
+
+                <p>All of us here hope you enjoy what we've built and thank you very much for considering our services.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="d-lg-none">
+                <p class="text-muted text-center my-5"><em>'Now and again you just need something to scratch the itch without undoing all the hard work you've
+                    achieved' - Jack Daniels.</em></p>
+
+                <p>Shortly after conceiving <strong>Dry Drops</strong>, Jack came to realise that <strong>Alcohol free drinks</strong> was not just limited to
+                    people who struggle with Alcohol Abuse, but could also be extended to and not limited by <strong>Teetotalers,
+                    designated drivers, pregnant women, religious practitioners</strong> and anybody who just wants to enjoy the many
+                    flavours found in alcohol but does not want that ever impending dreaded hangover! The idea was set, the
+                    market was ripe and <strong>Dry Drops</strong> was ready to step up to the plate.</p>
+                
+                <p class="text-muted text-center my-5"><em>'A problem shared is a problem halved' - Jack Daniels</em></p>
+
+                <p>Like everything in life, it's always easier with a little help. Building <strong>Dry Drops</strong> was no different. We
+                    here are a team of many very passionate people who all believe in the same goal, Help people to <strong>quit
+                    drinking</strong>. To partner that sentiment a percentage of all our profits go to registered charities all devoted to
+                    helping people like Jack who struggled for years with alcoholism.</p>
+
+                <p>All of us here hope you enjoy what we've built and thank you very much for considering our services.</p>
+            </div>
+            <!-- Charity Links -->
+            <p class="text-center mt-4">If you yourself have problems with alcohol abuse please contact one of our partnered charities below.</p>
+            <div class="my-5 text-center">
+                <a href="https://drinkaware.ie/" target="_blank"><img src="{{ MEDIA_URL }}drinkaware-Logo .jpg" alt="Drink Aware Logo" rel="sponsored" class="charity img-fluid " width="250" height="150"></a>
+                <a href="https://alcoholchange.org.uk/" target="_blank"><img src="{{ MEDIA_URL }}alcohol_change.png" alt="Alcohol Change logo" rel="sponsored" class="charity img-fluid mx-md-5"></a>
+                <a href="https://www.mind.org.uk/" target="_blank"><img src="{{ MEDIA_URL }}mind.jpg" alt="Mind logo" rel="sponsored" class="charity img-fluid ml-md-4"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
