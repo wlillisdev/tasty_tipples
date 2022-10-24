@@ -10,5 +10,10 @@ def index(request):
 
 
 def about(request):
-    """ Displays about.html """
+    """ Displays about us page """
     return render(request, 'home/about.html')
+
+
+def privacy(request):
+    """ Displays privacy poilcy """
+    return render(request, 'home/privacy.html')
