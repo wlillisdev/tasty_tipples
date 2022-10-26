@@ -18,11 +18,9 @@
                 <hr class="w-80 m-auto">
             </div>
         </div>
-
         <div class="row">
             <div class="col-xl-10 m-3 mx-auto">
-                
-                {% for post in posts %}
+                {% for post in post_list %}
                     <div class="card m-3">
                         <div class="text-center">
                             {% if post.image %}
@@ -42,6 +40,26 @@
                         </div>
                     </div>
                 {% endfor %}
+            </div>
+        </div>
+        <!-- pagination -->
+        <div class="row justify-content-center">
+            <div class="pagination text justify-content-center p-2" style="width: fit-content;">
+                <span class="step-links">
+                {% if page_obj.has_previous %}
+                    <a href="?page=1" class="page-link" style="display: inline;">&laquo; first</a>
+                    <a href="?page={{ page_obj.previous_page_number }}" class="page-link" style="display: inline;">previous</a>
+                {% endif %}
+            
+                <span class="current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                </span>
+                
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}" class="page-link" style="display: inline;">next</a>
+                    <a href="?page={{ page_obj.paginator.num_pages }}" class="page-link" style="display: inline;">last &raquo;</a>
+                {% endif %}
+                </span>
             </div>
         </div>
     </div>

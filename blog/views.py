@@ -1,19 +1,26 @@
 
 from django.shortcuts import render, get_object_or_404
 from .models import Post
+from django.core.paginator import Paginator
+from django.views.generic import ListView
 
-# Create your views here.
+
+class BlogView(ListView):
+    paginate_by = 3
+    model = Post
+    template_name = 'blog/blog_list.html'
+    ordering = ['-created_on']
 
 
-def blog_list(request):
-    """blog list"""
-    posts = Post.objects.all().order_by('-created_on')
+# def blog_list(request):
+#     """blog list"""
+#     posts = Post.objects.all().order_by('-created_on')
 
-    context = {
-        'posts': posts,
-    }
+#     context = {
+#         'posts': posts,
+#     }
 
-    return render(request, 'blog/blog_list.html', context)
+#     return render(request, 'blog/blog_list.html', context)
 
 
 def blog_detail(request, slug):
