@@ -19,12 +19,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-10 m-3 mx-auto">
+            <div class="col-xl-8 m-4 mx-auto">
                 {% for post in post_list %}
                     <div class="card m-3">
                         <div class="text-center">
                             {% if post.image %}
-                            <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image card-img-top-blog img-fluid ">
+                            <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image card-img-top-blog img-fluid">
                             {% else %}
                             <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image card-img-top-blog img-fluid ">
                             {% endif %}
@@ -34,7 +34,7 @@
                                 <hr>
                                 <p class="card-text">{{ post.content|slice:":350"|safe }}</p>
                                 <p class="text-center pt-3">
-                                    <a href="{% url 'blog_detail' post.slug  %}" class="btn btn-primary">View Post</a>
+                                    <a href="{% url 'blog_detail' post.slug  %}" class="btn btn-primary">Read Post</a>
                                 </p>
                             </div>
                         </div>
