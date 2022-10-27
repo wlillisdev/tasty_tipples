@@ -38,6 +38,7 @@ a {
     letter-spacing: 0.5px;
     padding: 0 10px;
 }
+
 .nav-hover:after{
     content: "";
     position: absolute;
@@ -55,14 +56,12 @@ a {
     width: 100%;
 }
 
-
 .background-image {
     background: url("/media/hero_edit.jpg") no-repeat center;
     height: 100vh;
     background-size: cover;
     color: white;
 }
-
 
 .logo-text{
     font-family: 'Pacifico', Arial, Helvetica, sans-serif;
@@ -78,6 +77,10 @@ a {
 
 .header-top{
     background: green;
+}
+
+.product-icon{
+    color:green;
 }
 
 .tilte-product{
