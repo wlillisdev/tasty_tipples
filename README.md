@@ -237,6 +237,23 @@ __Error Pages__
 - Online Shop
   - As the site grows in order to monetize it an online shop can be added. To provide essential hiking supplies for its users.  
 
+# Web Marketing
+
+## Socail Media
+
+
+### Facebook Page
+<img src="assets/readme/facebook_cover.png" alt="log out" width="450"/>
+
+<img src="assets/readme/facebook_body.png" alt="log out" width="450"/>
+
+
+
+
+
+
+## Email Marketing
+
 # Testing
 
 ### Validator Testing 
