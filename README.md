@@ -1,8 +1,16 @@
 # Tasty Tipples
+## Overview
+Tasty Tipples in a fictious online drink shop that has a drink for every occasion! It is a full-stack Django website built using Python, JavaScript, HTML and CSS. This is a B2C e-commerce website (Business to Customer).
+Customers can purchase a wide variety of high-quality beverages such as Spirits, Wines and Beers. Users are able to subscribe to the newsletter for details of our latest’s drinks deals, secret sales and new products releases.
 
-- You can see the live website [here](https://hikinghub.herokuapp.com/)..
+Tasty Tipples allows the users CRUD functionality when leaving product reviews. The site admin also has full CRUD functionality for product management adding, editing and deleting products. The user can Sign Up / Log In to their user profile, check order history as well as viewing all products and adding items to their bag. The website has full payment functionality through Stripe. Although this is a fictious site the logic and design could be used for any company selling products online.
+
+
+
+
 
 ![Home page Hiking Hub](static/readme/new_responsive.png)
+- You can see the live website [here](https://hikinghub.herokuapp.com/)..
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everything to do with hiking in Ireland.
 
@@ -246,6 +254,8 @@ __Error Pages__
 <img src="assets/readme/facebook_cover.png" alt="log out" width="450"/>
 
 <img src="assets/readme/facebook_body.png" alt="log out" width="450"/>
+
+[Visit Facebook page](https://www.facebook.com/profile.php?id=100087413854348)
 
 
 
