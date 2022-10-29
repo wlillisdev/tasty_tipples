@@ -1,26 +1,25 @@
 # Tasty Tipples
 ## Overview
 Tasty Tipples in a fictious online drink shop that has a drink for every occasion! It is a full-stack Django website built using Python, JavaScript, HTML and CSS. This is a B2C e-commerce website (Business to Customer).
-Customers can purchase a wide variety of high-quality beverages such as Spirits, Wines and Beers. Users are able to subscribe to the newsletter for details of our latest’s drinks deals, secret sales and new products releases.
+Customers can purchase a wide variety of high-quality beverages such as Spirits, Wines and Beers and get it delivered straight to their door.
+Users are able to subscribe to the newsletter for details of our latest’s drinks deals, secret sales and new products releases.
 
 Tasty Tipples allows the users CRUD functionality when leaving product reviews. The site admin also has full CRUD functionality for product management adding, editing and deleting products. The user can Sign Up / Log In to their user profile, check order history as well as viewing all products and adding items to their bag. The website has full payment functionality through Stripe. Although this is a fictious site the logic and design could be used for any company selling products online.
 
-
-
-
-
-![Home page Tasty Tipples](static/readme/new_responsive.png)
 - You can see the live website [here](https://tasty-tipples.herokuapp.com/)..
 
-This website is designed for Hiking Hub. Their aim is to become the go to blog for everything to do with hiking in Ireland.
+
+![Home page Tasty Tipples](assets/readme/responsive.png)
+
+
 
 # Aim of Website
 
-The goal of this website is to create a hiking community blog. To provide a platform so users can share their hiking adventures. This blog will enable users to upload their own unique hike reviews, and share with others their experience they had on a particular hike or trail. So other users can discover hidden gems of hikes and trails all over Ireland.
+The goal of this website is to become Ireland leading Online Drinks Store. To provide a platform so users find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
 
 # Target Audience
 
- Hiking is an activity enjoyed by all age groups. But is it recommended that users be aware of the risks involved with hiking. And not attempt difficult trails if you do not have a guide, relevant experience, proper equipment, clothing and supplies. Primally the website will be aimed at hiking enthusiasts 25+ based in Ireland  
+ The alcohol e-commerce market is expected to surge to over 42 billion by 2025 as outlined in [Forbes](https://www.forbes.com/sites/katedingwall/2021/12/22/alcohol-e-commerce-expected-to-reach-42-billion-by-2025/) recent article. Tasty Tipples is perfectly placed to take advantage of this surging market. Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland.
 
 # User Experience (UX)
 
@@ -59,7 +58,7 @@ An agile approach was taken in the development of this project. The project will
 
 - User Stories
   - The whole project was broken down in 18 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were enterd into github as github issues.
-  - [View List of 18 User Stories] (https://github.com/wlillisdev/hiking-hub/issues)
+  - [View List of 18 User Stories] (https://github.com/users/wlillisdev/projects/3/views/1)
   - Specific acceptance criteria were allocated for each user story and a list of tasks were also established. Each task would need to be completed to ensure acceptance criteria is met. See example below.
   ![Issue Example](static/readme/user_story.png)
   - The Moscow method was then applied to each user story. And tags were applied to prioritise the order of work.
@@ -68,7 +67,7 @@ An agile approach was taken in the development of this project. The project will
   - [View Project Iterations] (https://github.com/wlillisdev/hiking-hub/milestones)
   - A Kanban board was set up in github in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress, Done.
   ![Kanban Board](static/readme/kanban_board.png)
-  -[View Kanban Board](https://github.com/wlillisdev/hiking-hub/projects/1)
+  -[View Kanban Board](https://github.com/users/wlillisdev/projects/3/views/1)
  
 # Features 
 

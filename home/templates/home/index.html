@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+<!-- Hero Section -->
 <section class="background-image">
     <div class="container h-100">
         <div class="row h-100">
@@ -44,7 +45,7 @@
         </div>            
     </div>
 </section>
-
+<!-- Popular Products Section -->
 <section>
     <div class="row">
         <div class="col-12 text-center">
@@ -53,41 +54,33 @@
     </div>
     <!-- Card group -->
     <div class="card-group">
-
         <!-- Card -->
         <div class="card mb-2">
-
             <!-- Card image -->
             <div class="view overlay">
                 <img class="card-img-top" src="{{ MEDIA_URL }}whiskey_edit_icon.jpg"
                     alt="various type of whiskey bottles">
             </div>
-
             <!-- Card content -->
             <div class="card-body text-center bg-light">
-
                 <!-- Title -->
                 <h4 class="card-title">Whiskey</h4>
                 <!-- Text -->
                 <p class="card-text">We stock some of <strong>worlds best whiskeys.</strong> Perfect for the whikey connoisseur.</p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 <a href="{% url 'products' %}?category=whiskey" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
-
             </div>
             <!-- Card content -->
-
         </div>
         <!-- Card -->
 
         <!-- Card -->
         <div class="card mb-2">
-
             <!-- Card image -->
             <div class="view overlay">
                 <img class="card-img-top" src="{{ MEDIA_URL }}gin_icon.jpg"
                     alt="bottle of gin">
             </div>
-
             <!-- Card content -->
             <div class="card-body text-center bg-light">
                 <!-- Title -->
@@ -96,67 +89,55 @@
                 <p class="card-text"> View out exciting range of <strong>high-quality gins</strong> of different types, sourced from selected top distilleries and brands. </p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 <a href="{% url 'products' %}?category=gin" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
-
             </div>
             <!-- Card content -->
-
         </div>
         <!-- Card -->
 
         <!-- Card -->
         <div class="card mb-2">
-
             <!-- Card image -->
             <div class="view overlay">
                 <img class="card-img-top" src="{{ MEDIA_URL }}red_wine_icon_1.jpg"
                     alt="red wine pouring into glass">
             </div>
-
             <!-- Card content -->
             <div class="card-body text-center bg-light">
-
                 <!-- Title -->
                 <h4 class="card-title">Red Wine</h4>
                 <!-- Text -->
                 <p class="card-text">From French merlot to bold shiraz, <br> our selection of <strong>red wine</strong> will tantalise your palate.</p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 <a href="{% url 'products' %}?category=red_wine" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
-
             </div>
             <!-- Card content -->
-
         </div>
         <!-- Card -->
          <!-- Card -->
          <div class="card mb-2">
-
             <!-- Card image -->
             <div class="view overlay">
                 <img class="card-img-top" src="{{ MEDIA_URL }}beer_icon_2.jpg"
                     alt="two glasses of larger">
             </div>
-
             <!-- Card content -->
             <div class="card-body text-center bg-light">
-
                 <!-- Title -->
                 <h4 class="card-title">Larger</h4>
                 <!-- Text -->
                 <p class="card-text bg">View our full range of <strong>quality lager online</strong> from the world's best brands & Irish Craft Breweries.</p>
                 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                 <a href="{% url 'products' %}?category=larger" class="btn btn-primary btn-md popular shop-now-button rounded-0 text-uppercase py-2" role="button">Shop Now</a>
-
             </div>
             <!-- Card content -->
-
         </div>
         <!-- Card -->
-
     </div>
     <!-- Card group -->
 </section>
 
 <section>
+    <!-- Customer reviews -->
     <div class="row">
         <div class="col-12 text-center">
             <h2 class="diplay-1 bg-light py-1">Our Customers <i class="fas fa-heart heart-home"></i> Us</h2>
@@ -169,14 +150,13 @@
                     <div class="user-image">
                         <img src="{{ MEDIA_URL }}profile_woman.jpg" alt="profile pictuer woman black hair" class="rounded-circle" width="80">
                     </div>
-
+                    <!-- review -->
                     <div class="user-content">
                         <h5 class="mb-0">Mary</h5>
                         <span>Delgany,Wicklow</span>
                         <p>"Huge THANK YOU!! To the team at Tasty Tipples. I was having a surprise birthday party for my sister. 
                             <br>They went above and beyond to get my order delivered super quick"</p>
                     </div>
-
                     <div class="ratings">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -186,10 +166,9 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <div class="card p-3 text-center px-4">
-
+                    <!-- review -->
                     <div class="user-image">
                         <img src="{{ MEDIA_URL }}man_profile_1.jpg" alt="man with glasses smileing" class="rounded-circle" width="80">
                     </div>
@@ -200,7 +179,6 @@
                             <br>Always polite and helpful, And quick delivery. Thanks Guys"
                         </p>
                     </div>
-
                     <div class="ratings">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -208,11 +186,11 @@
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-
                 </div>
             </div>
 
             <div class="col-md-4">
+                <!-- review -->
                 <div class="card p-3 text-center px-4">
                     <div class="user-image">
                         <img src="{{ MEDIA_URL }}man_profile_2.jpg" alt="young man withcurly hair" class="rounded-circle" width="80">
