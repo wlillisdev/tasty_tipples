@@ -18,6 +18,7 @@ def privacy(request):
     """ Displays privacy poilcy """
     return render(request, 'home/privacy.html')
 
+
 def terms(request):
     """ Displays terms of service """
     return render(request, 'home/terms.html')

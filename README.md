@@ -9,8 +9,8 @@ Tasty Tipples allows the users CRUD functionality when leaving product reviews. 
 
 
 
-![Home page Hiking Hub](static/readme/new_responsive.png)
-- You can see the live website [here](https://hikinghub.herokuapp.com/)..
+![Home page Tasty Tipples](static/readme/new_responsive.png)
+- You can see the live website [here](https://tasty-tipples.herokuapp.com/)..
 
 This website is designed for Hiking Hub. Their aim is to become the go to blog for everything to do with hiking in Ireland.
 
@@ -553,7 +553,7 @@ The site was deployed via Heroku.
 
 ## Acknowledgements
  - Special thanks to my mentor Miguel Martinez
- for his help and guidance in the development of my project. Special thanks to my tutor Kasia and our regular class meetings and members of the awesome slack community
+ for his help and guidance in the development of my final project. Special thanks to the Code Institute Tutor Support, Kasia and our regular class meetings and members of the awesome slack community.
 
 
 # Conclusion
