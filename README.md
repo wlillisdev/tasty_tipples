@@ -53,20 +53,17 @@ An agile approach was taken in the development of this project. The project will
 
 - MoSoCoW Method:
   - I will also aim to integrate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requirements need to be carried out first in order to achieve project goals and criteria of user stories. Custom labels will be created in github and allocated to each requirement so they can be easily filtered and identified.
-
-  <img src="static/readme/moscow.png" alt="MoSoCoW Method" width="350"/>
-
+  - <img src="assets/readme/moscow .png" alt="MoSoCoW Method" width="350"/>
 - User Stories
-  - The whole project was broken down in 18 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were enterd into github as github issues.
-  - [View List of 18 User Stories] (https://github.com/users/wlillisdev/projects/3/views/1)
+  - The whole project was broken down in 30 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were enterd into github as github issues.
+  - [View List of 30 User Stories](https://github.com/wlillisdev/tasty_tipples/issues?page=1&q=is%3Aissue+is%3Aclosed)
   - Specific acceptance criteria were allocated for each user story and a list of tasks were also established. Each task would need to be completed to ensure acceptance criteria is met. See example below.
-  ![Issue Example](static/readme/user_story.png)
+  - ![Issue Example](assets/readme/issue_example.png)
   - The Moscow method was then applied to each user story. And tags were applied to prioritise the order of work.
-  - [Example of MOSCOW tags] (static/readme/must_have.png)
-  - The user’s stories were then put in to 2 iterations. Iteration 1 had 14 user stories and these were deemed essential for the initial launch of the website. Iteration 2 currently has 4 user stories that will be carried out at a later date.
-  - [View Project Iterations] (https://github.com/wlillisdev/hiking-hub/milestones)
+  - [Example of MOSCOW tags](assets/readme/moscow_tags.png)
+  - The user’s stories were then put into Tasty Tipples Iteration 1. These usere stories were deemed essential for the initial launch of the website.
+  - [View Project Iterations](https://github.com/wlillisdev/tasty_tipples/milestones)
   - A Kanban board was set up in github in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress, Done.
-  ![Kanban Board](static/readme/kanban_board.png)
   -[View Kanban Board](https://github.com/users/wlillisdev/projects/3/views/1)
  
 # Features 
