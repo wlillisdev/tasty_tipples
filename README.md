@@ -68,13 +68,12 @@ An agile approach was taken in the development of this project. The project will
  
 # Features 
 
- [View Homepage Featuers](https://hikinghub.herokuapp.com/)
+ [View Homepage Featuers](https://tasty-tipples.herokuapp.com/)
 
 __Favicon__
- - As hiking is the theme of the website an icon of a person hiking was used, I came across a solution on stack overflow on how to turn font awesome logo in to favicon. Click
- [here](https://gauger.io/fonticon/)
+ - As it is an online drink store, I used a drink related icon. A champagne bottle opening it is eye catching and fun and also ties in with the websites primary color green. The Favicon was got from [favicon.io](https://favicon.io/)
   
-![favicon](static/readme/favicon_home.png)
+![favicon](assets/readme/android-chrome-192x192.png)
 
 __Navigation Bar__
  
