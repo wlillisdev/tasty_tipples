@@ -15,7 +15,7 @@ Tasty Tipples allows the users CRUD functionality when leaving product reviews. 
 
 # Aim of Website
 
-The goal of this website is to become Ireland leading Online Drinks Store. To provide a platform so users find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
+The goal of this website is to become leading Online Drinks Store in Ireland. To provide a platform so users find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
 
 # Target Audience
 
@@ -61,7 +61,7 @@ An agile approach was taken in the development of this project. The project will
   - ![Issue Example](assets/readme/issue_example.png)
   - The Moscow method was then applied to each user story. And tags were applied to prioritise the order of work.
   - [Example of MOSCOW tags](assets/readme/moscow_tags.png)
-  - The user’s stories were then put into Tasty Tipples Iteration 1. These usere stories were deemed essential for the initial launch of the website.
+  - The user’s stories were then put into Tasty Tipples Iteration 1 for website launch. These usere stories were deemed essential for the initial launch of the website.
   - [View Project Iterations](https://github.com/wlillisdev/tasty_tipples/milestones)
   - A Kanban board was set up in github in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress, Done.
   -[View Kanban Board](https://github.com/users/wlillisdev/projects/3/views/1)
@@ -228,8 +228,8 @@ __Error Pages__
    
 # Future Development
 
-- User Profiles
-  - The user will be able to have a user profile with some info about them and they also be able to view all their posts they have created in their profile.
+- Wish List
+  - The user will be able to select products they like and add them to a wish that will be stored in thier profile page.
 
 - Categories 
   - As the site grows specific categories will be added, such as difficulty or based on location
