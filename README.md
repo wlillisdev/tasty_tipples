@@ -149,6 +149,7 @@ __Footer__
 
 __Scroll Back To Top__
   - When the user scrolls below the fold on certain pages in the botton right of the screen there i an arrow. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
+ 
 
 __About Us__
 
@@ -156,10 +157,13 @@ __About Us__
   - It highlights the goals of the Business so the user can understand and build trust with the brand.
   
   - <img src="assets/readme/about_us.png" alt="About Us" width="800"/>
+  &nbsp;
 
   - It also provides links to imporatant external resources for anyone suffering with alchol problems.
+  &nbsp;
 
 ![About Us Links](assets/readme/about_links.png)
+
 
 
 __Contact Us__
@@ -176,6 +180,7 @@ __Contact Us__
   - The site owner can view this inquiry from the adimn page under contact us app.
 
   - <img src="assets/readme/email admin.png" alt="Admin email" width="800"/>
+  &nbsp;
 
 
 __All Products Page__
@@ -183,11 +188,14 @@ __All Products Page__
   - When the user clicks on all products every product on the site will be displayed on one page. They are displayed in a card format and the layout depends on the device used.
   - The cards have a hover effect that cause the cards to be raised if hooved over.
   - Each card displays information in relation to product name, price, rating and category.
+  &nbsp;
 
 
   - <img src="assets/readme/products_page.png" alt="All Products" width="800"/>
+  &nbsp;
 
   - The user also has the ability to apply various filters to sort product via specific criteria.
+  &nbsp;
 
 ![Filter Products](assets/readme/filter.png)
   
@@ -202,19 +210,47 @@ __Product Detail Page__
   - When the Admin is logged in the edit and delete buttons will only appear to give the admin CRUD capabilities for the product.
 
   - <img src="assets/readme/product_detail_admin.png" alt="Product Details" width="800"/>
+  &nbsp;
+
 
 - Reviews
   - Only registerd users can add a product review.
   - If user is registerd a form will be visible, they will have the ability to pick a score out 1 to 5 stars. And write a brief review on the product.
   - The edit and delete buttons are only visible on the review to the user profile who created the review.
   - <img src="assets/readme/reviews.png" alt="product review" width="800"/>
-
+  &nbsp;
   - The user has to abilty to update a previous review.
   - <img src="assets/readme/update_review.png" alt="update review" width="600"/>
+   &nbsp;
   - <img src="assets/readme/update_review_1.png" alt="update review 1" width="400"/>
-
+  &nbsp;
+  &nbsp;
   - The user can also delete a review they have made, when the delete button is pressed a modal pops up and asks are they sure if they want to delete this review.
   - <img src="assets/readme/modal_delete.png" alt="delete review" width="400"/>
+  &nbsp;
+
+__Product Management__
+ 
+- Add Product
+  - The add product page is accessed by the account dropdown menu, under product management. It is only accessible by superusers.
+
+  - <img src="assets/readme/product_add.png" alt="add product" width="400"/>
+  &nbsp;
+  - The form lists all the  fields that will be required to create a new product.
+
+- Edit Product
+  - The Edit product page can only be accessed by superusers.
+  - The Edit Product page can be accessed by clicking on the edit button on the product detail page.
+  - This page will load all the details of the existing product, giving teh admin the option to edit any fields if nessary.
+
+- Delete Product
+  - The Delete product page can only be accessed by superusers.
+  - The delete Product page can be accessed by clicking on the delete button on the product detail page.
+  - When clicked a modal will appear asking if you really want to delete this product.
+  - <img src="assets/readme/delete_product.png" alt="delete product" width="400"/>
+
+
+
 
 
   
