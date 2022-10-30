@@ -29,18 +29,20 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
   - As a first-time visitor, I want to be able to easily navigate around the site.
   - As a first-time visitor, I want to be able to register and create an account to get full access to the site.
   - As a first-time visitor, I want to quickly view a summary of all products available.
-  - As a first-time visitor, I want to click on a product and view the prduct details.
+  - As a first-time visitor, I want to click on a product and view the product details.
   - As a first-time visitor, i would like to learn more about the site owners.
 
+
 -  Customer Aims:
-  - As a customer, I want to be able to quickly search the site to see if they have the product i am looking for.
-  - As a customer, I want to see this is a reputable website and that my payment will be secuer.
+  - As a customer, I want to be able to quickly search the site to see if they have the product I am looking for.
+  - As a customer, I want to see this is a reputable website and that my payment will be secure.
   - As a customer, I want to be able to enter my payments details to pay for my order.
   - As a customer, I want to be able to add multiple products to a shopping bag a see a total.
   - As a customer, I want to be able to view my shopping bag and be able to edit it before checkout.
-  - As a customer, I want to be able to contact the store owner if i have any questions.
+  - As a customer, I want to be able to contact the store owner if I have any questions.
   - As a customer, I want to be able to see reviews on products from other customers.
-  - As a customer, I would like to get an email confirmation of my order to confirm my purachses was successful.
+  - As a customer, I would like to get an email confirmation of my order to confirm my order was successful.
+
 
 
 - Returning Visitors Aims (registered user):
