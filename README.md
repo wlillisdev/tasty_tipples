@@ -23,8 +23,9 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
 
 # User Experience (UX)
 
-### User Stories
-- First Time Visitors Aims:
+## User Stories
+
+### First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
   - As a first-time visitor, I want to be able to easily navigate around the site.
   - As a first-time visitor, I want to be able to register and create an account to get full access to the site.
@@ -32,8 +33,7 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
   - As a first-time visitor, I want to click on a product and view the product details.
   - As a first-time visitor, i would like to learn more about the site owners.
 
-
--  Customer Aims:
+### Customer Aims:
   - As a customer, I want to be able to quickly search the site to see if they have the product I am looking for.
   - As a customer, I want to see this is a reputable website and that my payment will be secure.
   - As a customer, I want to be able to enter my payments details to pay for my order.
@@ -42,27 +42,26 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
   - As a customer, I want to be able to contact the store owner if I have any questions.
   - As a customer, I want to be able to see reviews on products from other customers.
   - As a customer, I would like to get an email confirmation of my order to confirm my order was successful.
+ 
 
-
-
-- Returning Visitors Aims (registered user):
+#### Returning Visitors Aims (registered user):
   - As a returning visitor, I would like to be able to quickly log in and log out of my account.
   - As a returning visitor, I would like to be able to view my profile and my order history.
-  - As a returning visitor, I would like to be able to leave a review on the product i purachsed.
+  - As a returning visitor, I would like to be able to leave a review on the product I purchased.
   - As a returning visitor, I would like to find links to their social media channels and follow them.
   - As a returning visitor, I would like sign up to a newsletter to find out about any special offers or new products.
-  - As a returning visitor, I would like to learn 7 be educated more about products and manfactueres from thier blog.
-
-- Admin / Store Owner Aims:
+  - As a returning visitor, I would like to learn & be educated more about products and manufactures from their blog.
+ 
+### Admin / Store Owner Aims:
   - As a store owner, I want to be able to create, edit update or delete a product.
   - As a store owner, I want to be able to login to the admin panel of the site.
-  - As a store owner, I want to be able to change user permission on the site and delte users if nessary.
-  - As a store owner, I want to be able to add,edit or delete a blog post.
-  - As a store owner, I want to be able to delete any inapproatiate reviews.
-  - As a store owner, I want to be able to view order details from cusomters so i can process orders.
+  - As a store owner, I want to be able to change user permission on the site and delete users if necessary.
+  - As a store owner, I want to be able to add, edit or delete a blog post.
+  - As a store owner, I want to be able to delete any inappropriate reviews.
+  - As a store owner, I want to be able to view order details from customer’s so I can process orders.
   - As a store owner, I want to be able to market my website online to drive traffic to my site.
 
-
+   
 # Agile Approach to Project Devlopment
 
 An agile approach was taken in the development of this project. The project will be dissected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optimise time usage.
@@ -93,32 +92,32 @@ __Favicon__
 
 __Navigation Bar__
  
-  - The Navigation bar is located at the top of all Pages. It is simple but clean design. It includes the logo, Home page, View Posts, Login & Register. this appears to users that are not logged in.
-  - If a user has logged it changes, Add Post appears and logout becomes active in the nav bar. It will also display the name of logged in user.
+  - The Navigation bar is located at the top of all Pages. It is simple but clean design. It includes the logo, Main Products Links, search bar,My Account and a Shopping Bag.
+  - If a user has logged it, they can view thier profile via the account link.
+  - Notifcation Banner, is located on top of the nav and displays important information.
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
-  - The nav elements also change colour when hovered which adds to the user experience.
+  - The nav elements of the main products has an hover underline transtion effect that is generated when hovered over which adds to the user experience.
   - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.   
   - The nav bar below shows user logged in view.
-  ![Navigation Bar When logged in](static/readme/navbar.png)
+  ![Navigation Bar When logged in](assets/readme/nav_new.png)
   - The responsive nav bar below.
-  - <img src="static/readme/navbar_hamburger.png" alt="navbar hamburger" width="200"/>
+  - <img src="assets/readme/nav_mobile.png" alt="navbar hamburger" width="300"/>
  
 __Landing Page__
 
-  - The landing page contains an eye-catching background image of a beautiful landscape with a trail by a stream and immediately catches the user’s attention.
-  - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to sign up with a bold sign-up button.
-  - The hero image also has a Parallax Scrolling Effect with the text.
-  - The text on the home screen changes depending on if the users is logged in or not.
-  - Landing page below shows the text displayed when new user visits the site and is not registered.
-  - <img src="static/readme/new_hiking_home.png" alt="hero not logged out" width="675"/>
-  - Landing page below shows the text displayed when user is logged in.
-  - <img src="static/readme/home_logged_in.png" alt="hero not logged in" width="675"/>
+  - The landing page contains an eye-catching background image of lots of bright bottles of spirits and immediately catches the user’s attention.
+  - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to Shop Now.
+  - Hero iamge displayed below
+  - <img src="assets/readme/hereo_image.png" alt="hero not logged in" width="675"/>
 
-__Why Join Us__
+__Welcome Section__
 
-- If the users scroll down from the hero image, looking for more information. They will come across the section why join us.
-- With the help of Font Awesome and some carefully crafted bullets points of text. It outlines key area of why the user should sign up to this blog.
-- <img src="static/readme/why_join_us.png" alt="why join us" width="600"/>
+- If the users scroll down from the hero image, looking for more information. They will come across the welcome section.
+- It provides the user with a brief statement about who we are and what we can do for the user.
+- It also gove the user an oppirtunity to sign up to  our newletter.
+- It also gives the site owner the opportunity to optmise the text with important onsite SEO keywords.
+
+- <img src="assets/readme/welcome_section.png" alt="why join us" width="600"/>
 
 __Footer__
 
@@ -246,15 +245,13 @@ __Error Pages__
 
 - Wish List
   - The user will be able to select products they like and add them to a wish that will be stored in thier profile page.
+ 
+- Blog 
+  - When i have time add full CRUD capabilities to the blog from the front end for the admin.And add comments section to the blog.
+ 
+- Sign Up & Log In with Socail Media
+  - Allow the user to quickly register an account or log in via a socail media profile.
 
-- Categories 
-  - As the site grows specific categories will be added, such as difficulty or based on location
-
-- Search functionality
-  - A search box could be integrated tot eh nav bar to allow users to search for trails or hikes.
-
-- Online Shop
-  - As the site grows in order to monetize it an online shop can be added. To provide essential hiking supplies for its users.  
 
 # Web Marketing
 
