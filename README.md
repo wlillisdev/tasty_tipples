@@ -273,6 +273,57 @@ An agile approach was taken in the development of this project. The project will
 - A loading spinner page appears and if payment is succesfull you will be redirected to a Thank You page, With details of your order and alert saying order successfully processed.
 - <img src="assets/readme/thank_you.png" alt="stripe" width="650"/>
 
+## Confirmation Email
+- If the order is successfull a confirmation email will be sent to customer.
+
+- <img src="assets/readme/confirmation_email_sent.png" alt="stripe" width="700"/>
+
+## Webhooks
+- Using the Stripe settings, webhooks have been set up to confirm an order goes through after payment.
+- <img src="assets/readme/webhook.png" alt="webhook" width="700"/>
+
+## Profile Page
+- When a User registers for a new account, a profile page will automatically be created for them. The link to their profile page appears in Account in the navigation bar once they are logged in. On this page the user can choose to update their profile information 
+- The Profile page also contains a table listing out the details of all the users past purachses. 
+- The user can update information on their profile if they require.
+- ![User Profile](assets/readme/profile.png)
+
+## Register, Sign In & Log Out of Account
+- Sign Up
+  - When a new user clicks on register they will be brought to the sign up page.
+  - After submitting the form,  The User are then emailed a verification link to confirm thier details and finalise the set up the useres account.
+  - ![Sign Up](assets/readme/signup.png)
+
+- Sign In
+  - The login page is used to log in users with an existing account.
+  - A Forgot Password link is also present that allows users to recover their password if required.
+  - ![Log In](assets/readme/login.png)
+
+- Log Out
+  - The logout page allows the user to sign out if they are signed into an account
+  - It also displays the useres name
+  - ![Log Out](assets/readme/signout.png)
+  
+## Error Pages
+- Custom error pages were created and set up,
+ - Error Pages Created
+    - 400 Bad Request  
+    - 403 Page Forbidden 
+    - 404 Page Not Found 
+    - 500 Server Error 
+
+## Newsletter
+- Mail Chimp has been intergrated into this site via the newletter sign up form in the footer. Mail chimp will allow us the effectly collect useres emails and run email marketing campaigns.
+- Users will get feed back if thier email was succesfully submitted.
+- ![Newletter Signup](assets/readme/newletter_signup.png)
+- Mail Chimp interface shows how many subscripers we currently have from the form.
+- ![Newletter mailchimp](assets/readme/mail_chimp.png)
+
+
+
+
+
+
 
 
 
