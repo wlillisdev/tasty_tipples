@@ -154,8 +154,13 @@ __About Us__
 
   - About Us section is a very brief description about Tasty Tipples to quickly give the user more information about the website and why we started the business.
   - It highlights the goals of the Business so the user can understand and build trust with the brand.
+  
+  - <img src="assets/readme/about_us.png" alt="About Us" width="800"/>
+
   - It also provides links to imporatant external resources for anyone suffering with alchol problems.
-  - <img src="static/readme/about_us.png" alt="About Us" width="450"/>
+
+![About Us Links](assets/readme/about_links.png)
+
 
 __Post List__
   - On the top nav bar the user can click on view posts. This will bring the user to a page where all the posts are displayed. 
