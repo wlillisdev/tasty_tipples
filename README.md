@@ -85,12 +85,12 @@ An agile approach was taken in the development of this project. The project will
 
  [View Homepage Featuers](https://tasty-tipples.herokuapp.com/)
 
-__Favicon__
+## Favicon
  - As it is an online drink store, I used a drink related icon. A champagne bottle opening it is eye catching and fun and also ties in with the websites primary color green. The Favicon was got from [favicon.io](https://favicon.io/)
   
 ![favicon](assets/readme/android-chrome-192x192.png)
 
-__Navigation Bar__
+## Navigation Bar
  
   - The Navigation bar is located at the top of all Pages. It is simple but clean design. It includes the logo, Main Products Links, search bar,My Account and a Shopping Bag.
   - If a user has logged it, they can view thier profile via the account link.
@@ -103,14 +103,14 @@ __Navigation Bar__
   - The responsive nav bar below.
   - <img src="assets/readme/nav_mobile.png" alt="navbar hamburger" width="300"/>
  
-__Landing Page__
+## Landing Page
 
   - The landing page contains an eye-catching background image of lots of bright bottles of spirits and immediately catches the user’s attention.
   - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to Shop Now.
   - Hero image displayed below
   - <img src="assets/readme/hereo_image.png" alt="hero not logged in" width="675"/>
 
-__Welcome Section__
+## Welcome Section
 
 - If the users scroll down from the hero image, looking for more information. They will come across the welcome section.
 - It provides the user with a brief statement about who we are and what we can do for the user.
@@ -119,7 +119,7 @@ __Welcome Section__
 
 - <img src="assets/readme/welcome_section.png" alt="welcome image" width="600"/>
 
-__Popular Products__
+## Popular Products
 
 - This section invites the user to click on some of our popular products. It gives the user a brief description of each product to get their attention it also has an eye-catching image. It helps on the user’s journey and allows a easy path to what the user is looking for.
 - It also allows the site owner the opportunity to insert important SEO keywords.
@@ -127,7 +127,7 @@ __Popular Products__
 
 - <img src="assets/readme/popular_products.png" alt="popular products" width="600"/>
 
-__Customer Testimonials__
+## Customer Testimonials
 
 - This section was designed to build confidence with new site visitors,new visitors can see real client Testimonial’s so a potential new customer can have confidence that we are a trusted and reputable ecommernace site.
 - The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and usere retention on site.
@@ -135,7 +135,7 @@ __Customer Testimonials__
 - <img src="assets/readme/testimionals.png" alt="client testimionals" width="600"/>
 
 
-__Footer__
+## Footer
 
   - The footer is simple and clean design it is the same on all pages of the website.
   - It can be broken down into 4 main columns, social media, Shop, Company Details & newsletter.
@@ -147,11 +147,11 @@ __Footer__
 
  ![Footer Bar](assets/readme/footer.png)
 
-__Scroll Back To Top__
+## Scroll Back To Top
   - When the user scrolls below the fold on certain pages in the botton right of the screen there i an arrow. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
  
 
-__About Us__
+## About Us
 
   - About Us section is a very brief description about Tasty Tipples to quickly give the user more information about the website and why we started the business.
   - It highlights the goals of the Business so the user can understand and build trust with the brand.
@@ -166,7 +166,7 @@ __About Us__
 
 
 
-__Contact Us__
+## Contact Us
 
   - The contact information for Tasty Tipples is visible to the user, including their address, phone number.
   - The user is asked for their contact information and a brief message about their inquiry
@@ -183,7 +183,7 @@ __Contact Us__
   &nbsp;
 
 
-__All Products Page__
+## All Products Page
 
   - When the user clicks on all products every product on the site will be displayed on one page. They are displayed in a card format and the layout depends on the device used.
   - The cards have a hover effect that cause the cards to be raised if hooved over.
@@ -201,7 +201,7 @@ __All Products Page__
   
 
 
-__Product Detail Page__
+## Product Detail Page
 
   - This page displays important imformation about the product. It shows Name,Category,Review score and product description on the top part of the card.
   - Product details gives the user more information to the buyer in relation to the producer,size and alchol content.
@@ -213,23 +213,26 @@ __Product Detail Page__
   &nbsp;
 
 
-- Reviews
+## Reviews
+- Add Review
   - Only registerd users can add a product review.
   - If user is registerd a form will be visible, they will have the ability to pick a score out 1 to 5 stars. And write a brief review on the product.
   - The edit and delete buttons are only visible on the review to the user profile who created the review.
   - <img src="assets/readme/reviews.png" alt="product review" width="800"/>
   &nbsp;
+- Update Review
   - The user has to abilty to update a previous review.
   - <img src="assets/readme/update_review.png" alt="update review" width="600"/>
    &nbsp;
   - <img src="assets/readme/update_review_1.png" alt="update review 1" width="400"/>
   &nbsp;
   &nbsp;
+- Delete Review
   - The user can also delete a review they have made, when the delete button is pressed a modal pops up and asks are they sure if they want to delete this review.
   - <img src="assets/readme/modal_delete.png" alt="delete review" width="400"/>
   &nbsp;
 
-__Product Management__
+## Product Management
  
 - Add Product
   - The add product page is accessed by the account dropdown menu, under product management. It is only accessible by superusers.
@@ -241,13 +244,29 @@ __Product Management__
 - Edit Product
   - The Edit product page can only be accessed by superusers.
   - The Edit Product page can be accessed by clicking on the edit button on the product detail page.
-  - This page will load all the details of the existing product, giving teh admin the option to edit any fields if nessary.
+  - This page will load all the details of the existing product, giving the admin the option to edit any fields and update the information.
 
 - Delete Product
   - The Delete product page can only be accessed by superusers.
   - The delete Product page can be accessed by clicking on the delete button on the product detail page.
   - When clicked a modal will appear asking if you really want to delete this product.
   - <img src="assets/readme/delete_product.png" alt="delete product" width="400"/>
+
+## Shopping Bag
+- The user can add products to the shopping bag as they are shopping, the shopping bag icon in the nav will give the user a running total of goods in the bag.
+- On the shopping bag page the shopper can see what products are currently in the bag, and has the option to edit quantity of products or remove the product.Before they head to the checkout page.
+- <img src="assets/readme/shopping_bag.png" alt="add product" width="650"/>
+
+## Checkout
+- Here the shopper fills out his or her contact details, delivery address, and card number.
+- If the user is signed in and has delivery information saved in thier profile, the delivery details and email address will be automatically filled in.
+- A box can also be ticked for new users so all thier delivery details are saved to thier profile.
+- <img src="assets/readme/checkout.png" alt="add product" width="650"/>
+
+- The order summary will also appear to the right.
+
+
+
 
 
 
