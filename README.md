@@ -319,102 +319,23 @@ An agile approach was taken in the development of this project. The project will
 - Mail Chimp interface shows how many subscripers we currently have from the form.
 - ![Newletter mailchimp](assets/readme/mail_chimp.png)
 
+## Message and Alerts to site Users
+- In the top right-hand corner of the screen a box will pop up informing the user of any actions they have performed.
+- Diffrent alerts will have diffrent colors for example a success alert is green and and an error alert is red.
+- ![success alert](assets/readme/success_toast.png)
+- ![info alert](assets/readme/info_alert.png)
 
+## Blog
+- Tasty Tipples has a blog for content marketing, The inital page has a list of blog posts, that contantains a Title and a snippet of what the article is about. 
+- The blog posts will be paginated after 3 posts. Paginated pages can be found at the bottom blog post list..
+- Once the user clicks on a blog post to read, they will be brought to a blog detail page. This will contain all the articles information.
+- Currently blog posts can only be added from the admin panel. Summer note has also been set up to format blog post.
 
+## Admin Panel
+- On the Admin Panel and as an admin/superuser they have full CRUD functionality.For all apps on the admin apanel.
+- They can also quickly view and inspect recent orders.
+- <img src="assets/readme/admin.png" alt="admin" width="800"/>
 
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-__Post List__
-  - On the top nav bar the user can click on view posts. This will bring the user to a page where all the posts are displayed. 
-  -  They are displayed in a card format in 2 rows of three in desktop view. Each card has quick summary of the blog post. Which include Title, Author, Location, and quick summary of the post, date created and the number of likes.
-  -  When a user is logged in an edit and a delete button will appear on cards. Only on the blog posts the logged in user has created will the buttons appear. To allow them make edits to their previous blog posts.
-  -  [View Post Summary with buttons](static/images/post_edit.png)
-  ![post list](static/images/post_view.png)
-
-__Pagination__
-  - When 6 posts occupy a page it automatically creates a new page, this can be accessed at the bottom of the page. You can press next or previous to navigate between pages.
-  - <img src="static/readme/new_paginate.png" alt="pagination" width="400"/>
-
-__Post Detail__
-  - [View typical post detail page](https://hikinghub.herokuapp.com/cannon-sheehan-loop/)
-  - When a post summary card is clicked it will bring the user to a post detail page.
-  - This page gives a detailed view of the blog post, it shows featured image, summary of hike details and a review of the hike.
-  - <img src="static/images/post_detail.png" alt="post detail" width="400"/>
-  - Buttons for edit and delete post also appear on the blog posts created by the user to allow editing at a later date.
-
-__Comments__
-  - At the bottom of the post detail page is a comments section. It displays comments left by users accompanied with the date.
-  - There is also a counter to show how many times a post was liked and how many comments were made.
-  - A feature of the site is that only registered users can make a comment or like a post, all comments are moderated and must be approved before appearing on site by the admin.
-  - <img src="static/images/leave_comment.png" alt="post comment" width="550"/>
-  - The user will also get an alert message that there comment was submitted
-  ![Comment Submitted](static/readme/alert_comment.png)
-
-__Add Post__
-  - If the user is logged in, then they can add a post. The link to adding a post is displayed on the nav bar once the user has logged in.
-
-  - The user is taken to a form with a WYSIWYG editor called Summernote to help them format their content by adding different headings, links, images etc.
-
-  - Once the user has submitted their post, they are taken back to the home page, all post must be approved before final publishing on the blog.
-  - [View add Post Form] (static/images/add_post.png)
-  - The user will also get an alert message that there post was submitted
-  ![Alert Add Post](static/readme/post_submitted.png)
-  
-__Update Post__
-  - If the user is logged in, the update post button will be active on the blog posts they have created.
-  - The user will be brought to a form that is prepopulated with the original blog post details they have written.
-  - And edits can be made and update clicked at the bottom of the form and this new content will be now displayed.
-  - [View add Update Post Form] (static/images/update_post.png)
-   - The user will also get an alert message that there post was updated
-  ![Alert Update Post](static/readme/update_post_alert.png)
-
-__Delete Post__
-  - If the user decides they want to delete a blog post they have created, they can click on the delete button.
-  - As safety featuer the user is brought to a new page in case, they clicked on delete button by accident. This page asks again if the user is sure they want to delete the blog post. There is also a cancel button that will return the user back to the home page if they dont want to delete the post.
-  - If deleted the post will be removed from the data base and the user will be redirected to the home page.
-  ![Delete Post](static/images/delete.png)
-
-__Sign Up__
-  - The user will be brought to a sign-up form if they are new to the site and would like to set up an account. Users will have to register if they want to add posts, comment or like posts.
-  - <img src="static/readme/sign_up_new.png" alt="sign up" width="400"/>
-
-__Log in and Log Out Pages__
-  - Users that are returning to the blog and want to log back into their account have a simplified form that requires just a username and password.
-  - <img src="static/readme/sign_in_new.png" alt="log in" width="400"/>
-  - When the user has successfully logged in the users will get an alert message and their user’s name displayed on the nav bar.
-  ![Logged in](static/images/signin_page_loggedin.png)
-  - When the user decides to leave and log out of their account, they will be brought to a screen that asks them are they sure they want to log out.
-  - <img src="static/images/logout.png" alt="log out" width="400"/>
-  - The user will get an alert message if they have successfully logged out.
-  ![Logged Out](static/images/signed_out.png)
-
-__Admin Panel__
-  - A superuser was created at the start of this project to manage the administration section of teh blog.
-  - Only approved admin users can access this section of the site and can do so by adding /admin to the URL home page and signing in.
-  - The admin has got full CRUD functionality. They can create, read update and delete blog posts. Create draft posts, Delete and approve comments. Delete and add users. And has the functionality to filter and search though information.
-  - <img src="static/images/admin.png" alt="admin panel" width="600"/>
-
-__Error Pages__
- - Custom error pages were also created for this project.
-   - 403 Page Forbidden - Access Forbidden the user does not have permission to access this resource
-   - 404 Page Not Found - the user requested a page that is not available
-   - 500 Server Error - internal server error 
-   - <img src="static/readme/404_error.png" alt="404 error" width="600"/>
 
 # Design
  - Theme
@@ -433,7 +354,7 @@ __Error Pages__
  ![Color Palette](static/images/color_pallet.png)
 
 - Imagery
-   - The images that were selected for the website were bold and bright images related to the outdoor and hiking.
+   - The images that were selected for the website were bold and bright images.
 
 - Wireframes
    - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. (Home Page Below)
@@ -452,6 +373,9 @@ __Error Pages__
  
 - Sign Up & Log In with Socail Media
   - Allow the user to quickly register an account or log in via a socail media profile.
+
+- Age Verification
+  - A modal to pop up on the home screen so the user needs to verify age before they can enter the site.
 
 
 # Web Marketing
