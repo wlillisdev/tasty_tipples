@@ -250,20 +250,28 @@ An agile approach was taken in the development of this project. The project will
   - The Delete product page can only be accessed by superusers.
   - The delete Product page can be accessed by clicking on the delete button on the product detail page.
   - When clicked a modal will appear asking if you really want to delete this product.
-  - <img src="assets/readme/delete_product.png" alt="delete product" width="400"/>
+  - <img src="assets/readme/delete_product.png" alt="delete product modal" width="400"/>
 
 ## Shopping Bag
 - The user can add products to the shopping bag as they are shopping, the shopping bag icon in the nav will give the user a running total of goods in the bag.
 - On the shopping bag page the shopper can see what products are currently in the bag, and has the option to edit quantity of products or remove the product.Before they head to the checkout page.
-- <img src="assets/readme/shopping_bag.png" alt="add product" width="650"/>
+- <img src="assets/readme/shopping_bag.png" alt="shopping bag page" width="650"/>
 
 ## Checkout
 - Here the shopper fills out his or her contact details, delivery address, and card number.
 - If the user is signed in and has delivery information saved in thier profile, the delivery details and email address will be automatically filled in.
 - A box can also be ticked for new users so all thier delivery details are saved to thier profile.
-- <img src="assets/readme/checkout.png" alt="add product" width="650"/>
+- <img src="assets/readme/checkout.png" alt="checkout page" width="650"/>
 
 - The order summary will also appear to the right.
+
+## Payment
+- Payment is made via Stripe payments.
+- The site can be tested by using the dummy card number 4242 4242 4242 4242 with the expiry date 04/24 and the CVC code 242.
+- An image saying secure payments was added with an exteral link to stripe if customers want to check it out.
+- <img src="assets/readme/stripe.png" alt="stripe" width="650"/>
+- A loading spinner page appears and if payment is succesfull you will be redirected to a Thank You page, With details of your order and alert saying order successfully processed.
+- <img src="assets/readme/thank_you.png" alt="stripe" width="650"/>
 
 
 
