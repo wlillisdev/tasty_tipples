@@ -190,6 +190,39 @@ __All Products Page__
   - The user also has the ability to apply various filters to sort product via specific criteria.
 
 ![Filter Products](assets/readme/filter.png)
+  
+
+
+__Product Detail Page__
+
+  - This page displays important imformation about the product. It shows Name,Category,Review score and product description on the top part of the card.
+  - Product details gives the user more information to the buyer in relation to the producer,size and alchol content.
+  - The user has the ability to type in a specific quantity or use the + or - buttons.
+  - The user add the product to bag if they would like to buy the product.
+  - When the Admin is logged in the edit and delete buttons will only appear to give the admin CRUD capabilities for the product.
+
+  - <img src="assets/readme/product_detail_admin.png" alt="Product Details" width="800"/>
+
+- Reviews
+  - Only registerd users can add a product review.
+  - If user is registerd a form will be visible, they will have the ability to pick a score out 1 to 5 stars. And write a brief review on the product.
+  - The edit and delete buttons are only visible on the review to the user profile who created the review.
+  - <img src="assets/readme/reviews.png" alt="product review" width="800"/>
+
+  - The user has to abilty to update a previous review.
+  - <img src="assets/readme/update_review.png" alt="update review" width="600"/>
+  - <img src="assets/readme/update_review_1.png" alt="update review 1" width="400"/>
+
+  - The user can also delete a review they have made, when the delete button is pressed a modal pops up and asks are they sure if they want to delete this review.
+  - <img src="assets/readme/modal_delete.png" alt="delete review" width="400"/>
+
+
+  
+
+
+
+
+
 
 
 __Post List__
