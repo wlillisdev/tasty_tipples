@@ -162,6 +162,23 @@ __About Us__
 ![About Us Links](assets/readme/about_links.png)
 
 
+__Contact Us__
+
+  - The contact infomationfir Tasty Tipples is visible to the user, including their address, phone number.
+  - The user is asked for thier contact information and a brief message about thier inquiry
+  - All fields are required for the message to be sent user will be given feedback if any errors occur.
+    
+  - <img src="assets/readme/contact_us.png" alt="Contact Us" width="800"/>
+  - The user will get an alert if the message was successfully submitted.
+
+![sucess message](assets/readme/email_success.png)
+
+  - The site owner can view this inquiry from the adimn page under contact us app.
+
+  - <img src="assets/readme/email admin.png" alt="Admin email" width="800"/>
+
+
+
 __Post List__
   - On the top nav bar the user can click on view posts. This will bring the user to a page where all the posts are displayed. 
   -  They are displayed in a card format in 2 rows of three in desktop view. Each card has quick summary of the blog post. Which include Title, Author, Location, and quick summary of the post, date created and the number of likes.
