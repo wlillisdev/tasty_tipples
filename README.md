@@ -107,7 +107,7 @@ __Landing Page__
 
   - The landing page contains an eye-catching background image of lots of bright bottles of spirits and immediately catches the user’s attention.
   - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to Shop Now.
-  - Hero iamge displayed below
+  - Hero image displayed below
   - <img src="assets/readme/hereo_image.png" alt="hero not logged in" width="675"/>
 
 __Welcome Section__
@@ -121,15 +121,15 @@ __Welcome Section__
 
 __Popular Products__
 
-- This section invites the user to click on some of our popular products. It gives the user a brief description of each product to get their attention it also has an eye catching image.It helps on the users journery and allows a easy path to what the user is looking for.
+- This section invites the user to click on some of our popular products. It gives the user a brief description of each product to get their attention it also has an eye-catching image. It helps on the user’s journey and allows a easy path to what the user is looking for.
 - It also allows the site owner the opportunity to insert important SEO keywords.
-- The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and usere retention on site.
+- The boxes have a hover effect so when the user hovers over the image the box is raised. It helps with user experience and user retention on site.
 
-- <img src="assets/readme/welcome_section.png" alt="popular products" width="600"/>
+- <img src="assets/readme/popular_products.png" alt="popular products" width="600"/>
 
 __Customer Testimonials__
 
-- This section was designed to build confidence with new visitors,new site visitors can see real client Testimonial’s. So a potential new customer can have confidence that we are a trusted and reputable seller.
+- This section was designed to build confidence with new site visitors,new visitors can see real client Testimonial’s so a potential new customer can have confidence that we are a trusted and reputable ecommernace site.
 - The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and usere retention on site.
 
 - <img src="assets/readme/testimionals.png" alt="client testimionals" width="600"/>
@@ -138,20 +138,23 @@ __Customer Testimonials__
 __Footer__
 
   - The footer is simple and clean design it is the same on all pages of the website.
-  - It contains 4 social media platforms that will also open in a new window to allow easy navigation for the user.
-  - The main aim of the footer is to increase engagement with visitors. With the goal of getting the user to subscribe to the social channels in order to get updates on new blog post and encouraging users to be part of the Hiking Hub Community.
+  - It can be broken down into 4 main columns, social media, Shop, Company Details & newsletter.
+  - Social Media column - Contains links to our 4 main social channels, icons have a hover effect. Also, to instil user confidence a link to our trust pilot page is also included.
+  - Shop column - Contains links to Login and all our main product category pages.
+  - Company Details column - Contains links Blog, About Us, Privacy Policy, Terms of Service and Contact Us page
+  - Newsletter column - Contains a form to allow the user to sign up to our newsletter.
+  - The main aim of the footer is to increase engagement with visitors and allow easy navigation and links to important information. With the goal of getting the user to subscribe to the social channels & newsletter.
 
- ![Footer Bar](static/readme/new_footer.png)
+ ![Footer Bar](assets/readme/footer.png)
 
 __Scroll Back To Top__
-  - When the user scrolls below the fold the icon appears in the botton right of the screen. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
-
-  - <img src="static/readme/scroll.png" alt="scroll featuer" width="600"/>
+  - When the user scrolls below the fold on certain pages in the botton right of the screen there i an arrow. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
 
 __About Us__
 
-  - About Us section is a very brief description about hiking hub to quickly give the user more information about the website and why we started up this blog.
-  - It also highlights the goals of the website so the user can understand and build trust with the blog.
+  - About Us section is a very brief description about Tasty Tipples to quickly give the user more information about the website and why we started the business.
+  - It highlights the goals of the Business so the user can understand and build trust with the brand.
+  - It also provides links to imporatant external resources for anyone suffering with alchol problems.
   - <img src="static/readme/about_us.png" alt="About Us" width="450"/>
 
 __Post List__
