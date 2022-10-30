@@ -26,26 +26,40 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
 ### User Stories
 - First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
-  - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
-  - As a first-time visitor, I want to be able to register and create an account to get full access to the blog.
-  - As a first-time visitor, I want to quickly view a summary of blog posts on one page.
-  - As a first-time visitor, I want to click on a blog post and view the post in detail.
-  - As a first-time visitor, I want to be able to see comments and the amount of likes on a blog post.
+  - As a first-time visitor, I want to be able to easily navigate around the site.
+  - As a first-time visitor, I want to be able to register and create an account to get full access to the site.
+  - As a first-time visitor, I want to quickly view a summary of all products available.
+  - As a first-time visitor, I want to click on a product and view the prduct details.
+  - As a first-time visitor, i would like to learn more about the site owners.
 
-- Returning Visitors Aims (logged in):
-  - As a returning visitor, I would like to be able to add a blog post of my hike.
-  - As a returning visitor, I would like to be able to update the content on my blog post.
-  - As a returning visitor, I would like to be able to delete my blog post.
-  - As a returning visitor, I would like to be able to comment and like and unlike a blog post.
+-  Customer Aims:
+  - As a customer, I want to be able to quickly search the site to see if they have the product i am looking for.
+  - As a customer, I want to see this is a reputable website and that my payment will be secuer.
+  - As a customer, I want to be able to enter my payments details to pay for my order.
+  - As a customer, I want to be able to add multiple products to a shopping bag a see a total.
+  - As a customer, I want to be able to view my shopping bag and be able to edit it before checkout.
+  - As a customer, I want to be able to contact the store owner if i have any questions.
+  - As a customer, I want to be able to see reviews on products from other customers.
+  - As a customer, I would like to get an email confirmation of my order to confirm my purachses was successful.
+
+
+- Returning Visitors Aims (registered user):
   - As a returning visitor, I would like to be able to quickly log in and log out of my account.
+  - As a returning visitor, I would like to be able to view my profile and my order history.
+  - As a returning visitor, I would like to be able to leave a review on the product i purachsed.
   - As a returning visitor, I would like to find links to their social media channels and follow them.
+  - As a returning visitor, I would like sign up to a newsletter to find out about any special offers or new products.
+  - As a returning visitor, I would like to learn 7 be educated more about products and manfactueres from thier blog.
 
-- Admin super user Aims:
-  - As a super user, I want to be able create a blog post from admin panel.
-  - As a super user, I want to be able create a draft post so admin can finish at a later date.
-  - As a super user, I want to be able filter and search through data quickly and easily.
-  - As a super user, I want to be able to approve or Delete users blog posts.
-  - As a super user, I want to be able to approve or delete comments.
+- Admin / Store Owner Aims:
+  - As a store owner, I want to be able to create, edit update or delete a product.
+  - As a store owner, I want to be able to login to the admin panel of the site.
+  - As a store owner, I want to be able to change user permission on the site and delte users if nessary.
+  - As a store owner, I want to be able to add,edit or delete a blog post.
+  - As a store owner, I want to be able to delete any inapproatiate reviews.
+  - As a store owner, I want to be able to view order details from cusomters so i can process orders.
+  - As a store owner, I want to be able to market my website online to drive traffic to my site.
+
 
 # Agile Approach to Project Devlopment
 
