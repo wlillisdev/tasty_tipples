@@ -164,10 +164,10 @@ __About Us__
 
 __Contact Us__
 
-  - The contact infomationfir Tasty Tipples is visible to the user, including their address, phone number.
-  - The user is asked for thier contact information and a brief message about thier inquiry
+  - The contact information for Tasty Tipples is visible to the user, including their address, phone number.
+  - The user is asked for their contact information and a brief message about their inquiry
   - All fields are required for the message to be sent user will be given feedback if any errors occur.
-    
+
   - <img src="assets/readme/contact_us.png" alt="Contact Us" width="800"/>
   - The user will get an alert if the message was successfully submitted.
 
@@ -177,6 +177,19 @@ __Contact Us__
 
   - <img src="assets/readme/email admin.png" alt="Admin email" width="800"/>
 
+
+__All Products Page__
+
+  - When the user clicks on all products every product on the site will be displayed on one page. They are displayed in a card format and the layout depends on the device used.
+  - The cards have a hover effect that cause the cards to be raised if hooved over.
+  - Each card displays information in relation to product name, price, rating and category.
+
+
+  - <img src="assets/readme/products_page.png" alt="All Products" width="800"/>
+
+  - The user also has the ability to apply various filters to sort product via specific criteria.
+
+![Filter Products](assets/readme/filter.png)
 
 
 __Post List__
