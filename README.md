@@ -117,7 +117,23 @@ __Welcome Section__
 - It also gove the user an oppirtunity to sign up to  our newletter.
 - It also gives the site owner the opportunity to optmise the text with important onsite SEO keywords.
 
-- <img src="assets/readme/welcome_section.png" alt="why join us" width="600"/>
+- <img src="assets/readme/welcome_section.png" alt="welcome image" width="600"/>
+
+__Popular Products__
+
+- This section invites the user to click on some of our popular products. It gives the user a brief description of each product to get their attention it also has an eye catching image.It helps on the users journery and allows a easy path to what the user is looking for.
+- It also allows the site owner the opportunity to insert important SEO keywords.
+- The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and usere retention on site.
+
+- <img src="assets/readme/welcome_section.png" alt="popular products" width="600"/>
+
+__Customer Testimonials__
+
+- This section was designed to build confidence with new visitors,new site visitors can see real client Testimonial’s. So a potential new customer can have confidence that we are a trusted and reputable seller.
+- The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and usere retention on site.
+
+- <img src="assets/readme/testimionals.png" alt="client testimionals" width="600"/>
+
 
 __Footer__
 
