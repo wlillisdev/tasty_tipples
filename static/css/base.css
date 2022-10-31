@@ -1,4 +1,5 @@
 /* Google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
 
 /* General */
@@ -156,7 +157,7 @@ a {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important; /* use important to override link colors for a elements */
     border: 1px solid black;
 }
 
@@ -323,7 +324,7 @@ a.category-badge > span.badge:hover {
 }
 
 #mc_embed_signup_form {
-    padding: 0;
+    padding: 1px;
 }
 
 /* -------------------------------- Footer */
@@ -515,5 +516,4 @@ a.category-badge > span.badge:hover {
         height: 60vw;
         object-fit: cover;
     }
-
 }

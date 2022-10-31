@@ -4,7 +4,6 @@
 <html lang="en">
 
 <head>
-
   {% block meta %}
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="utf-8">
@@ -53,7 +52,6 @@
 
   {% block extra_js %}
   {% endblock %}
-
   <title>Tasty Tipples {% block extra_title %}{% endblock %}</title>
 </head>
 
@@ -139,7 +137,6 @@
     </div>
   </header>
 
-
   {% if messages %}
   <div class="message-container">
     {% for message in messages %}
@@ -164,7 +161,7 @@
   {% block content %}
   {% endblock %}
 
-  <!-- Footer credit https://freefrontend.com/bootstrap-footers/ -->
+  <!-- Footer -->
 
   <footer class="bg-white footer-body">
     <hr>
@@ -245,7 +242,6 @@
         </div>
       </div>
     </div>
-
     <!-- Copyrights footer -->
     <div class="py-3 footer-bottom">
       <div class="container text-center">
@@ -258,9 +254,6 @@
   <script type="text/javascript">
     $('.toast').toast('show');
   </script>
-  
-
-
  <!-- Mail Chimp -->
  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
  <script type='text/javascript'>
@@ -282,12 +275,8 @@
    }(jQuery));
    var $mcj = jQuery.noConflict(true);
  </script>
-
   
   {% endblock %}
-
-
 </body>
-
 
 </html>
