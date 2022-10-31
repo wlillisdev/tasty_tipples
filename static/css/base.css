@@ -318,7 +318,7 @@ a.category-badge > span.badge:hover {
 #mc_embed_signup {
     background: #fff;
     font: 14px Helvetica, Arial, sans-serif;
-    width: 500x;
+    width: 500px;
     margin-top: -30px;
     margin-left: -20px;
 }
@@ -476,7 +476,7 @@ a.category-badge > span.badge:hover {
     }
 
     .shop-now-button.btn.btn-lg.rounded-0{
-        size: 10px;
+        resize: 10px;
     }
 
     .nav-link {
