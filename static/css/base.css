@@ -476,7 +476,7 @@ a.category-badge > span.badge:hover {
     }
 
     .shop-now-button.btn.btn-lg.rounded-0{
-        size: .6rem;
+        resize: .6rem;
     }
 
     .nav-link {
