@@ -432,6 +432,12 @@ An agile approach was taken in the development of this project. The project will
 ## Outsourcing
 - The intention is to outsource all paid marketing to an digital agency & also get them to monitor and update our keywords for SEO on a perodic basis.The agency will also take care of the email marketing campaigns. The rest will be done inshouse by the staff of Tasty Tipples.
 
+## Sitemap.xml
+- A sitemap file with a list of all thr important URLs was created to allow  search engines to quickly crawl the website and index its pages. This was made using XML-sitemaps.com. This will can then be submitted to google search console and bing webmaster tools.
+
+## Robots.txt
+- A robots.txt file was created to tell search engines the website pages not to vist or index.
+
 # Testing
 
 ### Validator Testing 
@@ -569,8 +575,9 @@ An agile approach was taken in the development of this project. The project will
   - Django allauth combined with Django’s LoginRequiredMixin and UserPassesTestMixin were used to ensure only signed in users can edit or detele post.
 
 
-# GDPR
-- Tasty Tipples has a Privacy Policy that users can access from the footer. The purpose of this privacy policy is to inform users about how their data is being collected and processed.
+# GDPR (General Data Protection Regulation)
+- Tasty Tipples has a Privacy Policy that users can access from the footer. The purpose of this privacy policy is to inform users about how their data is being collected and used.
+- This website does use cookies to collect data so dose not require the user to accecpt or reject cookies.
 - View [Privacy Policy](https://tasty-tipples.herokuapp.com/privacy/)
 
 
