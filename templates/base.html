@@ -166,11 +166,11 @@
 
   <!-- Footer credit https://freefrontend.com/bootstrap-footers/ -->
 
-  <footer class="bg-white footer-body" id="newsletter_signup">
+  <footer class="bg-white footer-body">
     <hr>
-    <div class="container py-1">
-      <div class="row py-1 ">
-        <div class="col-lg-4 col-md-6 mb-3 mb-lg-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-3 mb-lg-0 text-center m-1">
           <a href="https://ie.trustpilot.com/" target="_blank" rel="noopener noreferrer" aria-label="Go to trust pilot">
             <img src="{{ MEDIA_URL }}trustpilot.png" alt="trust pilot rating" width="180" class="mb-1">
           </a>
@@ -188,7 +188,7 @@
               <i class="fab fa-tiktok fa-lg"></i></i></a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 ">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center m-1">
           <h6 class="text-uppercase font-weight-bold mb-1">Shop</h6>
           <ul class="list-unstyled mb-0">
             <li class=" mb-2"><a href="{% url 'account_login' %}" class="text-muted">Login</a></li>
@@ -200,7 +200,7 @@
                 class="text-muted">Wines</a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center m-1">
           <h6 class="text-uppercase font-weight-bold mb-1">Company Details</h6>
           <ul class="list-unstyled mb-0">
             <li class="mb-2"><a href="{% url 'blogview' %}" class="text-muted">The Tipple Blog</a></li>
@@ -210,9 +210,9 @@
             <li class="mb-2"><a href="{% url 'contact' %}" class="text-muted">Contact Us</a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-6 mb-lg-0">
+        <div class="col-lg-4 col-md-6 mb-lg-0 text-center m-1" id="newsletter_signup">
           <h6 class="text-uppercase font-weight-bold mb-1">Newsletter</h6>
-          <p class="text-muted mb-4">Sign up to today! To get details of our latests drinks deals, secret sales and new
+          <p class="text-muted mb-4">Sign up to today! <br>To get details of our latests drinks deals, secret sales and new
             products releases</p>
           <div id="mc_embed_signup">
             <form
