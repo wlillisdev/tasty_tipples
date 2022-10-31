@@ -456,9 +456,10 @@ An agile approach was taken in the development of this project. The project will
 
 ## CSS Validator
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
+  - The website had a few [errors](assets/readme/css_errors_1.png) initally but were fixed.
   - The website passed with no errors
 
-  ![CSS Pass](static/readme/css_pass_heruko.png)
+  ![CSS Pass](assets/readme/css_pass.png)
 
   ## Python
   - Python files such as views.py, models.py ect. were run through  [Pep 8 ](http://pep8online.com/)validator and no errors found.
