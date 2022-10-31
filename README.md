@@ -339,8 +339,8 @@ An agile approach was taken in the development of this project. The project will
 
 # Design
  - Theme
-   - The Theme of the website was to build a bright and engaging hiking blog that had an easy user interface and the users could display their posts simply and elegantly. 
-   - Fonts were imported from google fonts, Roboto & Lato were chosen. These were picked as they were bold, simple and easy to read and complimented each other and the theme of the site.
+   - The Theme of the website was to build a bright and engaging ecommereance site. The styling was kept to the minimum as we dident want to take away from the product images. And wanted the customer to focous 100% on the products.
+   - Fonts were imported from google fonts, Pacifico for the logo & Lato were chosen gor general text. These were picked as they were bold, simple and easy to read.
 
  - Data Model
    - Lucid Charts was used to design and visualise the models used in this project.
@@ -349,12 +349,12 @@ An agile approach was taken in the development of this project. The project will
     - FK refers to Foreign Key
 
  - Color Palette
-   - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the grey for a hover effect.
+   - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the green for a hover effects on buttons.
 
- ![Color Palette](static/images/color_pallet.png)
+ ![Color Palette](assets/readme/color_pallet.png)
 
 - Imagery
-   - The images that were selected for the website were bold and bright images.
+   - The images that were selected for the website were bold and bright and conveyed fun and enjoyment. products were kept with white backround where possible to highlight them more.
 
 - Wireframes
    - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. (Home Page Below)
@@ -380,8 +380,13 @@ An agile approach was taken in the development of this project. The project will
 
 # Web Marketing
 
-## Socail Media
+## Target Audiecne
+ Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
 
+## Socail Media
+- Facebook,Instagram,Youtube,Tiktok
+  - Our social channels is how we aim to build our brand awareness and drive organic traffic initally to our website.
+  - We will aim to create short snappy fun video content and leverage the growning trends of Tiktok,Youtube Shorts & reels to grown our followers and drive traffic quickly. With the aim of getting our content to go viral.
 
 ### Facebook Page
 <img src="assets/readme/facebook_cover.png" alt="log out" width="450"/>
@@ -391,11 +396,41 @@ An agile approach was taken in the development of this project. The project will
 [Visit Facebook page](https://www.facebook.com/profile.php?id=100087413854348)
 
 
+## SEO (Search Engine Optimisation)
+- Keyword Research
+  - A number of tools were used to complile a list of keywords and analyse keywords to see the search volume, the competivteness & buyers intent.
+  - [Googles Keyword planner](assets/readme/google_planner_ireland.png)
+  - [Wordtracker.com](assets/readme/whiskey_keywords.png)
+  - [And the related searchs section at the bottom of a google search page](assets/readme/related_searches.png)
+  - A list of keywords were seleceted to represent the  buyers journey. A mixtuer of Keywords with low to high keyword competivtness were picked.
+  - ![keyword funnel](assets/readme/keyword-funnel-stages.jpg)
+  - Onsite SEO will be carried out to optomise product pages & alt tags. Due to time constraints it will not be completed in this iteration of the project.
+  - Long term off site SEO link building campaigns will also be used to grow organic search traffic. This will be completed futuer iterations of the project.
+
+## Content Marketing
+
+- The Tipple Blog
+  - Our blog will be used to target SEO keywords and answer questions that people are actively searching for answers online. This will not only educate our shoppers but it also help build confidence and trust in our brand. While at the same time ranking the website in search results for more keywords.
+
+- Short Form Content 
+  - With a huge shift on all social channels to short form video content we sill actively release short videos on a daily basis to leverage this trends. Software like [repurpose.io](https://repurpose.io/) will be used to post content across all channels at the same time to reduce time and get maximum exposure.
 
 
-
+## Paid
+- As this is a brand new website it will take time to generate organic traffic from search engines. So will for the first 6 months be activly be using and testing paid ads to drive traffic and conversions.
+- Google PPC
+  - We will actively run google ads especially targeting our high ticket products.
+- Facebook,Tiktok,Youtube
+  - We will run ad campaigns on these channels mainly focused on brand awreness and builing an online presence. We wont direcly market drink products on these channels. But adopt a playful and fun approach to enagae with users.
 
 ## Email Marketing
+- Email marketing when done correctly has low input costs and allows us to target our customers with a more customised offering giveing a Better ROI.
+- Mail Chimp
+  - We will initally build a subscriber list to our newletter via the form in the footer of our website.
+  - We will send weekly newsletters of our latests drinks deals, secret sales and new products releases.
+
+## Outsourcing
+- The intention is to outsource all paid marketing to an digital agency & also get them to monitor and update our keywords for SEO on a perodic basis.The agency will also take care of the email marketing campaigns. The rest will be done inshouse by the staff of Tasty Tipples.
 
 # Testing
 
