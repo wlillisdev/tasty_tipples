@@ -402,7 +402,7 @@ An agile approach was taken in the development of this project. The project will
   - [Googles Keyword planner](assets/readme/google_planner_ireland.png)
   - [Wordtracker.com](assets/readme/whiskey_keywords.png)
   - [And the related searchs section at the bottom of a google search page](assets/readme/related_searches.png)
-  - A list of keywords were seleceted to represent the  buyers journey. A mixtuer of Keywords with low to high keyword competivtness were picked.
+  - A list of keywords were seleceted to represent the  buyers journey. A mixtuer of long tail and short tail Keywords with low to high keyword competivtness were picked.
   - ![keyword funnel](assets/readme/keyword-funnel-stages.jpg)
   - Onsite SEO will be carried out to optomise product pages & alt tags. Due to time constraints it will not be completed in this iteration of the project.
   - Long term off site SEO link building campaigns will also be used to grow organic search traffic. This will be completed futuer iterations of the project.
@@ -567,6 +567,12 @@ An agile approach was taken in the development of this project. The project will
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
   - Secret access keys were stored safely in env.py this was set up before the first push to Github.
   - Django allauth combined with Django’s LoginRequiredMixin and UserPassesTestMixin were used to ensure only signed in users can edit or detele post.
+
+
+# GDPR
+- Tasty Tipples has a Privacy Policy that users can access from the footer. The purpose of this privacy policy is to inform users about how their data is being collected and processed.
+- View [Privacy Policy](https://tasty-tipples.herokuapp.com/privacy/)
+
 
 
 # Deployment
