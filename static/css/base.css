@@ -474,10 +474,6 @@ a.category-badge > span.badge:hover {
         letter-spacing: 3px;
     }
 
-    .shop-now-button {
-        font-size: 1.5rem;
-    }
-
     .nav-link {
         padding: 0.15rem;
     }
@@ -514,7 +510,23 @@ a.category-badge > span.badge:hover {
         padding:2px 2px;
         font-size:75%;
         line-height: 1;
-      }
+    }
+
+    .intro-responsive {
+        font-size:140%;
+    }
+
+    .products-responsive {
+        font-size:140%;
+    }
+
+    .card-responsive {
+        font-size:85%;
+    }
+
+    .nav-margin{
+        padding: 5px;
+    }
 
     .card-img-top-blog {
         width: 100%;
