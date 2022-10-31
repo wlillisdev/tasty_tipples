@@ -1,7 +1,7 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
 
-
+/* General */
 html {
     height: 100%;
 }
@@ -15,11 +15,11 @@ a {
     color:black;
 }
 
-
 .card:hover {
     transform: scale(1.015);
 }
 
+/* Home Page */
 .heart-home{
     color: red;
 }
@@ -49,9 +49,11 @@ a {
     bottom: -2px;
     transition: 0.3s;
 }
+
 .nav-hover:hover{
     color: #ffffff;
 }
+
 .nav-hover:hover:after{
     width: 100%;
 }
@@ -103,7 +105,6 @@ a {
     letter-spacing: 4.5px;
 }
 
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -122,6 +123,7 @@ a {
     width: fit-content;
 }
 
+ /* Button Styling */
 .shop-now-button {
     background:blue;
     color: white;
@@ -134,8 +136,6 @@ a {
     background: black;
     color: white;
 }
-
-
 
 .p-button{
     background:	#808080;
@@ -215,8 +215,7 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-/* Allauth form formatting */
-
+/*------------------------ Allauth form formatting */
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
@@ -253,7 +252,6 @@ a.category-badge > span.badge:hover {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0;
-
     /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
@@ -269,8 +267,7 @@ a.category-badge > span.badge:hover {
 	color: #17a2b8; /* text-info */
 }
 
-/* Product Form */
-
+/* -------------------------------- Product Form */
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -297,7 +294,6 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
-
 /* -------------------------------- Reviews */
 .stars-reviews{
     color: goldenrod;
@@ -307,18 +303,15 @@ a.category-badge > span.badge:hover {
     color: goldenrod;
 }
 
-
 /* -------------------------------- Testimionals */
 .user-content p{
     margin-top:5px;
     font-size:12px;
 }
 
-
 .ratings i{
     color:gold;
 }
-
 
 /* -------------------------------- Mailchimp */
 #mc_embed_signup {
@@ -334,13 +327,11 @@ a.category-badge > span.badge:hover {
 }
 
 /* -------------------------------- Footer */
-
 .footer-body li a:hover {
     background: #e9e9e9;
     font-size:16px;
     padding: 5px;
 }
-
  
 .form-control.shadow-0:focus {
     box-shadow: none;
@@ -355,7 +346,6 @@ a.category-badge > span.badge:hover {
 }
 
 /* ------------------------------- bootstrap toasts */
-
 .message-container {
     position: fixed;
     top: 72px;
@@ -487,7 +477,6 @@ a.category-badge > span.badge:hover {
     .shop-now-button.btn.btn-lg.rounded-0{
         size: 10px;
     }
-    
 
     .nav-link {
         padding: 0.15rem;
@@ -525,7 +514,6 @@ a.category-badge > span.badge:hover {
         width: 100%;
         height: 60vw;
         object-fit: cover;
-        
     }
 
 }
