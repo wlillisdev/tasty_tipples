@@ -445,7 +445,7 @@ a.category-badge > span.badge:hover {
     .header-container {
         padding-top: 164px;
     }
-    .footer-body{
+    .footer-body {
         margin-right: 6px;
     }
 }
@@ -460,12 +460,12 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 
-    .image-stripe{
+    .image-stripe {
         margin-left: 3px;
         margin: 0 auto;
     }
 
-    .hero-font{
+    .hero-font {
         font-size: 2rem;
         line-height: 55px;
         text-align: center;
@@ -475,8 +475,8 @@ a.category-badge > span.badge:hover {
         letter-spacing: 3px;
     }
 
-    .shop-now-button.btn.btn-lg.rounded-0{
-        resize: .6rem;
+    .shop-now-button.btn.btn-lg.rounded-0 {
+        font-size: .6rem;
     }
 
     .nav-link {
