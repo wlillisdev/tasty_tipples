@@ -533,8 +533,8 @@ An agile approach was taken in the development of this project. The project will
 
   | Issue | User Story | Acceptance Criteria | Result |  
 | --- | --- | --- | --- |
-| 1 | As a user, I can register an account so that I can gain access to the full range of features of the blog. | User can register a new account, User can have access to all features of the blog | Pass |
-| 2 | As a registered user I can easily login and logout of the blog so that I can access the content i have created. | User can easily login and logout of the site | Pass |
+| [1](https://github.com/wlillisdev/tasty_tipples/issues/1) | As a User I can sign up for a new user account so that I can have complete functionality of the whole store. |  A sign-up link is clearly shown in the nav bar, The user can easily enter all required details in form, name, email, password,form won't submit if it is not filled out correctly| Pass |
+| [2](https://github.com/wlillisdev/tasty_tipples/issues/2) |  As a returning User I can quickly log in to my account so that i can vire my profile, history of past orders, or leave a review | Login displayed in nav bar so user can quickly access the login page | Pass |
 | 3 | As an Admin I can **view, create, edit, update and delete all blog posts ** so that the Admin can easily moderate and control the website's content. | Admin can delete posts, Admin can edit posts, Admin can filter posts, Admin can search posts | Pass |
 | 4 | As an admin I can create draft posts so that I can finish writing and editing blog posts later | Admin can create a draft blog post in admin panel | Pass |   
 | 5 | As a user I can view a list of trails blog posts so that I can see easily move through the list of trails and pick one I want to read | Trails appear in the paginated list | Pass |   
