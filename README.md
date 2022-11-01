@@ -444,15 +444,18 @@ An agile approach was taken in the development of this project. The project will
 
  - HTML Validator
    - [W3C](https://validator.w3.org/) site was used to validate the **HTML** code.
-   - A number of small errors were initially flagged up.
-     - [Erros From Validator Hompage](static/readme/error_html.png)
+   - A number of small errors were initially flagged up and fixed.
      
  ### All Pages are now error free see links below:
 
  ![Home Page](assets/readme/homepage_html_pass.png)
    - [Link to Homepage Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2F)
    - [Link to all products passsed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F)
-   - [Link to all product](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6) 1 error,if div tag removed it breaks container
+   - [Link to product detail](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6) 1 error,if div tag removed it breaks container
+   - [Link to all Contact Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fcontactus%2F#l282c107) 
+   - [Link to About Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fabout%2F#l282c107)
+   - [Link to Terms OF Service passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fterms%2F#l282c107) 
+   - [Link to Privacy Policy passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fprivacy%2F#l282c107)  
   
 
 ## CSS Validator
