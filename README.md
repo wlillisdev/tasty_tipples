@@ -451,7 +451,7 @@ An agile approach was taken in the development of this project. The project will
 
  ![Home Page](assets/readme/homepage_html_pass.png)
    - [Link to Homepage Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2F)
-   - [Link to About Us Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhikinghub.herokuapp.com%2Fabout%2F)
+   - [Link to products](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F)
   
 
 ## CSS Validator
