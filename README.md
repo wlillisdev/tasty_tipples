@@ -451,7 +451,8 @@ An agile approach was taken in the development of this project. The project will
 
  ![Home Page](assets/readme/homepage_html_pass.png)
    - [Link to Homepage Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2F)
-   - [Link to products](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F)
+   - [Link to all products passsed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F)
+   - [Link to all product](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6) 1 error,if div tag removed it breaks container
   
 
 ## CSS Validator

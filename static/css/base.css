@@ -117,6 +117,10 @@ a {
     width: 1.5rem;
 }
 
+
+.img-contactimg {
+    height: auto;
+}
 .logo-font {
     /* text-transform: uppercase; */
     font-family: 'Lato', Arial, Helvetica, sans-serif;
