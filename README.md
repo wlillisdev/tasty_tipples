@@ -383,6 +383,9 @@ An agile approach was taken in the development of this project. The project will
 ## Target Audiecne
  Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
 
+## Marketing Mix
+  We have decided to adopt a multi prong approach to digital marketing to target our audience. A mixtuer of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website.As the staff are proficent already in all elements of social media. They will manage this internally, they will leverage content creation and short form video content to gain brand awarness and drive traffic to the site. Dut to lack of knowledge and time some service will be outsourced such as paid marketing, email marketing and SEO. With this multi channel approach it will drive short,medium and long term traffic and sales.
+
 ## Socail Media
 - Facebook,Instagram,Youtube,Tiktok
   - Our social channels is how we aim to build our brand awareness and drive organic traffic initally to our website.
@@ -444,7 +447,7 @@ An agile approach was taken in the development of this project. The project will
 
  - HTML Validator
    - [W3C](https://validator.w3.org/) site was used to validate the **HTML** code.
-   - A number of small errors were initially flagged up and fixed.
+   - A number of errors were initially flagged up and were fixed.
      
  ### All Pages are now error free see links below:
 
@@ -485,11 +488,11 @@ An agile approach was taken in the development of this project. The project will
  
 ## Lighthouse
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
- - [See Light House Before Improvements] (static/readme/lighthouse_before.png)
+ - [See Light House Before Improvements](media/light_house_first.png)
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in incognito window and performance score increased. Results below from home page
  - Desktop Result’s
- ![Homepage](static/readme/heroku_lighthouse.png)
- - [Mobile Light House Results](static/readme/mobile_lighthouse.png)
+ ![Homepage](media/light_house_test.png)
+
 
  
 ## Manual Testing
