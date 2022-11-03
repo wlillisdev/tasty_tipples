@@ -573,18 +573,16 @@ An agile approach was taken in the development of this project. The project will
 | [30](https://github.com/wlillisdev/tasty_tipples/issues/30) | As a Shopper I can sort through products quickly so that so I can find the products I want easily | The user can sort through products quickly by applying various filters, for example by price (low to high), by price (high to low). | Pass |
 
 
-
-
   
 # Fixed Bugs
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
   - After running all python code through pep 8 validator a number of errors were identified and fixed. 
-  - When creating the add post form I didn’t want the slug to appear on the form but when removed  it broke the form. I research this problem and found a solution on stack overflow which fixed this problem. [Slugify](https://learndjango.com/tutorials/django-slug-tutorial)
-  - On the display posts page unless the images were sized correctly at upload the post cards were out of alignment [Card Alignment issue] (static/readme/card_size_issue.png) and did not look great, I found a solution on how to size the images all the same on stack overflow [Cards images all the same size](https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width)
-  - The summer note WYSIWYG Editor on the add post form and the update posts form was not responsive and was huge, i did some research on this and found a solution on Github [Summer Note Github](https://github.com/summernote/django-summernote) I was able to customise the summer note WYSIWYG editor and get it to fit and be responsive.
-  - There was a bug in the footer it wasent staying on the bottom of the page [Footer Issue](static/readme/fotter_bug.png). I found a solution on stack overflow that fixed this issue.
+  - When using crispy form on product detail page for the review form it would not appear, i did a lot alot of reasearch and discussed with tutor support, No easy fix was found, so i came up with a work around and manually coded the form.
+  - When deploying the site AWS was displaying images on the site, but when i uploaded a pictuer it crashed the site. After much troubleshooting i discovered there was white space in AWS keys in the Heroku config varaibles. When this was deleted it worked fine.
+  - After deploying i noticed the confirmation emails were not sending and the webhooks were failing,  i updated the webhook.url to the deployed site and it worked fine.
+  
 
 
   # Unfixed Bugs
