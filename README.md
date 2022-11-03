@@ -582,6 +582,7 @@ An agile approach was taken in the development of this project. The project will
   - When using crispy form on product detail page for the review form it would not appear, i did a lot alot of reasearch and discussed with tutor support, No easy fix was found, so i came up with a work around and manually coded the form.
   - When deploying the site AWS was displaying images on the site, but when i uploaded a pictuer it crashed the site. After much troubleshooting i discovered there was white space in AWS keys in the Heroku config varaibles. When this was deleted it worked fine.
   - After deploying i noticed the confirmation emails were not sending and the webhooks were failing,  i updated the webhook.url to the deployed site and it worked fine.
+  - During devlopment in gitpod stripe webhooks were working ok, but they started failing 2 weeks after initally being setup, After much head scratching i noticed that my url in gitpod had changed for some reason and no longer matched what was initally setup in stripe. Once updated it worked ok.
   
 
 
