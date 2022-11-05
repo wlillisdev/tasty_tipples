@@ -357,14 +357,17 @@ An agile approach was taken in the development of this project. The project will
    - The images that were selected for the website were bold and bright and conveyed fun and enjoyment. products were kept with white backround where possible to highlight them more.
 
 - Wireframes
-   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. 
-   (Home Page Wire Frame Below)
+  - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. 
+  (Home Page Wire Frame Below)
 
-  - <img src="assets/readme/home_wireframe.png" alt="home page wire frame" width="500"/>
-
-
+  -<img src="assets/readme/home_wireframe.png" alt="home page wire frame" width="500"/>
+  
+  - [Mobile Home Wireframe Concept](assets/readme/mobile_home_wireframe.png)
   - [All Products Page Wireframe Concept](assets/readme/allproducts_wireframe.png)
+  - [Mobile All Products Page Wireframe Concept](assets/readme/products_mobile.png)
   - [Product Detail Wireframe Concept](assets/readme/product_detail.png)
+  - [Blog Posts Wireframe Concept](assets/readme/blog_posts_wireframe.png)
+  - [Contact Us Wireframe Concept](assets/readme/contact_us_wireframe.png)
    
 # Future Development
 
