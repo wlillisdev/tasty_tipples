@@ -357,11 +357,14 @@ An agile approach was taken in the development of this project. The project will
    - The images that were selected for the website were bold and bright and conveyed fun and enjoyment. products were kept with white backround where possible to highlight them more.
 
 - Wireframes
-   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. (Home Page Below)
+   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. 
+   (Home Page Wire Frame Below)
 
-  - ![Homepage Wireframe Concept](static/readme/hiking_hub_home.png)
-  - [Display Posts Wireframe Concept](static/readme/posts_page_layout.png)
-  - [Post Detail Wireframe Concept](static/readme/post_detail_wireframe.png)
+  - <img src="assets/readme/home_wireframe.png" alt="home page wire frame" width="500"/>
+
+
+  - [All Products Page Wireframe Concept](assets/readme/allproducts_wireframe.png)
+  - [Product Detail Wireframe Concept](assets/readme/product_detail.png)
    
 # Future Development
 
