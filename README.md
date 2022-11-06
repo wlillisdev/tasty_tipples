@@ -345,8 +345,8 @@ An agile approach was taken in the development of this project. The project will
  - Data Model
    - Lucid Charts was used to design and visualise the models used in this project.
 
-   ![Data Models](static/images/models.png)
-    - FK refers to Foreign Key
+    - <img src="assets/readme/database_erd.png" alt="erd diadram" width="750"/>
+    - Green refers to custom models
 
  - Color Palette
    - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the green for a hover effects on buttons.
