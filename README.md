@@ -478,15 +478,10 @@ An agile approach was taken in the development of this project. The project will
   ![CSS Pass](assets/readme/css_pass.png)
 
   ## Python
-  - Python files such as views.py, models.py ect. were run through  [Pep 8 ](http://pep8online.com/)validator and no errors found.
-  - [some erros found during testing](static/readme/erros_views_py.png)
-  - The Following python files passed testing with pep 8 
-  ![Views.py](static/readme/pass_views_py.png)
-  - [view passed urls.py](static/readme/urls.py_pass.png)
-  - [view passed models.py](static/readme/models.py_pass.png)
-  - [view passed forms.py](static/readme/forms.py_pass.png)
-  - [view passed apps.py](static/readme/app.py_pass.png)
-  - [view passed admin.py](static/readme/admin.py_pass.png)
+  - Python code was tested to ensure that it met PEP8 style guidelines. This was done within the terminal console using the command python3 -m flake8, which displayed errors and warnings within the code. Files were gone through an fixed indivdually the majority were in relaion to exceeding the amount of characters per line.
+  - [Erors fixed in Checkout App](assets/readme/python_error.png)
+  - [Erors fixed in Products App](assets/readme/product_error_py.png)
+
 
   ## Java Script
   - [some erros found during testing](static/readme/js_error.png)
@@ -520,12 +515,9 @@ An agile approach was taken in the development of this project. The project will
 | User Register account - Invalid Email Field | - An invalid email address was tested to ensure error message appeared | Pass | 
 | User login to account - Blank Fields | - All fields were left blank to ensure an error message was displayed to the user | Pass |
 | User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
-| User logged in to account - name displayed in navbar and homepage | - Logged into account with registered user account to see if name displayed in navbar and welcome message  |  Pass |   
-| Non registered user - can not add a blog post | - As a not registered user their is not option in nav bar or other pages for user to add a blog post |  Pass |
-| Non registered user - can not like or comment on posts| - As a not registered user their is no option to add a blog comment to post. when the heart is clicked on it dose not activate and dose not add a like  |  Pass | 
-| User Logged In - User name appears in nav & welcome message| - Logged in a register account. User name appeared in nav bar and also in welcome message on home page|  Pass |
-| User Logged In - Add a blog Post in Nav Bar| - Logged in . Add a blog post option appears in the nav bar|  Pass |       
-| Create a blog post -  Fields left blank | - This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed|  Pass | 
+| Non registered user - can not a add a review | - As a not registered user their is not option in product detail page to leave a review |  Pass |
+| User Logged In - can add a product review| - Logged in . Add a review form appears on at the bottom of product detail page |  Pass |       
+| Update a product review -  user logged in | - This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed|  Pass | 
 | Create a blog post -  No Featured Image | - Blog post was added with no featured image from user. A  placeholder image was added by default|  Pass |
 | Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
 | Update a blog post -  you are not the author | - If you are not the author of a blog post update button will be hidden from the user a 403 error will occur if /update typed into url |  Pass |
@@ -596,7 +588,7 @@ An agile approach was taken in the development of this project. The project will
 
 
   # Unfixed Bugs
-  - When the user deletes a blog post i can not get the alert message to appear on top of the screen.
+  - I am unaware of any unfixed bugs.
 
   # Security
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
