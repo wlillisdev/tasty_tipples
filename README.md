@@ -362,12 +362,15 @@ An agile approach was taken in the development of this project. The project will
 
   -<img src="assets/readme/home_wireframe.png" alt="home page wire frame" width="500"/>
   
-  - [Mobile Home Wireframe Concept](assets/readme/mobile_home_wireframe.png)
-  - [All Products Page Wireframe Concept](assets/readme/allproducts_wireframe.png)
+  - [Mobile Home Page Wireframe Concept](assets/readme/new_mobile_home.png)
+  - [Desktop All Products Page Wireframe Concept](assets/readme/allproducts_wireframe.png)
   - [Mobile All Products Page Wireframe Concept](assets/readme/products_mobile.png)
-  - [Product Detail Wireframe Concept](assets/readme/product_detail.png)
-  - [Blog Posts Wireframe Concept](assets/readme/blog_posts_wireframe.png)
-  - [Contact Us Wireframe Concept](assets/readme/contact_us_wireframe.png)
+  - [Desktop Product Detail Wireframe Concept](assets/readme/product_detail.png)
+  - [Mobile Product Detail Page Wireframe Concept](assets/readme/mobile_product_detail.png)
+  - [Desktop Blog Posts Wireframe Concept](assets/readme/blog_posts_wireframe.png)
+  - [Mobile Blog Posts Wireframe Concept](assets/readme/mobile_product_detail.png)
+  - [Desktop Contact Us Wireframe Concept](assets/readme/contact_us_wireframe.png)
+  - [Mobile Contact Us Wireframe Concept](assets/readme/mobile_contactus.png)
    
 # Future Development
 
