@@ -433,6 +433,12 @@ a.category-badge > span.badge:hover {
     height: 20vw;
     object-fit: cover;
 }
+
+.navbar-light .navbar-toggler {
+    color: #1e7e34;
+    border-color: #1e7e34;
+}
+
     
 /* -------------------------------- Media Queries */
 
