@@ -466,7 +466,7 @@ An agile approach was taken in the development of this project. The project will
    - [Link to product detail](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6) 1 error,if div tag removed it breaks container
    - [Link to all Contact Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fcontactus%2F#l282c107) 
    - [Link to About Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fabout%2F#l282c107)
-   - [Link to Terms OF Service passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fterms%2F#l282c107) 
+   - [Link to Terms of Service passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fterms%2F#l282c107) 
    - [Link to Privacy Policy passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fprivacy%2F#l282c107)  
   
 
@@ -601,7 +601,7 @@ An agile approach was taken in the development of this project. The project will
   # Security
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
   - Secret access keys were stored safely in env.py this was set up before the first push to Github.
-  - Django allauth combined with Django’s LoginRequiredMixin and UserPassesTestMixin were used to ensure only signed in users can edit or detele post.
+  - Django allauth was used to ensure only signed in users can edit or detele review. And for super user permissions.
 
 
 # GDPR (General Data Protection Regulation)
