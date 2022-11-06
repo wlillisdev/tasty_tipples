@@ -390,7 +390,7 @@ An agile approach was taken in the development of this project. The project will
 # Web Marketing
 
 ## Target Audiecne
- Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
+ Tassty Tipples is  Business to Cutomer business model.Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
 
 ## Marketing Mix
   We have decided to adopt a multi prong approach to digital marketing to target our audience. A mixtuer of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website.As the staff are proficent already in all elements of social media. They will manage this internally, they will leverage content creation and short form video content to gain brand awarness and drive traffic to the site. Dut to lack of knowledge and time some service will be outsourced such as paid marketing, email marketing and SEO. With this multi channel approach it will drive short,medium and long term growth for the Tasty Tipples.
