@@ -484,9 +484,8 @@ An agile approach was taken in the development of this project. The project will
 
 
   ## Java Script
-  - [some erros found during testing](static/readme/js_error.png)
-  - I found a solution on stack overflow for the  esversion: 6 error
-  - [view passed js](static/readme/js_pass.png)
+  - [some erros found during testing](assets/readme/errors_js.png)
+  - All erros were fixed. And now passed ok through [JSHint](https://jshint.com/)
   
 
  
@@ -514,10 +513,13 @@ An agile approach was taken in the development of this project. The project will
 | User Register account |- Each mandatory fields were left blank intentionally to check if error messages appeared if form submitted blank | Pass | 
 | User Register account - Invalid Email Field | - An invalid email address was tested to ensure error message appeared | Pass | 
 | User login to account - Blank Fields | - All fields were left blank to ensure an error message was displayed to the user | Pass |
+| New User Confirmation email - to verify details | - tested with a temopary email, signed up for a new account, confirmation email sent from website so user can verify details | Pass |
+| User recover password - forgot registered password  | At login screen, Forgot password was clicked, at password reset screen, previously registered email entered, reset email was sent and password was reset | Pass |
 | User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
-| Non registered user - can not a add a review | - As a not registered user their is not option in product detail page to leave a review |  Pass |
+| Non registered user - can not a add a review | - As a unregistered user their is not option in product detail page to leave a review |  Pass |
 | User Logged In - can add a product review| - Logged in . Add a review form appears on at the bottom of product detail page |  Pass |       
-| Update a product review -  user logged in | - This was tested with multiple times with one field being left blank each time. Pass criteria is that alert appears to prevent successful posting until all fields have been completed|  Pass | 
+| Update a previous product review -  user logged in | - Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review stored, Toast also displayed |  Pass |
+| Delete a product review -  user logged in | - User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast alert appears  |  Pass | 
 | Create a blog post -  No Featured Image | - Blog post was added with no featured image from user. A  placeholder image was added by default|  Pass |
 | Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
 | Update a blog post -  you are not the author | - If you are not the author of a blog post update button will be hidden from the user a 403 error will occur if /update typed into url |  Pass |
