@@ -231,7 +231,7 @@ An agile approach was taken in the development of this project. The project will
   &nbsp;
 - Delete Review
   - The user can also delete a review they have made, when the delete button is pressed a modal pops up and asks are they sure if they want to delete this review.
-  - <img src="assets/readme/modal_delete.png" alt="delete review" width="400"/>
+  - <img src="assets/readme/delete_modal_review.gif" alt="delete review" width="850">
   &nbsp;
 
 ## Product Management
@@ -532,6 +532,9 @@ An agile approach was taken in the development of this project. The project will
 | Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
 | Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
 | Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass |
+
+| Update Shopping Bag | The + & - icons were used to adjust qty of items. Then update was clicked, the grand total was updated. The quantity was typed in and update clicked,grand total updated. The remove link removed the item from the bag,Toats alerts worked for update and delete  | Pass |
+
 
 | Stripe - incorrect card number | entered an invalid 16 digit card number, got error message your card number is incomplete | Pass | 
 | Stripe - incorrect expiry date on card | entered an invalid expiry date on card, got an error message | Pass |
