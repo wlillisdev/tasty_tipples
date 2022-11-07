@@ -514,20 +514,21 @@ An agile approach was taken in the development of this project. The project will
 | User Register account - Invalid Email Field | - An invalid email address was tested to ensure error message appeared | Pass | 
 | User login to account - Blank Fields | - All fields were left blank to ensure an error message was displayed to the user | Pass |
 | New User Confirmation email - to verify details | - tested with a temopary email, signed up for a new account, confirmation email sent from website so user can verify details | Pass |
-| User recover password - forgot registered password  | At login screen, Forgot password was clicked, at password reset screen, previously registered email entered, reset email was sent and password was reset | Pass |
+| User recover password - forgot login password  | At login screen, Forgot password was clicked, at password reset screen, previously registered email entered, reset email was sent and password was reset | Pass |
 | User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
 | Non registered user - can not a add a review | - As a unregistered user their is not option in product detail page to leave a review |  Pass |
-| User Logged In - can add a product review| - Logged in . Add a review form appears on at the bottom of product detail page |  Pass |       
-| Update a previous product review -  user logged in | - Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review stored, Toast also displayed |  Pass |
-| Delete a product review -  user logged in | - User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast alert appears  |  Pass | 
-| Create a blog post -  No Featured Image | - Blog post was added with no featured image from user. A  placeholder image was added by default|  Pass |
-| Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
-| Update a blog post -  you are not the author | - If you are not the author of a blog post update button will be hidden from the user a 403 error will occur if /update typed into url |  Pass |
-| Update a blog post -  you are the author | - If you are  the author of a blog post update button will be visible to the author |  Pass 
-| Update a blog post -  prepopulated fields from blog post | - clicked on update button, update blog post form all the fields were populated from previous blog post |  Pass
-| Update a blog post -  update fields on form | - All fields on the prepopulated form were updated and submitted and the blog post content was successfully updated |  Pass
-| delete a blog post - you are not the author | - If you are not the author of a blog post the delete button will be hidden to the user and 403 error will occur if /delete is typed into url | Pass          
+| User Logged In - can add a product review| - Logged in as registered user. Add a review form appears on at the bottom of product detail page, rating for product selected and review written. Add review clicked , review saved to reviews section |  Pass |       
+| Update a previous product review -  user logged in | - Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review updated and stored, Toast update also displayed |  Pass |
+| Delete a product review -  user logged in | - User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast delete review alert appears  |  Pass |
+| Delete or Update review -  that you did not create | - manually enter a url for delete/update review on a review that was not created by the user, redirected to error page  |  Pass | 
+| Admin Create a blog post -  No Featured Image | - Blog post was added with no featured image from admin. A  placeholder image was added by default   Pass |
+| Admin Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
+| Admin Update a blog post - edit old post | - In the admin panel changes made to previous blog post and checked to see if they were updated on the front end |  Pass 
+| Admin delete a blog post - remove old blog post | - In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass          
 | delete a blog post - you are the author | - If you are the author of a blog post delete buttons will be visible to the author, on delete the post is successfully removed from website | Pass
+| Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
+| Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
+| Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass | 
 | Alert message - sign in | Alert to confirm user has successfully signed in appears on top of screen. | Pass |  
 | Alert message - sign out | Alert requests user to confirm they want to log out before logging out of site, and alert appears you have successfully signed out | Pass |  
 | Alert message - Add Comment | Alert your comment was successfully added appears on top of screen | Pass |
