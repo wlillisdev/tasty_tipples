@@ -363,16 +363,52 @@ An agile approach was taken in the development of this project. The project will
   (Home Page Wire Frame Below)
 
   -<img src="assets/readme/home_wireframe.png" alt="home page wire frame" width="500"/>
-  
-  - [Mobile Home Page Wireframe Concept](assets/readme/new_mobile_home.png)
-  - [Desktop All Products Page Wireframe Concept](assets/readme/allproducts_wireframe.png)
-  - [Mobile All Products Page Wireframe Concept](assets/readme/products_mobile.png)
-  - [Desktop Product Detail Wireframe Concept](assets/readme/product_detail.png)
-  - [Mobile Product Detail Page Wireframe Concept](assets/readme/mobile_product_detail.png)
-  - [Desktop Blog Posts Wireframe Concept](assets/readme/blog_posts_wireframe.png)
-  - [Mobile Blog Posts Wireframe Concept](assets/readme/mobile_product_detail.png)
-  - [Desktop Contact Us Wireframe Concept](assets/readme/contact_us_wireframe.png)
-  - [Mobile Contact Us Wireframe Concept](assets/readme/mobile_contactus.png)
+
+  <details><summary>Mobile Home Page Wireframe Concept</summary>
+ 
+  ![Mobile Home Page](assets/readme/new_mobile_home.png)
+  </details>
+
+  <details><summary>Desktop All Products Page Wireframe Concept</summary>
+ 
+  ![Desktop All Products](assets/readme/allproducts_wireframe.png)
+  </details>
+
+  <details><summary>Mobile All Products Page Wireframe Concept</summary>
+ 
+  ![Mobile All Products](assets/readme/products_mobile.png)
+  </details>
+
+  <details><summary>Desktop Product Detail Wireframe Concept</summary>
+ 
+  ![Desktop Product Detail](assets/readme/product_detail.png)
+  </details>
+
+  <details><summary>Mobile Product Detail Page Wireframe Concept</summary>
+ 
+  ![Mobile Product Detail](assets/readme/mobile_product_detail.png)
+  </details>
+
+  <details><summary>Desktop Blog Posts Wireframe Concept</summary>
+ 
+  ![Desktop Blog Posts](assets/readme/blog_posts_wireframe.png)
+  </details>
+
+  <details><summary>Mobile Blog Posts Wireframe Concept</summary>
+ 
+  ![Desktop Blog Posts](assets/readme/mobile_product_detail.png)
+  </details>
+
+  <details><summary>Desktop Contact Us Wireframe Concept</summary>
+ 
+  ![Desktop Contact Us](assets/readme/contact_us_wireframe.png)
+  </details>
+
+  <details><summary>Mobile Contact Us Wireframe Concept</summary>
+ 
+  ![Mobile Contact Us](assets/readme/contact_us_wireframe.png)
+  </details>  
+
    
 # Future Development
 
@@ -403,9 +439,8 @@ An agile approach was taken in the development of this project. The project will
   - We will aim to create short snappy fun video content and leverage the growning trends of Tiktok,Youtube Shorts & reels to grown our followers and drive traffic quickly. With the aim of getting our content to go viral.
 
 ### Facebook Page
-<img src="assets/readme/facebook_cover.png" alt="log out" width="450"/>
+<img src="assets/readme/facebook_page_new.gif" alt="log out" width="800"/>
 
-<img src="assets/readme/facebook_body.png" alt="log out" width="450"/>
 
 [Visit Facebook page](https://www.facebook.com/profile.php?id=100087413854348)
 
@@ -525,17 +560,15 @@ An agile approach was taken in the development of this project. The project will
 | Update a previous product review -  user logged in | - Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review updated and stored, Toast update also displayed |  Pass |
 | Delete a product review -  user logged in | - User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast delete review alert appears  |  Pass |
 | Delete or Update review -  that you did not create | - manually enter a url for delete/update review on a review that was not created by the user, redirected to error page  |  Pass | 
-| Admin Create a blog post -  No Featured Image | - Blog post was added with no featured image from admin. A  placeholder image was added by default   Pass |
+| Admin Create a blog post -  No Featured Image | - Blog post was added with no featured image from admin. A  placeholder image was added by default    | Pass
 | Admin Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
 | Admin Update a blog post - edit old post | - In the admin panel changes made to previous blog post and checked to see if they were updated on the front end |  Pass 
 | Admin delete a blog post - remove old blog post | - In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass          
 | Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
 | Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
 | Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass |
-
-| Update Shopping Bag | The + & - icons were used to adjust qty of items. Then update was clicked, the grand total was updated. The quantity was typed in and update clicked,grand total updated. The remove link removed the item from the bag,Toats alerts worked for update and delete  | Pass |
-
-
+| Shopping Bag - adding a product | From the product detail page add to bag was clicked, item was added to bag.toast success displayed item added to bag | Pass |
+| Update Shopping Bag | The + & - icons were used to adjust qty of items. Then update was clicked, the grand total was updated. The quantity was typed in and update clicked,grand total updated. The remove link clicked, removed the item from the bag,Toasts alerts worked for update and delete bag  | Pass |
 | Stripe - incorrect card number | entered an invalid 16 digit card number, got error message your card number is incomplete | Pass | 
 | Stripe - incorrect expiry date on card | entered an invalid expiry date on card, got an error message | Pass |
 | Stripe - 4 digit security number  | entered only 3 digits on the security code, got an error message your cards security code is incomplete | Pass |
@@ -546,15 +579,9 @@ An agile approach was taken in the development of this project. The project will
 | Order Confirmation - email of order | Using a tempoary email an order was submitted and checked to see it an order confirmation email was sent, with details of the order and an order number | Pass |
 | Order History -  saved to profile | multiple orders were made under a user profile.All  orders were stored in user profile, order number,date and total cost displayed on profile | Pass |
 | Update User Profile | The user profile is already prepopulated with users information, all fields were edited and updated to check if working ok  | Pass |
-
-
 | Admin Add product | Signed in as admin, Cliked on product management, filled out add product page, Product added to website, toast displayed product added  | Pass |
 | Admin Edit product | Signed in as admin, Cliked on edit product button, edit product page with prepopulated information of product, all fields were changeed and updated, toast update product appears. | Pass |
 | Admin delete product | Signed in as admin, Cliked on delte product button, modal pops up asking if you are sure if you want to delete product, toast update product deleted. | Pass |
-
-
-
-
 | Alert message - sign in | Alert to confirm user has successfully signed in appears on top of screen. | Pass |  
 | Alert message - sign out | Alert requests user to confirm they want to log out before logging out of site, and alert appears you have successfully signed out | Pass |  
 | Alert message - Add review | Alert your review was successfully added appears on top of screen | Pass |
