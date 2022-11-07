@@ -467,7 +467,9 @@ An agile approach was taken in the development of this project. The project will
    - [Link to all Contact Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fcontactus%2F#l282c107) 
    - [Link to About Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fabout%2F#l282c107)
    - [Link to Terms of Service passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fterms%2F#l282c107) 
-   - [Link to Privacy Policy passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fprivacy%2F#l282c107)  
+   - [Link to Privacy Policy passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fprivacy%2F#l282c107)
+   - [Link to Add Product passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2Fadd%2F#l290c60)
+   - [Link to Edit Product passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2Fedit%2F20%2F#l290c60)  
   
 
 ## CSS Validator
@@ -525,7 +527,6 @@ An agile approach was taken in the development of this project. The project will
 | Admin Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
 | Admin Update a blog post - edit old post | - In the admin panel changes made to previous blog post and checked to see if they were updated on the front end |  Pass 
 | Admin delete a blog post - remove old blog post | - In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass          
-| delete a blog post - you are the author | - If you are the author of a blog post delete buttons will be visible to the author, on delete the post is successfully removed from website | Pass
 | Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
 | Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
 | Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass | 
