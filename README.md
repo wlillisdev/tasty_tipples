@@ -99,9 +99,9 @@ An agile approach was taken in the development of this project. The project will
   - The nav elements of the main products has an hover underline transtion effect that is generated when hovered over which adds to the user experience.
   - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.   
   - The nav bar below shows user logged in view.
-  ![Navigation Bar When logged in](assets/readme/nav_new.png)
+  ![Navigation Bar When logged in](assets/readme/main_nav_1.gif)
   - The responsive nav bar below.
-  - <img src="assets/readme/nav_mobile.png" alt="navbar hamburger" width="300"/>
+  - <img src="assets/readme/mobile_nav_1.gif" alt="navbar hamburger" width="400"/>
  
 ## Landing Page
 
@@ -117,7 +117,7 @@ An agile approach was taken in the development of this project. The project will
 - It also gove the user an oppirtunity to sign up to  our newletter.
 - It also gives the site owner the opportunity to optmise the text with important onsite SEO keywords.
 
-- <img src="assets/readme/welcome_section.png" alt="welcome image" width="600"/>
+- <img src="assets/readme/welcome_section_slider.gif" alt="welcome image" width="800"/>
 
 ## Popular Products
 
@@ -445,7 +445,7 @@ An agile approach was taken in the development of this project. The project will
 - The intention is to outsource all paid marketing to an digital agency & also get them to monitor and update our keywords for SEO on a perodic basis.The agency will also take care of the email marketing campaigns. The rest will be done inshouse by the staff of Tasty Tipples.
 
 ## Sitemap.xml
-- A sitemap file with a list of all thr important URLs was created to allow  search engines to quickly crawl the website and index its pages. This was made using XML-sitemaps.com. This will can then be submitted to google search console and bing webmaster tools.
+- A sitemap file with a list of all the important URLs were created to allow  search engines to quickly crawl the website and index its pages. This was made using [XML-sitemaps](https://www.xml-sitemaps.com/) This can then be submitted to google search console and bing webmaster tools to allow the quick and fast indexing of Tasty Tipples in search engines.
 
 ## Robots.txt
 - A robots.txt file was created to tell search engines the website pages not to vist or index.
@@ -489,12 +489,12 @@ An agile approach was taken in the development of this project. The project will
   - [some erros found during testing](assets/readme/errors_js.png)
   - All erros were fixed. And now passed ok through [JSHint](https://jshint.com/)
   
-
  
 ## Lighthouse
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
  - [See Light House Before Improvements](media/light_house_first.png)
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in incognito window and performance score increased. Results below from home page
+ - As the hompage has alot of imagery to allow for an engaging landing page. I was unable to improve lighthouse results further. With more time i would like to tackle other errors on oulined in lighthouse report.
  - Desktop Result’s
  ![Homepage](media/light_house_test.png)
 
@@ -529,12 +529,30 @@ An agile approach was taken in the development of this project. The project will
 | Admin delete a blog post - remove old blog post | - In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass          
 | Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
 | Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
-| Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass | 
+| Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass |
+
+| Stripe - incorrect card number | entered an invalid 16 digit card number, got error message your card number is incomplete | Pass | 
+| Stripe - incorrect expiry date on card | entered an invalid expiry date on card, got an error message | Pass |
+| Stripe - 4 digit security number  | entered only 3 digits on the security code, got an error message your cards security code is incomplete | Pass |
+| Stripe - invalid zip code  | did not fill out the zip code field on the form, got an error message your postal code is incomplete | Pass |
+| Stripe - Make payment | Stripe test card details 4242424242424242 were entered, payment was sucessful,toast alert appeared. And the a record was logged in orders and stripe | Pass |
+| Stripe - Webhooks | After making a successful payment, the Stripe portal was checked to see if webhooks got a responses 200 | Pass |
+| Order Success | When payment has been processed, the user is redirected to a Thank you page, with a summary of thier order and thier shipping details | Pass |
+| Order Confirmation - email of order | Using a tempoary email an order was submitted and checked to see it an order confirmation email was sent, with details of the order and an order number | Pass |
+| Order History -  saved to profile | multiple orders were made under a user profile.All  orders were stored in user profile, order number,date and total cost displayed on profile | Pass |
+| Update User Profile | The user profile is already prepopulated with users information, all fields were edited and updated to check if working ok  | Pass |
+
+
+
+
+
+
+
 | Alert message - sign in | Alert to confirm user has successfully signed in appears on top of screen. | Pass |  
 | Alert message - sign out | Alert requests user to confirm they want to log out before logging out of site, and alert appears you have successfully signed out | Pass |  
-| Alert message - Add Comment | Alert your comment was successfully added appears on top of screen | Pass |
-| Alert message - Add blog post | Alert your blog post was successfully added appears on top of screen | Pass | 
-| Alert message - Update blog post | Alert your blog post was successfully updated appears on top of screen | Pass |
+| Alert message - Add review | Alert your review was successfully added appears on top of screen | Pass |
+| Alert message - delete review | Alert your review was successfully deleted on top of the screen | Pass | 
+| Alert message - add product | Alert your product successfully updated appears on top of screen | Pass |
 | Admin - restricted access | - Only the admin/superuser account can log into the admin view panel. | Pass |
 | Admin Panel - CRUD in the admin panel| - Admin has capability to create, update and delete blog posts, approve and delete comments | Pass |
 | Error Alerts - custom error pages| - The Urls were manipulated to test 403,404, & 500 errors, all errors delivered a unique error page | Pass |
