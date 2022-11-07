@@ -198,6 +198,8 @@ An agile approach was taken in the development of this project. The project will
   &nbsp;
 
 ![Filter Products](assets/readme/filter.png)
+
+![Filter Products](assets/readme/all_products.gif)
   
 
 
@@ -543,7 +545,9 @@ An agile approach was taken in the development of this project. The project will
 | Update User Profile | The user profile is already prepopulated with users information, all fields were edited and updated to check if working ok  | Pass |
 
 
-
+| Admin Add product | Signed in as admin, Cliked on product management, filled out add product page, Product added to website, toast displayed product added  | Pass |
+| Admin Edit product | Signed in as admin, Cliked on edit product button, edit product page with prepopulated information of product, all fields were changeed and updated, toast update product appears. | Pass |
+| Admin delete product | Signed in as admin, Cliked on delte product button, modal pops up asking if you are sure if you want to delete product, toast update product deleted. | Pass |
 
 
 
