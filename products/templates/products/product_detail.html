@@ -17,6 +17,7 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
+        <!-- Product Detail -->
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="image-container my-5">
                 {% if product.image %}
@@ -91,6 +92,7 @@
                                 </button>
                             </h6>
                         </div>
+                         <!-- Product Detail -->
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                             data-parent="#accordion">
                             <div class="card-body">
@@ -153,7 +155,7 @@
     </div>
 </div>
 
-<!-- Reviews -->
+<!--Display Reviews -->
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6 text-center">
@@ -243,18 +245,16 @@
                         </div>
                     </div>
                     {% endif %}
-
                     <hr class="text-muted w-50">
                 </div>
                 {% empty %}
-
                 <div class="space-below">
                     No reviews yet for {{ product.name }}... be the first one to review this product.
                 </div>
                 {% endfor %}
             </div>
         </div>
-
+        <!-- Review Form -->
         <div class="col-md-6 text-center">
             <hr>
             <h5 class="subtitle mb-1 text-body">Write a Review about {{ product.name }}</h5>
@@ -296,7 +296,6 @@
         </div>
     </div>
 </div>
-
 
 {% endblock %}
 
