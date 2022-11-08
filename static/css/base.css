@@ -21,8 +21,6 @@ a {
 }
 
 /* Home Page */
-
-
 .heart-home{
     color: red;
 }
@@ -120,7 +118,6 @@ a {
     height: 1.5rem;
     width: 1.5rem;
 }
-
 
 .img-contactimg {
     height: auto;
@@ -336,7 +333,6 @@ a.category-badge > span.badge:hover {
     padding: 1px;
 }
 
-
 #mc-embedded-subscribe{
     background-color: #4CAF50;
 }
@@ -442,7 +438,7 @@ a.category-badge > span.badge:hover {
     color: #1e7e34;
     border-color: #1e7e34;
 }
-    
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

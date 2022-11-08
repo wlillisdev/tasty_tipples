@@ -1,5 +1,5 @@
 # Tasty Tipples
-## Overview
+## <img src="assets/readme/overview_icon.png" alt="overview" width="25"/> Overview 
 Tasty Tipples in a fictious online drink shop that has a drink for every occasion! It is a full-stack Django website built using Python, JavaScript, HTML and CSS. This is a B2C e-commerce website (Business to Customer).
 Customers can purchase a wide variety of high-quality beverages such as Spirits, Wines and Beers and get it delivered straight to their door.
 Users are able to subscribe to the newsletter for details of our latest’s drinks deals, secret sales and new products releases.
@@ -21,7 +21,7 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
 
  The alcohol e-commerce market is expected to surge to over 42 billion by 2025 as outlined in [Forbes](https://www.forbes.com/sites/katedingwall/2021/12/22/alcohol-e-commerce-expected-to-reach-42-billion-by-2025/) recent article. Tasty Tipples is perfectly placed to take advantage of this surging market. Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland.
 
-# User Experience (UX)
+# <img src="assets/readme/ux_icon.png" alt="ux" width="45"/> User Experience (UX) 
 
 ## User Stories
 
@@ -62,7 +62,7 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
   - As a store owner, I want to be able to market my website online to drive traffic to my site.
 
    
-# Agile Approach to Project Devlopment
+# <img src="assets/readme/agile_icon.png" alt="agile" width="45"/> Agile Approach to Project Devlopment 
 
 An agile approach was taken in the development of this project. The project will be dissected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optimise time usage.
 
@@ -81,7 +81,8 @@ An agile approach was taken in the development of this project. The project will
   - A Kanban board was set up in github in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress, Done.
   -[View Kanban Board](https://github.com/users/wlillisdev/projects/3/views/1)
  
-# Features 
+# <img src="assets/readme/featuers_icon.png" alt="fetuers" width="38"/> Features 
+
 
  [View Homepage Featuers](https://tasty-tipples.herokuapp.com/)
 
@@ -339,7 +340,7 @@ An agile approach was taken in the development of this project. The project will
 - <img src="assets/readme/admin.png" alt="admin" width="800"/>
 
 
-# Design
+# <img src="assets/readme/design_icon.png" alt="design" width="45"/> Design 
  - Theme
    - The Theme of the website was to build a bright and engaging ecommereance site. The styling was kept to the minimum as we dident want to take away from the product images. And wanted the customer to focous 100% on the products.
    - Fonts were imported from google fonts, Pacifico for the logo & Lato were chosen gor general text. These were picked as they were bold, simple and easy to read.
@@ -410,7 +411,7 @@ An agile approach was taken in the development of this project. The project will
   </details>  
 
    
-# Future Development
+# <img src="assets/readme/devlopment_icon.png" alt="devlopment" width="45"/> Future Development 
 
 - Wish List
   - The user will be able to select products they like and add them to a wish that will be stored in thier profile page.
@@ -425,7 +426,7 @@ An agile approach was taken in the development of this project. The project will
   - A modal to pop up on the home screen so the user needs to verify age before they can enter the site.
 
 
-# Web Marketing
+# <img src="assets/readme/marketing_icon.png" alt="marketing" width="45"/>  Web Marketing
 
 ## Target Audiecne
  Tassty Tipples is  Business to Cutomer business model.Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
@@ -487,7 +488,7 @@ An agile approach was taken in the development of this project. The project will
 ## Robots.txt
 - A robots.txt file was created to tell search engines the website pages not to vist or index.
 
-# Testing
+# Testing <img src="assets/readme/icons8_testing_new.png" alt="testing" width="35"/>
 
 ### Validator Testing 
 
@@ -544,29 +545,34 @@ An agile approach was taken in the development of this project. The project will
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify and debug issues within the HTML and CSS.
   - The README.md was checked before final submission and links verified.
 
-  ## Manual Feature Testing
+  ## Manual Feature Testing 
   - A structured approach was taken to go through all of the sites  features to see it they worked properly. 
   
   | Feature Tested | Testing Method | Final Result |  
 | --- | --- | --- |
-| User Register account |- Each mandatory fields were left blank intentionally to check if error messages appeared if form submitted blank | Pass | 
-| User Register account - Invalid Email Field | - An invalid email address was tested to ensure error message appeared | Pass | 
-| User login to account - Blank Fields | - All fields were left blank to ensure an error message was displayed to the user | Pass |
-| New User Confirmation email - to verify details | - tested with a temopary email, signed up for a new account, confirmation email sent from website so user can verify details | Pass |
+| User Register account | Each mandatory fields were left blank intentionally to check if error messages appeared if form submitted blank | Pass | 
+| User Register account - Invalid Email Field | An invalid email address was tested to ensure error message appeared | Pass | 
+| User login to account - Blank Fields | All fields were left blank to ensure an error message was displayed to the user | Pass |
+| New User Confirmation email - to verify details | tested with a temopary email, signed up for a new account, confirmation email sent from website so user can verify details | Pass |
 | User recover password - forgot login password  | At login screen, Forgot password was clicked, at password reset screen, previously registered email entered, reset email was sent and password was reset | Pass |
-| User login to account - wrong password | - Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
-| Non registered user - can not a add a review | - As a unregistered user their is not option in product detail page to leave a review |  Pass |
-| User Logged In - can add a product review| - Logged in as registered user. Add a review form appears on at the bottom of product detail page, rating for product selected and review written. Add review clicked , review saved to reviews section |  Pass |       
-| Update a previous product review -  user logged in | - Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review updated and stored, Toast update also displayed |  Pass |
-| Delete a product review -  user logged in | - User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast delete review alert appears  |  Pass |
-| Delete or Update review -  that you did not create | - manually enter a url for delete/update review on a review that was not created by the user, redirected to error page  |  Pass | 
-| Admin Create a blog post -  No Featured Image | - Blog post was added with no featured image from admin. A  placeholder image was added by default    | Pass
-| Admin Create a blog post -  Unique Title | - A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
-| Admin Update a blog post - edit old post | - In the admin panel changes made to previous blog post and checked to see if they were updated on the front end |  Pass 
-| Admin delete a blog post - remove old blog post | - In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass          
+| User login to account - wrong password | Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
+| Non registered user - can not a add a review |  As a unregistered user their is not option in product detail page to leave a review |  Pass |
+| User Logged In - can add a product review | Logged in as registered user. Add a review form appears on at the bottom of product detail page, rating for product selected and review written. Add review clicked , review saved to reviews section |  Pass |       
+| Update a previous product review -  user logged in | Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review updated and stored, Toast update also displayed |  Pass |
+| Delete a product review -  user logged in | User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast delete review alert appears  |  Pass |
+| Delete or Update review -  that you did not create |  manually enter a url for delete/update review on a review that was not created by the user, redirected to error page  |  Pass | 
+| Admin Create a blog post -  No Featured Image | Blog post was added with no featured image from admin. A  placeholder image was added by default    | Pass
+| Admin Create a blog post -  Unique Title | A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
+| Admin Update a blog post - edit old post | In the admin panel changes made to previous blog post and checked to see if they were updated on the front end |  Pass 
+| Admin delete a blog post - remove old blog post | In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass
+| Contact Us form | various mandatory fields were blank and checked it the form was submitted, alert messages appears to user if field was blank | Pass 
+| Contact Us alert | all fields were filled out on the form and submitted, alert message appeared, form submitted sucessfully | Pass
+| Contact Us Admin | the admin panel contact us app, was checked to see if the inquiry had been sucessfully saved in the database | Pass         
 | Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
 | Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
 | Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass |
+| Search -  user can serach for products | Keywords of products and categories were entered in search bar, this returned products that were searched. Also products that are not on site were also searched , it returned a message No Products found. |  Pass |
+| Sort Products | All options of the sort by drop down tab was tested, to confirm they filtered the products correctly |  Pass |  
 | Shopping Bag - adding a product | From the product detail page add to bag was clicked, item was added to bag.toast success displayed item added to bag | Pass |
 | Update Shopping Bag | The + & - icons were used to adjust qty of items. Then update was clicked, the grand total was updated. The quantity was typed in and update clicked,grand total updated. The remove link clicked, removed the item from the bag,Toasts alerts worked for update and delete bag  | Pass |
 | Stripe - incorrect card number | entered an invalid 16 digit card number, got error message your card number is incomplete | Pass | 
@@ -577,7 +583,9 @@ An agile approach was taken in the development of this project. The project will
 | Stripe - Webhooks | After making a successful payment, the Stripe portal was checked to see if webhooks got a responses 200 | Pass |
 | Order Success | When payment has been processed, the user is redirected to a Thank you page, with a summary of thier order and thier shipping details | Pass |
 | Order Confirmation - email of order | Using a tempoary email an order was submitted and checked to see it an order confirmation email was sent, with details of the order and an order number | Pass |
-| Order History -  saved to profile | multiple orders were made under a user profile.All  orders were stored in user profile, order number,date and total cost displayed on profile | Pass |
+| Order History -  saved to profile | multiple orders were made under a user profile. All orders were stored in user profile, order number,date and total cost displayed on profile | Pass |
+| Checkout Form | Various Mandatory fields were left blank intentionaly, and checkout attempted, error messages displayed to user  | Pass |
+| Checkout - Save to profile | Checkout box save this delivery information to profile was clicked, user profile was checked to see if information was saved to profile.  | Pass |
 | Update User Profile | The user profile is already prepopulated with users information, all fields were edited and updated to check if working ok  | Pass |
 | Admin Add product | Signed in as admin, Cliked on product management, filled out add product page, Product added to website, toast displayed product added  | Pass |
 | Admin Edit product | Signed in as admin, Cliked on edit product button, edit product page with prepopulated information of product, all fields were changeed and updated, toast update product appears. | Pass |
@@ -585,11 +593,14 @@ An agile approach was taken in the development of this project. The project will
 | Alert message - sign in | Alert to confirm user has successfully signed in appears on top of screen. | Pass |  
 | Alert message - sign out | Alert requests user to confirm they want to log out before logging out of site, and alert appears you have successfully signed out | Pass |  
 | Alert message - Add review | Alert your review was successfully added appears on top of screen | Pass |
+| Alert message - edit review | Alert your your review was updated on top of the screen | Pass |
 | Alert message - delete review | Alert your review was successfully deleted on top of the screen | Pass | 
-| Alert message - add product | Alert your product successfully updated appears on top of screen | Pass |
-| Admin - restricted access | - Only the admin/superuser account can log into the admin view panel. | Pass |
-| Admin Panel - CRUD in the admin panel| - Admin has capability to create, update and delete blog posts, approve and delete comments | Pass |
-| Error Alerts - custom error pages| - The Urls were manipulated to test 403,404, & 500 errors, all errors delivered a unique error page | Pass |
+| Alert message - add product | Alert your sucessfully updated product appears on top of screen | Pass |
+| Alert message - edit product | Alert your product successfully updated appears on top of screen | Pass |
+| Alert message - delete product | Alert product deleted appears on top of screen | Pass |
+| Admin - restricted access | Only the admin/superuser account can log into the admin view panel. | Pass |
+| Admin Panel - CRUD in the admin panel| Admin has capability to create, update and delete in the installed apps | Pass |
+| Error Alerts - custom error pages| The Urls were manipulated to test 403,404, & 500 errors, all errors delivered a unique error page | Pass |
 
 
 
@@ -631,7 +642,7 @@ An agile approach was taken in the development of this project. The project will
 
 
   
-# Fixed Bugs
+# <img src="assets/readme/bugs_icon.png" alt="bugs" width="45"/>  Fixed Bugs
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
@@ -646,20 +657,20 @@ An agile approach was taken in the development of this project. The project will
   # Unfixed Bugs
   - I am unaware of any unfixed bugs.
 
-  # Security
+  # <img src="assets/readme/security_icon.png" alt="security" width="45"/> Security
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
   - Secret access keys were stored safely in env.py this was set up before the first push to Github.
   - Django allauth was used to ensure only signed in users can edit or detele review. And for super user permissions.
 
 
-# GDPR (General Data Protection Regulation)
+# <img src="assets/readme/gdpr_icon.png" alt="gdpr" width="45"/> GDPR (General Data Protection Regulation)
 - Tasty Tipples has a Privacy Policy that users can access from the footer. The purpose of this privacy policy is to inform users about how their data is being collected and used.
 - This website does use cookies to collect data so dose not require the user to accecpt or reject cookies.
 - View [Privacy Policy](https://tasty-tipples.herokuapp.com/privacy/)
 
 
 
-# Deployment
+# <img src="assets/readme/deployment_icon.png" alt="deploy" width="45"/>  Deployment
 
 The site was deployed via Heroku.
 1.  Firstly Log in to Heroku.
@@ -714,7 +725,7 @@ The site was deployed via Heroku.
 3. Once you click the button the fork will be in your repository
 
 
-# Technologies Used
+# <img src="assets/readme/code_icon.png" alt="deploy" width="45"/>  Technologies Used
 
 ## Languages
 
@@ -754,7 +765,7 @@ The site was deployed via Heroku.
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
     - Used to style and manage Django forms
   
-## Tools
+## <img src="assets/readme/tools_icon.png" alt="tools" width="38"/> Tools
    - [Balsamiq](https://balsamiq.com/) 
      - Used to create wireframes
    - [Google Fonts](https://fonts.google.com/) 
@@ -809,12 +820,12 @@ The site was deployed via Heroku.
   - Notes & Videos from course work from [Code Institute](https://codeinstitute.net/ie/)
 
 
-## Acknowledgements
+## <img src="assets/readme/thankyou_icon.png" alt="thumbs up" width="38"/> Acknowledgements
  - Special thanks to my mentor Miguel Martinez
  for his help and guidance in the development of my final project. Special thanks to the Code Institute Tutor Support, Kasia and our regular class meetings and members of the awesome slack community.
 
 
-# Conclusion
+# <img src="assets/readme/completed_icon.png" alt="completed" width="38"/> Conclusion
   - I would like to experiment more with Django and build some more projects. Overall, I learned a lot and enjoyed working with Django framework.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
   - If it had time, I would like to add user profiles and hike categories.   
