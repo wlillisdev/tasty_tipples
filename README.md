@@ -760,8 +760,6 @@ The site was deployed via Heroku.
     -  As an adaptor for Python and PostgreSQL databases
   - [Summernote](https://summernote.org/)
     - Simple WYSIWYG Editor 
-  - [Cloudinary](https://cloudinary.com/)
-    - The image hosting service used to upload images
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
     - Used to style and manage Django forms
   
@@ -786,8 +784,6 @@ The site was deployed via Heroku.
      -  GitHub is used to store the projects code 
    - [GitPod](https://www.gitpod.io/) 
      -  GitPod was the IDE used to create the site
-   - [PEP8](http://pep8online.com/) 
-     -  Used to validate and check Python code
    - [W3C - HTML](https://validator.w3.org/) 
      -  W3C was used to validate all the HTML code 
    - [W3C - CSS](https://jigsaw.w3.org/css-validator/) 
@@ -795,13 +791,13 @@ The site was deployed via Heroku.
 
 
 ## Images
-  - All images were taken from [Pexels](https://www.pexels.com/)
+  - Images were taken from [Pexels](https://www.pexels.com/)
 
 ## Content
-  - Content & maps from All Trails was used to generate blog posts  [AllTrails](https://www.alltrails.com/ireland)
+  - Content for products and images were taken from  [Irish Drink Shop](https://www.irishdrinkshop.com/)
  
 ## Credits
-   - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Codestar tutorials and modified.
+   - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Boutique Ado tutorials and modified.
    - [Corey Schafer Django Tutorial](https://www.youtube.com/watch?v=UmljXZIypDc) Very helpful with understanding all elements of setting up a django blog & for implementing user crud on blog posts.
    - [Codemy Django Blog Series](https://www.youtube.com/watch?v=B40bteAMM_M) Used to understand setting up views,templates & bootstrap.
    - [Net Ninja Django Tutorial series](https://www.youtube.com/watch?v=n-FTlQ7Djqc) recommended by other students in slack, provided a simplified explanation Djangos MVT.
