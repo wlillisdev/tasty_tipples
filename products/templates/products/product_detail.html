@@ -209,7 +209,6 @@
                             </p>
                         </div>
                     </div>
-
                     {% if user.is_authenticated and user.id == review.user.id %}
                     <div class="button-group">
                         <a class="btn btn-success btn-sm mb-1" href="{% url 'edit_review' review.id %}">
@@ -277,7 +276,6 @@
                     <textarea class="form-control" id="content" rows="2" name="content" style="height:230px;"
                         placeholder="Did you like this product was it ☆☆☆☆☆ ?" required></textarea>
                 </div>
-
                 <div>
                     <button type="submit" class="btn btn-primary  font-weight-bold mt-2">Add Review</button>
                 </div>
