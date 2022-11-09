@@ -110,6 +110,10 @@ a {
     letter-spacing: 4.5px;
 }
 
+.rule-home{
+    background-color:#28a745;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
