@@ -92,7 +92,7 @@
                                 </button>
                             </h6>
                         </div>
-                         <!-- Product Detail -->
+                        <!-- Product Detail -->
                         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                             data-parent="#accordion">
                             <div class="card-body">
@@ -260,38 +260,32 @@
             <h5 class="subtitle mb-1 text-body">Write a Review about {{ product.name }}</h5>
             <hr>
             {% if request.user.is_authenticated %}
-            <div class="card-body ">
+            <form class="form mb-3 px-5" action="{% url 'add_review' product.id %}" method="POST">
+                {% csrf_token %}
+                <div>
+                    <label for="rating" class="font-weight-bold">Choose a Rating</label><br>
+                    <select name='rating' id="rating" name="Rating">
+                        <option class="rating" name='rating' id="rating" value="1">⭐</option>
+                        <option name='rating' id="rating" value="2">⭐⭐</option>
+                        <option name='rating' id="rating" selected="selected" value="3">⭐⭐⭐</option>
+                        <option name='rating' id="rating" value="4">⭐⭐⭐⭐</option>
+                        <option name='rating' id="rating" value="5">⭐⭐⭐⭐⭐</option>
+                    </select>
+                </div>
+                <div class="mb-3 mt-1 pt-1">
+                    <label for="conent" class="font-weight-bold form-label ">Your Review</label>
+                    <textarea class="form-control" id="content" rows="2" name="content" style="height:230px;"
+                        placeholder="Did you like this product was it ☆☆☆☆☆ ?" required></textarea>
+                </div>
 
-                <form class="form mb-2" action="{% url 'add_review' product.id %}" method="POST">
-
-                    {% csrf_token %}
-                    <div>
-                        <label for="rating" class="font-weight-bold">Choose a Rating</label><br>
-                        <select name='rating' id="rating" name="Rating">
-                            <option class="rating" name='rating' id="rating" value="1">⭐</option>
-                            <option name='rating' id="rating" value="2">⭐⭐</option>
-                            <option name='rating' id="rating" selected="selected" value="3">⭐⭐⭐</option>
-                            <option name='rating' id="rating" value="4">⭐⭐⭐⭐</option>
-                            <option name='rating' id="rating" value="5">⭐⭐⭐⭐⭐</option>
-                        </select>
-                    </div>
-
-                    <div class="mb-3 mt-1 pt-1">
-                        <label for="conent" class="font-weight-bold form-label ">Your Review</label>
-                        <textarea class="form-control" id="content" rows="2" name="content" style="height:230px;"
-                            placeholder="Did you like this product was it ☆☆☆☆☆ ?" required></textarea>
-                    </div>
-
-                    <div>
-                        <button type="submit" class="btn btn-primary  font-weight-bold">Add Review</button>
-                    </div>
-                </form>
-
-                {% else %}
-                <p>Please <a href="{% url 'account_login' %}" class="font-weight-bold">Sign In</a> or <a
-                        href="{% url 'account_signup' %}" class="font-weight-bold"> Register</a> to add a review!
-                </p>
-            </div>
+                <div>
+                    <button type="submit" class="btn btn-primary  font-weight-bold mt-2">Add Review</button>
+                </div>
+            </form>
+            {% else %}
+            <p>Please <a href="{% url 'account_login' %}" class="font-weight-bold">Sign In</a> or <a
+                    href="{% url 'account_signup' %}" class="font-weight-bold"> Register</a> to add a review!
+            </p>
             {% endif %}
         </div>
     </div>
