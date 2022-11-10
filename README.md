@@ -501,7 +501,7 @@ An agile approach was taken in the development of this project. The project will
  ![Home Page](assets/readme/homepage_html_pass.png)
    - [Link to Homepage Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2F)
    - [Link to all products passsed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F)
-   - [Link to product detail](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6) 1 error,if div tag removed it breaks container
+   - [Link to product detail](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6)
    - [Link to all Contact Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fcontactus%2F#l282c107) 
    - [Link to About Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fabout%2F#l282c107)
    - [Link to Terms of Service passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fterms%2F#l282c107) 
@@ -679,11 +679,17 @@ The site was deployed via Heroku.
 4.  Click on the Create App button.
 5.  Go to Resources tab and add a Heroku Postgres database.
 6.  The next page you will see is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars and enter the following:
-    *   CLOUDINARY_URL = your cloudinary key 
     *   DATABASE_URL = the url of your heroku postgres database
     *   SECRET_KEY = a secret key for your app.
-    *   PORT = 8000
+    *   STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+    *   STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+    *   STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
     *   DISABLE_COLLECTSTATIC = 1 during development only
+    *   EMAIL_HOST_PASS  =  Password from email client                                                    
+    *   EMAIL_HOST_USER  =  Site's email address
+    *   AWS_ACCESS_KEY_ID = AWS CSV file                                               
+    *   AWS_SECRET_ACCESS_KEY = AWS CSV file   
+    *   USE_AWS =  True                                                           
 
 7.  Go to the top of the page and now choose the Deploy tab.
 8.  Select Github as the deployment method.
@@ -694,7 +700,154 @@ The site was deployed via Heroku.
 13. Select the correct branch for deployment from the drop-down menu and click Deploy Branch for manual deployment.
 14. Click on open app to view deployed site.
 
-**** Ensure in Django settings, DEBUG is False & DISABLE_COLLECTSTATIC is removed from config var for final deployment, create a Procfile and save database and cloudinary urls and secret key to env.py.
+**** Ensure in Django settings, DEBUG is False & DISABLE_COLLECTSTATIC is removed from config var for final deployment, create a Procfile and save database
+
+## AWS Setup Process
+
+### AWS S3 Bucket 
+
+The deployed site uses AWS S3 Buckets to store the webpages static and media files. More information on how you can set up an AWS S3 Bucket can be found below:
+
+1. Create an AWS account [here](https://portal.aws.amazon.com/).
+2. Login to your account and within the search bar type in "S3".
+3. Within the S3 page click on the button that says "Create Bucket".
+4. Create a name for the bucket and select the region which is closest to you.
+5. Underneath "Object Ownership" select "ACLs enabled".
+6. Uncheck "Block Public Access" and acknowledge that the bucket will be made public, then click "Create Bucket".
+7. Inside the created bucket click on the "Properties" tab. Below "Static Website Hosting" click "Edit" and change the Static website hosting option to "Enabled". Copy the default values for the index and error documents and click "Save Changes".
+8. Click on the "Permissions" tab, below "Cross-origin Resource Sharing (CORS)", click "Edit" and then paste in the following code:
+
+  ```
+    [
+        {
+            "AllowedHeaders": [
+            "Authorization"
+            ],
+            "AllowedMethods": [
+            "GET"
+            ],
+            "AllowedOrigins": [
+            "*"
+            ],
+            "ExposeHeaders": []
+        }
+    ]
+  ```
+
+9. Within the "Bucket Policy" section. Click "Edit" and then "Policy Generator". Click the "Select Type of Policy" dropdown and select "S3 Bucket Policy" and within "Principle" allow all principals by typing "*".
+10. Within the "Actions" dropdown menu select "Get Object" and in the previous tab copy the "Bucket ARN number". Paste this within the policy generator within the field labelled "Amazon Resource Name (ARN)".
+11. Click "Add statement > Generate Policy" and copy the policy that's been generated and paste this into the "Bucket Policy Editor".
+12. Before saving, add /* at the end of your "Resource Key", this will allow access to all resources within the bucket.
+13. Once saved, scroll down to the "Access Control List (ACL)" and click "Edit".
+14. Next to "Everyone (public access)", check the "list" checkbox and save your changes.
+
+### IAM Set Up
+
+1. Search for IAM within the AWS navigation bar and select it.
+2. Click "User Groups" that can be seen in the side bar and then click "Create group" and name the group 'manage-your-project-name'.
+3. Click "Policies" and then "Create policy".
+4. Navigate to the JSON tab and click "Import Managed Policy", within here search "S3" and select "AmazonS3FullAccess" followed by "Import".
+5. Navigate back to the recently created S3 bucket and copy your "ARN Number". Go back to "This Policy" and update the "Resource Key" to include your ARN Number, and another line with your ARN followed by a "/*".
+   
+- Below is an example of what it should look like:
+
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*",
+                "s3-object-lambda:*"
+            ],
+            "Resource": [
+                "YOUR-ARN-NO-HERE",
+                "YOUR-ARN-NO-HERE/*"
+            ]
+        }
+    ]
+}
+
+```
+
+1. Ensure the policy has been given a name and a brief description, then click "Create Policy".
+2. Click "User groups", and then the group you created previouly. Under permissions click "Add Permission" then  click "Attach Policies".
+3. Select "Users" from the sidebar and click "Add User".
+4. Provide a username and check "Programmatic Access", then click 'Next: Permissions'.
+5. Ensure your policy is selected and navigate through until you click "Add User".
+6. Download the "CSV file", which contains the user's access key and secret access key.
+
+## Connecting AWS to django
+
+Now that you have created a S3 bucket with its user group attached, we need to connect it to django.
+
+1. First you we will install two packages. Boto3 and Django storages.  
+    ```
+    pip3 install boto3
+    pip3 install django-storages
+    ```
+    And remember to freeze the requirements with:  
+    ```
+    pip3 freeze > requirements.txt
+    ```
+2. You will then need to add 'storages' to your installed apps section inside your settings.py file. Do that now. 
+3. Next, we will need to add some additional settings to the same file to let django know what bucket it's communicating with. 
+4. Somewhere near the bottom of the file you should write an if statement to check if there is an environment variable called USE_AWS. This variable does not exist yet but we will add it later. Inside the if statement, write the following settings so it looks like this:  
+    ```
+    if 'USE_AWS' in os.environ:
+        AWS_STORAGE_BUCKET_NAME = 'insert-your-bucket-name-here'
+        AWS_S3_REGION_NAME = 'insert-your-region-here'
+        AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+        AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    ```
+5. Next, back in heroku and in the settings tab, under config vars, you will need to add  keys with values that were downloaded earlier in the CSV file.
+6. Add the key, AWS_ACCESS_KEY_ID with the value that was generated in the CSV file earlier. Then add the key AWS_SECRET_ACCESS_KEY, and again add the value that was generated in the CSV file. Once they have both been added, add the key USE_AWS, and set the value to True.
+7. You can now also remove the DISABLE_COLLECTSTAIC variable, since django should now collect static files automatically and upload them to S3.
+8. Now head back to the settings.py file in your django project and head back to the if statement we wrote earlier and inside the statement add this line setting:  
+    ```
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+    ```
+    This is to tell django where our static files will be coming from in production.
+9. Next we need to create a file to tell django that we want to use S3 to store our static files whenever someone runs collectstatic and also that we want any uploaded product images to go there also.
+10. In the root directory of your project create a file called 'custom_storages.py'. Inside this file you will need to import your settings as well as the s3boto3 storage class. So at the top of the file insert the code:  
+    ```
+    from django.conf import settings
+    from storages.backends.s3boto3 import S3Boto3Storage
+    ```
+11. Then underneath the imports insert these two classes:  
+    ```
+    class StaticStorage(S3Boto3Storage):
+        location = settings.STATICFILES_LOCATION
+
+
+    class MediaStorage(S3Boto3Storage):
+        location = settings.MEDIAFILES_LOCATION
+    ```
+    The STATICFILES_LOCATION and MEDIAFILES_LOCATION have yet to be defined, so lets do that now.
+12. Back in the settings.py file, underneath the bucket config settings but still inside the if statement, add these lines:  
+    ```
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+    ```
+13. Next, you will also need to override and explicitly set the URLs for static and media files using your custom domain and new locations. To do this add these two lines inside the same if statement:  
+    ```
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+    ```
+14. If you now save, add, commit and push your changes, you should see that your S3 bucket now has a static folder with all your static files inside. Next, we need to handle the Media files but first, inside the if statement add the following code. This helps to speed things up by letting the browser know that its ok to cache static files for a long time:    
+    ```
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+    ```
+15. Back in S3, go to your bucket and click 'Create folder'. Name the folder 'media' and click 'Save'. 
+16. Inside the  media folder you just created, click 'Upload', 'Add files', and then select all the images that you are using on your site.
+17. Then under 'Permissions' select the option 'Grant public-read access' and click upload.  
+18. Once that is completed you're ready. All your static files and media files should be  linked from django to your S3 bucket.
 
 
  ## Version Control
@@ -788,6 +941,12 @@ The site was deployed via Heroku.
      -  W3C was used to validate all the HTML code 
    - [W3C - CSS](https://jigsaw.w3.org/css-validator/) 
      -  W3C was used to validate the CSS code
+   - [Sitemap Generator](www.xml-sitemaps.com) 
+     - Used to create sitemap.xml 
+   - [Privacy Policy Generator](https://www.privacypolicygenerator.info/)
+     - Used to create the site's privacy policy
+   - [Mailchimp](https://mailchimp.com/?currency=EUR) 
+     - Used to create the newsletter signup functionality.
 
 
 ## Images
