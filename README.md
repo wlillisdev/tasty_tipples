@@ -849,6 +849,30 @@ Now that you have created a S3 bucket with its user group attached, we need to c
 17. Then under 'Permissions' select the option 'Grant public-read access' and click upload.  
 18. Once that is completed you're ready. All your static files and media files should be  linked from django to your S3 bucket.
 
+## Payments
+
+1. To set up stripe payments you can use this guide [here](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
+
+## Webhooks
+
+1. To set up a webhook, sign into your stripe account and click 'Developers' located in the top right of the navbar.
+2. Then in the side-nav under the Developers title, click on 'Webhooks', then 'Add endpoint'.
+3. On the next page you will need to input the link to your heroku app followed by /checkout/wh/. It should look something like this:  
+4. Then click '+ Select events' and check the 'Select all events' checkbox at the top before clicking 'Add events' at the bottom. Once this is done finish the form by clicking 'Add endpoint'.
+5. Your webhook is now created and you should see that it has generated a secret key. You will need this to add to your heroku config vars.
+6. Head over to your app in heroku and navigate to the config vars section under settings. You will need the secret key you just generated for your webhook, in addition to your Publishable key and secret key that you can find in the API keys section back in stripe.
+7. Add these values under these keys:  
+    ```
+    STRIPE_PUBLIC_KEY = 'insert your stripe publishable key'
+    STRIPE_SECRET_KEY = 'insert your secret key'
+    STRIPE_WH_SECRET = 'insert your webhooks secret key'
+    ```
+8. Finally, back in your setting.py file in django, insert the following near the bottom of the file:  
+    ```
+    STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+    STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+    STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
 
  ## Version Control
   - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
