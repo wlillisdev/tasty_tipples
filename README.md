@@ -12,7 +12,6 @@ Tasty Tipples allows the users CRUD functionality when leaving product reviews. 
 ![Home page Tasty Tipples](assets/readme/responsive.png)
 
 
-
 # Aim of Website
 
 The goal of this website is to become leading Online Drinks Store in Ireland. To provide a platform so users find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
@@ -98,10 +97,17 @@ An agile approach was taken in the development of this project. The project will
   - Notifcation Banner, is located on top of the nav and displays important information.
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
   - The nav elements of the main products has an hover underline transtion effect that is generated when hovered over which adds to the user experience.
-  - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.   
+  - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.
+
+  </br>   
+
   - The nav bar below shows user logged in view.
-  ![Navigation Bar When logged in](assets/readme/main_nav_1.gif)
+  ![Navigation Bar](assets/readme/new_nav_home.gif)
+
+  </br>
+
   - The responsive nav bar below.
+  
   - <img src="assets/readme/mobile_nav_1.gif" alt="navbar hamburger" width="400"/>
  
 ## Landing Page
@@ -118,7 +124,9 @@ An agile approach was taken in the development of this project. The project will
 - It also gove the user an oppirtunity to sign up to  our newletter.
 - It also gives the site owner the opportunity to optmise the text with important onsite SEO keywords.
 
-- <img src="assets/readme/welcome_section_slider.gif" alt="welcome image" width="800"/>
+<br>
+
+- <img src="assets/readme/new_welcome_screen.gif" alt="welcome image" width="900"/>
 
 ## Popular Products
 
@@ -126,7 +134,9 @@ An agile approach was taken in the development of this project. The project will
 - It also allows the site owner the opportunity to insert important SEO keywords.
 - The boxes have a hover effect so when the user hovers over the image the box is raised. It helps with user experience and user retention on site.
 
-- <img src="assets/readme/popular_products.png" alt="popular products" width="600"/>
+<br>
+
+- <img src="assets/readme/popular_drinks.gif" alt="popular products" width="600"/>
 
 ## Customer Testimonials
 
@@ -146,12 +156,11 @@ An agile approach was taken in the development of this project. The project will
   - Newsletter column - Contains a form to allow the user to sign up to our newsletter.
   - The main aim of the footer is to increase engagement with visitors and allow easy navigation and links to important information. With the goal of getting the user to subscribe to the social channels & newsletter.
 
- ![Footer Bar](assets/readme/footer.png)
+ ![Footer Bar](assets/readme/new_footer_1.png)
 
 ## Scroll Back To Top
   - When the user scrolls below the fold on certain pages in the botton right of the screen there i an arrow. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
  
-
 ## About Us
 
   - About Us section is a very brief description about Tasty Tipples to quickly give the user more information about the website and why we started the business.
@@ -161,10 +170,10 @@ An agile approach was taken in the development of this project. The project will
   &nbsp;
 
   - It also provides links to imporatant external resources for anyone suffering with alchol problems.
-  &nbsp;
 
-![About Us Links](assets/readme/about_links.png)
+<br>
 
+![About Us Links](assets/readme/drink_aware.png)
 
 
 ## Contact Us
@@ -181,7 +190,7 @@ An agile approach was taken in the development of this project. The project will
   - The site owner can view this inquiry from the adimn page under contact us app.
 
   - <img src="assets/readme/email admin.png" alt="Admin email" width="800"/>
-  &nbsp;
+  
 
 
 ## All Products Page
@@ -189,14 +198,16 @@ An agile approach was taken in the development of this project. The project will
   - When the user clicks on all products every product on the site will be displayed on one page. They are displayed in a card format and the layout depends on the device used.
   - The cards have a hover effect that cause the cards to be raised if hooved over.
   - Each card displays information in relation to product name, price, rating and category.
-  &nbsp;
-
+ 
+ <br>
 
   - <img src="assets/readme/products_page.png" alt="All Products" width="800"/>
-  &nbsp;
+  
+  <br>
 
   - The user also has the ability to apply various filters to sort product via specific criteria.
-  &nbsp;
+ 
+ <br>
 
 ![Filter Products](assets/readme/filter.png)
 
@@ -212,8 +223,9 @@ An agile approach was taken in the development of this project. The project will
   - The user add the product to bag if they would like to buy the product.
   - When the Admin is logged in the edit and delete buttons will only appear to give the admin CRUD capabilities for the product.
 
-  - <img src="assets/readme/product_detail_admin.png" alt="Product Details" width="800"/>
-  &nbsp;
+  <br>
+
+  - <img src="assets/readme/product_detail_clip.gif" alt="Product Details" width="800"/>
 
 
 ## Reviews
@@ -222,18 +234,22 @@ An agile approach was taken in the development of this project. The project will
   - If user is registerd a form will be visible, they will have the ability to pick a score out 1 to 5 stars. And write a brief review on the product.
   - The edit and delete buttons are only visible on the review to the user profile who created the review.
   - <img src="assets/readme/reviews.png" alt="product review" width="800"/>
-  &nbsp;
+ 
+ <br>
+
 - Update Review
   - The user has to abilty to update a previous review.
   - <img src="assets/readme/update_review.png" alt="update review" width="600"/>
    &nbsp;
   - <img src="assets/readme/update_review_1.png" alt="update review 1" width="400"/>
-  &nbsp;
-  &nbsp;
+
+<br>
+
 - Delete Review
   - The user can also delete a review they have made, when the delete button is pressed a modal pops up and asks are they sure if they want to delete this review.
   - <img src="assets/readme/delete_modal_review.gif" alt="delete review" width="850">
-  &nbsp;
+ 
+ <br>
 
 ## Product Management
  
@@ -241,7 +257,9 @@ An agile approach was taken in the development of this project. The project will
   - The add product page is accessed by the account dropdown menu, under product management. It is only accessible by superusers.
 
   - <img src="assets/readme/product_add.png" alt="add product" width="400"/>
-  &nbsp;
+  
+  <br>
+  
   - The form lists all the  fields that will be required to create a new product.
 
 - Edit Product
@@ -275,6 +293,12 @@ An agile approach was taken in the development of this project. The project will
 - <img src="assets/readme/stripe.png" alt="stripe" width="650"/>
 - A loading spinner page appears and if payment is succesfull you will be redirected to a Thank You page, With details of your order and alert saying order successfully processed.
 - <img src="assets/readme/thank_you.png" alt="stripe" width="650"/>
+
+## Checkout Process
+
+<br>
+
+- <img src="assets/readme/checkout_process.gif" alt="stripe" width="900"/>
 
 ## Confirmation Email
 - If the order is successfull a confirmation email will be sent to customer.
@@ -429,7 +453,7 @@ An agile approach was taken in the development of this project. The project will
 # <img src="assets/readme/marketing_icon.png" alt="marketing" width="45"/>  Web Marketing
 
 ## Target Audiecne
- Tassty Tipples is  Business to Cutomer business model.Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
+ Tasty Tipples is  Business to Cutomer business model.Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
 
 ## Marketing Mix
   We have decided to adopt a multi prong approach to digital marketing to target our audience. A mixtuer of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website.As the staff are proficent already in all elements of social media. They will manage this internally, they will leverage content creation and short form video content to gain brand awarness and drive traffic to the site. Dut to lack of knowledge and time some service will be outsourced such as paid marketing, email marketing and SEO. With this multi channel approach it will drive short,medium and long term growth for the Tasty Tipples.
@@ -644,6 +668,8 @@ An agile approach was taken in the development of this project. The project will
   
 # <img src="assets/readme/bugs_icon.png" alt="bugs" width="45"/>  Fixed Bugs
 
+  - When testing teh shopping bag, i noticed that the user could type in any quantity and form validation was not working. Further investigation i noticed that the update and remove options were just links and they were outside the form. I chaged the update link to button with "submit" and put it inside the form. Form validation is now working and the user can only enter 99 not any number
+  [Bug in Bag View Quantity](assets/readme/form_bug.png)  
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
   - After running all python code through pep 8 validator a number of errors were identified and fixed. 
@@ -936,9 +962,16 @@ Now that you have created a S3 bucket with its user group attached, we need to c
   - [psycopg2](https://pypi.org/project/psycopg2/)
     -  As an adaptor for Python and PostgreSQL databases
   - [Summernote](https://summernote.org/)
-    - Simple WYSIWYG Editor 
+    - Simple WYSIWYG Editor
+  - [Stripe](https://pypi.org/project/stripe/) 
+    - For processing all online and credit card purchases on the website
+  - [Pillow](https://pypi.org/project/Pillow/) 
+    - To process and save all the images downloaded through the database<br> 
   - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
-    - Used to style and manage Django forms
+    - Used to style and manage Django form
+  - [Dj_database_url](https://pypi.org/project/dj-database-url/)
+    - To parse the database URL from the environment variables in Heroku
+
   
 ## <img src="assets/readme/tools_icon.png" alt="tools" width="38"/> Tools
    - [Balsamiq](https://balsamiq.com/) 
