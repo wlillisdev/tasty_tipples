@@ -14,7 +14,7 @@
 <div class="container bg-success col-md-8 mt-1">
     <div class="row">
         <div class="col mt-3 pt-2 mb-2 ">
-            <h2 class="logo-font mb-4 text-white">Contact Us <i class="far fa-envelope"></i></h2>
+            <h2 class="logo-font mb-4 text-white">Contact Us <i class="far fa-envelope ml-2"></i></h2>
         </div>
     </div>
 </div>
@@ -23,11 +23,7 @@
     <div class="row">
         <div class="col-md-6  text-center">
             <p class="product-details mt-3 h5">Feel free to contact us if you have any questions.</p>
-            <p class="h5 mt-3 contact-heading">Tasty Tipples</p>
-            <p class="h5 mt-2"><i class="far fa-address-card mr-2"></i> 6 Tipplane, Tipletown, Cork.</p>
-            <p class="h5 p-2"><i class="fas fa-phone mr-2"></i> 022-12345</p>
-
-            <form class="mt-3 mb-5" action="{% url 'contact' %}" method="POST" id="contact_form">
+            <form class="mt-3 mb-3" action="{% url 'contact' %}" method="POST" id="contact_form">
                 {% csrf_token %}
                 <div class="mb-3 h5s mt-1 mb-1">
                     <label for="name" class="font-weight-bold form-label">Name</label>
@@ -44,10 +40,13 @@
                     <textarea class="form-control" id="message" rows="3" name="message" style="height:230px;"
                         placeholder="A memeber of our team will reply to your message shortly" required></textarea>
                 </div>
-                <button class="btn btn-primary text-uppercase basket-btn mt-3 mb-4">Send Message</button>
+                <button class="btn btn-primary text-uppercase basket-btn mt-2 mb-1">Send Message</button>
             </form>
         </div>
-        <div class="col-md-6 mt-5 text-center">
+        <div class="col-md-6 mt-3 text-center">
+            <p class="h5 mt-2 contact-heading">Tasty Tipples</p>
+            <p class="h5 mt-2"><i class="far fa-address-card mr-2"></i> 6 Tipplane, Tipletown, Cork.</p>
+            <p class="h5 p-2 mb-3"><i class="fas fa-phone mr-2"></i> 022-12345</p>
             <img class="img-fluid img-contact" src="{{ MEDIA_URL }}contact_edit.jpg" alt="people drinking beer">
             
         </div>
