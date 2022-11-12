@@ -9,7 +9,7 @@ Tasty Tipples allows the users CRUD functionality when leaving product reviews. 
 - You can see the live website [here](https://tasty-tipples.herokuapp.com/)..
 
 
-![Home page Tasty Tipples](assets/readme/responsive.png)
+![Home page Tasty Tipples](assets/readme/responsvie_new.png)
 
 
 # Aim of Website
@@ -278,6 +278,8 @@ An agile approach was taken in the development of this project. The project will
 - On the shopping bag page the shopper can see what products are currently in the bag, and has the option to edit quantity of products or remove the product.Before they head to the checkout page.
 - <img src="assets/readme/shopping_bag.png" alt="shopping bag page" width="650"/>
 
+<br>
+
 ## Checkout
 - Here the shopper fills out his or her contact details, delivery address, and card number.
 - If the user is signed in and has delivery information saved in thier profile, the delivery details and email address will be automatically filled in.
@@ -285,6 +287,8 @@ An agile approach was taken in the development of this project. The project will
 - <img src="assets/readme/checkout.png" alt="checkout page" width="650"/>
 
 - The order summary will also appear to the right.
+
+<br>
 
 ## Payment
 - Payment is made via Stripe payments.
@@ -899,6 +903,8 @@ Now that you have created a S3 bucket with its user group attached, we need to c
     STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
     STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
+![Stripe Webhooks](assets/readme/webhooks_page.png)
+
 
  ## Version Control
   - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
@@ -998,6 +1004,8 @@ Now that you have created a S3 bucket with its user group attached, we need to c
      -  W3C was used to validate all the HTML code 
    - [W3C - CSS](https://jigsaw.w3.org/css-validator/) 
      -  W3C was used to validate the CSS code
+   - [Jshint]https://jshint.com/)
+     - Used to validate javascript
    - [Sitemap Generator](www.xml-sitemaps.com) 
      - Used to create sitemap.xml 
    - [Privacy Policy Generator](https://www.privacypolicygenerator.info/)
@@ -1017,13 +1025,10 @@ Now that you have created a S3 bucket with its user group attached, we need to c
    - [Corey Schafer Django Tutorial](https://www.youtube.com/watch?v=UmljXZIypDc) Very helpful with understanding all elements of setting up a django blog & for implementing user crud on blog posts.
    - [Codemy Django Blog Series](https://www.youtube.com/watch?v=B40bteAMM_M) Used to understand setting up views,templates & bootstrap.
    - [Net Ninja Django Tutorial series](https://www.youtube.com/watch?v=n-FTlQ7Djqc) recommended by other students in slack, provided a simplified explanation Djangos MVT.
-   - [Parallax Scrolling Effect](https://www.w3schools.com/howto/howto_css_parallax.asp) used to create the effect on the homepage.
    - [Django Documentation ](https://docs.djangoproject.com/en/4.0/) used to trubleshoot problems and get information.
-   - [Create Favicon](https://gauger.io/fonticon/) created favicon from font awsome icon found on stack overflow.
-   - [GT Coding](https://www.youtube.com/watch?v=SJVCvnKM_lI) creates a icon that will scroll to top of page when clicked
-   - [Django Slug Tutorial](https://learndjango.com/tutorials/django-slug-tutorial) creating slugs in django
    - [Bootstrap](https://www.youtube.com/watch?v=4sosXZsdy-s) Tutorials used to understand bootstrap.
-
+   - [Code with Stein Django Tutorials](https://www.youtube.com/watch?v=bAG_Ia8LX-M&list=PLpyspNLjzwBmIDrDOaPkLLuy5YDDNW9SA)
+   - [Stripe](https://stripe.com/docs)
   
 ## Resources
   - [Stack Overflow](https://stackoverflow.com/)
@@ -1034,13 +1039,13 @@ Now that you have created a S3 bucket with its user group attached, we need to c
 
 ## <img src="assets/readme/thankyou_icon.png" alt="thumbs up" width="38"/> Acknowledgements
  - Special thanks to my mentor Miguel Martinez
- for his help and guidance in the development of my final project. Special thanks to the Code Institute Tutor Support, Kasia and our regular class meetings and members of the awesome slack community.
+ for ALL his help and guidance in the development of my final project. Special thanks to the Code Institute Tutor Support, Kasia and our regular class meetings and members of the awesome slack community.
 
 
 # <img src="assets/readme/completed_icon.png" alt="completed" width="38"/> Conclusion
-  - I would like to experiment more with Django and build some more projects. Overall, I learned a lot and enjoyed working with Django framework.
+  - I would like to experiment more with Django and build some more ecommerance projects. Overall, I learned a lot and enjoyed working with Django framework.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
-  - If it had time, I would like to add user profiles and hike categories.   
+  - If it had time, I would like to have added a wishlist and and related products to the site.   
   - I would also learn to make more commits during the project built.
 
 
