@@ -14,7 +14,7 @@ Tasty Tipples allows the users CRUD functionality when leaving product reviews. 
 
 # Aim of Website
 
-The goal of this website is to become leading Online Drinks Store in Ireland. To provide a platform so users find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
+The goal of this website is to become Ireland numer one Online Drinks Store. To provide a platform so users can find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
 
 # Target Audience
 
@@ -30,13 +30,13 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
   - As a first-time visitor, I want to be able to register and create an account to get full access to the site.
   - As a first-time visitor, I want to quickly view a summary of all products available.
   - As a first-time visitor, I want to click on a product and view the product details.
-  - As a first-time visitor, i would like to learn more about the site owners.
+  - As a first-time visitor, I would like to learn more about the site owners.
 
 ### Customer Aims:
   - As a customer, I want to be able to quickly search the site to see if they have the product I am looking for.
   - As a customer, I want to see this is a reputable website and that my payment will be secure.
   - As a customer, I want to be able to enter my payments details to pay for my order.
-  - As a customer, I want to be able to add multiple products to a shopping bag a see a total.
+  - As a customer, I want to be able to add multiple products to a shopping bag and see a total.
   - As a customer, I want to be able to view my shopping bag and be able to edit it before checkout.
   - As a customer, I want to be able to contact the store owner if I have any questions.
   - As a customer, I want to be able to see reviews on products from other customers.
@@ -66,38 +66,41 @@ The goal of this website is to become leading Online Drinks Store in Ireland. To
 An agile approach was taken in the development of this project. The project will be dissected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optimise time usage.
 
 - MoSoCoW Method:
-  - I will also aim to integrate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requirements need to be carried out first in order to achieve project goals and criteria of user stories. Custom labels will be created in github and allocated to each requirement so they can be easily filtered and identified.
+  - I will also aim to integrate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requirements need to be carried out first in order to achieve project goals and criteria of user stories. Custom labels will be created in GitHub and allocated to each requirement so they can be easily filtered and identified.
   - <img src="assets/readme/moscow .png" alt="MoSoCoW Method" width="350"/>
 - User Stories
-  - The whole project was broken down in 30 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were enterd into github as github issues.
+  - The whole project was broken down in 30 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were entered into GitHub as GitHub issues.
   - [View List of 30 User Stories](https://github.com/wlillisdev/tasty_tipples/issues?page=1&q=is%3Aissue+is%3Aclosed)
   - Specific acceptance criteria were allocated for each user story and a list of tasks were also established. Each task would need to be completed to ensure acceptance criteria is met. See example below.
   - ![Issue Example](assets/readme/issue_example.png)
   - The Moscow method was then applied to each user story. And tags were applied to prioritise the order of work.
   - [Example of MOSCOW tags](assets/readme/moscow_tags.png)
-  - The user’s stories were then put into Tasty Tipples Iteration 1 for website launch. These usere stories were deemed essential for the initial launch of the website.
+  - The user’s stories were then put into Tasty Tipples Iteration 1 for website launch. These users stories were deemed essential for the initial launch of the website.
   - [View Project Iterations](https://github.com/wlillisdev/tasty_tipples/milestones)
-  - A Kanban board was set up in github in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress, Done.
+  - A Kanban board was set up in GitHub in order to manage the various project user stories. It was divided into 3 main areas to track the progress of user stories. The 3 Columns were To Do, In Progress and Done.
   -[View Kanban Board](https://github.com/users/wlillisdev/projects/3/views/1)
  
-# <img src="assets/readme/featuers_icon.png" alt="fetuers" width="38"/> Features 
+# <img src="assets/readme/featuers_icon.png" alt="features" width="38"/> Features 
 
 
- [View Homepage Featuers](https://tasty-tipples.herokuapp.com/)
+
+ [View Homepage Features](https://tasty-tipples.herokuapp.com/)
 
 ## Favicon
- - As it is an online drink store, I used a drink related icon. A champagne bottle opening it is eye catching and fun and also ties in with the websites primary color green. The Favicon was got from [favicon.io](https://favicon.io/)
+ - As it is an online drink store, I used a drink related icon. A champagne bottle opening it is eye catching and fun and also ties in with the websites primary colour green. The Favicon was got from [favicon.io](https://favicon.io/)
+
   
 ![favicon](assets/readme/android-chrome-192x192.png)
 
 ## Navigation Bar
  
-  - The Navigation bar is located at the top of all Pages. It is simple but clean design. It includes the logo, Main Products Links, search bar,My Account and a Shopping Bag.
-  - If a user has logged it, they can view thier profile via the account link.
-  - Notifcation Banner, is located on top of the nav and displays important information.
+  - The Navigation bar is located at the top of all Pages. It is simple but clean design. It includes the logo, Main Products Links, search bar, My Account and a Shopping Bag.
+  - If a user has logged it, they can view their profile via the account link.
+  - Notification Banner, is located on top of the nav and displays important information.
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
-  - The nav elements of the main products has an hover underline transtion effect that is generated when hovered over which adds to the user experience.
+  - The nav elements of the main products has a hover underline transition effect that is generated when hovered over which adds to the user experience.
   - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.
+
 
   </br>   
 
@@ -115,14 +118,14 @@ An agile approach was taken in the development of this project. The project will
   - The landing page contains an eye-catching background image of lots of bright bottles of spirits and immediately catches the user’s attention.
   - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to Shop Now.
   - Hero image displayed below
-  - <img src="assets/readme/hereo_image.png" alt="hero not logged in" width="675"/>
+  - <img src="assets/readme/hereo_image.png" alt="hero not logged in" width="750"/>
 
 ## Welcome Section
 
 - If the users scroll down from the hero image, looking for more information. They will come across the welcome section.
 - It provides the user with a brief statement about who we are and what we can do for the user.
-- It also gove the user an oppirtunity to sign up to  our newletter.
-- It also gives the site owner the opportunity to optmise the text with important onsite SEO keywords.
+- It also gives the user an opportunity to sign up to our newsletter.
+- It also gives the site owner the opportunity to optimise the text with important onsite SEO keywords.
 
 <br>
 
@@ -140,10 +143,10 @@ An agile approach was taken in the development of this project. The project will
 
 ## Customer Testimonials
 
-- This section was designed to build confidence with new site visitors,new visitors can see real client Testimonial’s so a potential new customer can have confidence that we are a trusted and reputable ecommernace site.
-- The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and usere retention on site.
+- This section was designed to build confidence with new site visitors, new visitors can see real client Testimonial’s so a potential new customer can have confidence that we are a trusted and reputable ecommerce site.
+- The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and users retention on site.
 
-- <img src="assets/readme/testimionals.png" alt="client testimionals" width="600"/>
+- <img src="assets/readme/testimionals.png" alt="client testimonials" width="600"/>
 
 
 ## Footer
@@ -158,8 +161,9 @@ An agile approach was taken in the development of this project. The project will
 
  ![Footer Bar](assets/readme/new_footer_1.png)
 
-## Scroll Back To Top
-  - When the user scrolls below the fold on certain pages in the botton right of the screen there i an arrow. When the user clicks on it, the user will be retuned to the top of the screen.And the icon will be hidden. This featuer will improve user experience.
+## Scroll Back to Top
+  - When the user scrolls below the fold on certain pages in the bottom right of the screen there is an arrow. When the user clicks on it, the user will be returned to the top of the screen. And the icon will be hidden. This feature will improve user experience.
+
  
 ## About Us
 
@@ -167,9 +171,10 @@ An agile approach was taken in the development of this project. The project will
   - It highlights the goals of the Business so the user can understand and build trust with the brand.
   
   - <img src="assets/readme/about_us.png" alt="About Us" width="800"/>
-  &nbsp;
 
-  - It also provides links to imporatant external resources for anyone suffering with alchol problems.
+  <br>
+
+  - It also provides links to important external resources for anyone suffering with alcohol problems.
 
 <br>
 
@@ -903,6 +908,7 @@ Now that you have created a S3 bucket with its user group attached, we need to c
     STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
     STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
+## Webhooks in Stripe Portal
 ![Stripe Webhooks](assets/readme/webhooks_page.png)
 
 
