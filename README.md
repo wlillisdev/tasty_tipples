@@ -87,7 +87,7 @@ An agile approach was taken in the development of this project. The project will
  [View Homepage Features](https://tasty-tipples.herokuapp.com/)
 
 ## Favicon
- - As it is an online drink store, I used a drink related icon. A champagne bottle opening it is eye catching and fun and also ties in with the websites primary colour green. The Favicon was got from [favicon.io](https://favicon.io/)
+ - As it is an online drink store, I used a alchol related icon. A champagne bottle opening it is eye catching and fun and also ties in with the websites primary colour green. The Favicon was got from [favicon.io](https://favicon.io/)
 
   
 ![favicon](assets/readme/android-chrome-192x192.png)
@@ -124,16 +124,17 @@ An agile approach was taken in the development of this project. The project will
 
 - If the users scroll down from the hero image, looking for more information. They will come across the welcome section.
 - It provides the user with a brief statement about who we are and what we can do for the user.
+- A product carousel with three eye catching product images helps to keep the user engaged and displays important product information.
 - It also gives the user an opportunity to sign up to our newsletter.
 - It also gives the site owner the opportunity to optimise the text with important onsite SEO keywords.
 
 <br>
 
-- <img src="assets/readme/new_welcome_screen.gif" alt="welcome image" width="900"/>
+- <img src="assets/readme/new_welcome_screen.gif" alt="welcome section" width="900"/>
 
 ## Popular Products
 
-- This section invites the user to click on some of our popular products. It gives the user a brief description of each product to get their attention it also has an eye-catching image. It helps on the user’s journey and allows a easy path to what the user is looking for.
+- This section invites the user to click on some of our popular products. It gives the user a brief description of each product to get their attention it also has an eye-catching image. It helps on the user’s journey and allows an easy path to what the user is looking for.
 - It also allows the site owner the opportunity to insert important SEO keywords.
 - The boxes have a hover effect so when the user hovers over the image the box is raised. It helps with user experience and user retention on site.
 
@@ -144,7 +145,7 @@ An agile approach was taken in the development of this project. The project will
 ## Customer Testimonials
 
 - This section was designed to build confidence with new site visitors, new visitors can see real client Testimonial’s so a potential new customer can have confidence that we are a trusted and reputable ecommerce site.
-- The boxes have a hover effect so when the user hovers over the image the box is raised. It help with user experience and users retention on site.
+- The boxes have a hover effect so when the user hovers over the image the box is raised. It helps with user experience and users retention on site.
 
 - <img src="assets/readme/testimionals.png" alt="client testimonials" width="600"/>
 
@@ -170,7 +171,7 @@ An agile approach was taken in the development of this project. The project will
   - About Us section is a very brief description about Tasty Tipples to quickly give the user more information about the website and why we started the business.
   - It highlights the goals of the Business so the user can understand and build trust with the brand.
   
-  - <img src="assets/readme/about_us.png" alt="About Us" width="800"/>
+  - <img src="assets/readme/new_about.png" alt="About Us" width="800"/>
 
   <br>
 
@@ -178,7 +179,7 @@ An agile approach was taken in the development of this project. The project will
 
 <br>
 
-![About Us Links](assets/readme/drink_aware.png)
+![About Us Links](assets/readme/drink_supports.png)
 
 
 ## Contact Us
@@ -187,16 +188,15 @@ An agile approach was taken in the development of this project. The project will
   - The user is asked for their contact information and a brief message about their inquiry
   - All fields are required for the message to be sent user will be given feedback if any errors occur.
 
-  - <img src="assets/readme/contact_us.png" alt="Contact Us" width="800"/>
+  - <img src="assets/readme/new_contact.png" alt="Contact Us" width="800"/>
   - The user will get an alert if the message was successfully submitted.
 
-![sucess message](assets/readme/email_success.png)
+![success message](assets/readme/email_success.png)
 
-  - The site owner can view this inquiry from the adimn page under contact us app.
+  - The site owner can view this inquiry from the admin page under the contact us app.
 
   - <img src="assets/readme/email admin.png" alt="Admin email" width="800"/>
-  
-
+ 
 
 ## All Products Page
 
@@ -216,16 +216,18 @@ An agile approach was taken in the development of this project. The project will
 
 ![Filter Products](assets/readme/filter.png)
 
+<br>
+
 ![Filter Products](assets/readme/all_products.gif)
   
 
 
 ## Product Detail Page
 
-  - This page displays important imformation about the product. It shows Name,Category,Review score and product description on the top part of the card.
-  - Product details gives the user more information to the buyer in relation to the producer,size and alchol content.
+  - This page displays important information about the product. It shows Name, Category, Review score and product description on the top part of the card.
+  - Product details give the user more information to the buyer in relation to the producer, size and alcohol content. It is also a collapsible accordion menu.
   - The user has the ability to type in a specific quantity or use the + or - buttons.
-  - The user add the product to bag if they would like to buy the product.
+  - The user adds the product to the bag if they would like to buy the product.
   - When the Admin is logged in the edit and delete buttons will only appear to give the admin CRUD capabilities for the product.
 
   <br>
@@ -235,45 +237,53 @@ An agile approach was taken in the development of this project. The project will
 
 ## Reviews
 - Add Review
-  - Only registerd users can add a product review.
-  - If user is registerd a form will be visible, they will have the ability to pick a score out 1 to 5 stars. And write a brief review on the product.
+  - Only registered users can add a product review.
+  - If user is registered a form will be visible, they will have the ability to pick a score out 1 to 5 stars. And write a brief review on the product.
   - The edit and delete buttons are only visible on the review to the user profile who created the review.
   - <img src="assets/readme/reviews.png" alt="product review" width="800"/>
  
  <br>
 
 - Update Review
-  - The user has to abilty to update a previous review.
+  - The user has to ability to update a previous review.
   - <img src="assets/readme/update_review.png" alt="update review" width="600"/>
-   &nbsp;
+   
+<br>
+
   - <img src="assets/readme/update_review_1.png" alt="update review 1" width="400"/>
 
 <br>
 
+
 - Delete Review
-  - The user can also delete a review they have made, when the delete button is pressed a modal pops up and asks are they sure if they want to delete this review.
+  - The user can also delete a review they have made, when the delete button is pressed a modal pops up on screen and asks are they sure if they want to delete this review.
+  -	The review will be removed from  the website if delete is picked by the user and a notification alert displayed.
+
+  <br>
+
   - <img src="assets/readme/delete_modal_review.gif" alt="delete review" width="850">
  
  <br>
 
+
 ## Product Management
  
 - Add Product
-  - The add product page is accessed by the account dropdown menu, under product management. It is only accessible by superusers.
+  - The add product page is located in the account dropdown menu, under product management. It is only accessible by super users.
 
   - <img src="assets/readme/product_add.png" alt="add product" width="400"/>
   
   <br>
   
-  - The form lists all the  fields that will be required to create a new product.
+  - The form lists all the fields that will be required to create a new product.
 
 - Edit Product
-  - The Edit product page can only be accessed by superusers.
+  - The Edit product page can only be accessed by super users.
   - The Edit Product page can be accessed by clicking on the edit button on the product detail page.
   - This page will load all the details of the existing product, giving the admin the option to edit any fields and update the information.
 
 - Delete Product
-  - The Delete product page can only be accessed by superusers.
+  - The Delete product page can only be accessed by super users.
   - The delete Product page can be accessed by clicking on the delete button on the product detail page.
   - When clicked a modal will appear asking if you really want to delete this product.
   - <img src="assets/readme/delete_product.png" alt="delete product modal" width="400"/>
@@ -287,21 +297,26 @@ An agile approach was taken in the development of this project. The project will
 
 ## Checkout
 - Here the shopper fills out his or her contact details, delivery address, and card number.
-- If the user is signed in and has delivery information saved in thier profile, the delivery details and email address will be automatically filled in.
-- A box can also be ticked for new users so all thier delivery details are saved to thier profile.
+- If the user is signed in and has delivery information saved in their profile, the delivery details and email address will be automatically filled in.
+- A box can also be ticked for new users so all their delivery details are saved to their profile.
 - <img src="assets/readme/checkout.png" alt="checkout page" width="650"/>
 
 - The order summary will also appear to the right.
 
 <br>
 
+
 ## Payment
 - Payment is made via Stripe payments.
 - The site can be tested by using the dummy card number 4242 4242 4242 4242 with the expiry date 04/24 and the CVC code 242.
-- An image saying secure payments was added with an exteral link to stripe if customers want to check it out.
+- An image saying secure payments was added with an external link to stripe if customers want to find out more about stripe.
 - <img src="assets/readme/stripe.png" alt="stripe" width="650"/>
-- A loading spinner page appears and if payment is succesfull you will be redirected to a Thank You page, With details of your order and alert saying order successfully processed.
+
+<br>
+
+- A loading spinner page appears and if payment is successful, you will be redirected to a Thank You page, with details of your order and alert saying order successfully processed.
 - <img src="assets/readme/thank_you.png" alt="stripe" width="650"/>
+
 
 ## Checkout Process
 
@@ -310,24 +325,26 @@ An agile approach was taken in the development of this project. The project will
 - <img src="assets/readme/checkout_process.gif" alt="stripe" width="900"/>
 
 ## Confirmation Email
-- If the order is successfull a confirmation email will be sent to customer.
+- If the order is successful a confirmation email will be sent to customer.
 
 - <img src="assets/readme/confirmation_email_sent.png" alt="stripe" width="700"/>
+
 
 ## Webhooks
 - Using the Stripe settings, webhooks have been set up to confirm an order goes through after payment.
 - <img src="assets/readme/webhook.png" alt="webhook" width="700"/>
 
 ## Profile Page
-- When a User registers for a new account, a profile page will automatically be created for them. The link to their profile page appears in Account in the navigation bar once they are logged in. On this page the user can choose to update their profile information 
-- The Profile page also contains a table listing out the details of all the users past purachses. 
+- When a User registers for a new account, a profile page will automatically be created for them. The link to their profile page appears under the Account icon in the navigation bar once they are logged in. On this page the user can choose to update their profile information 
+- The Profile page also contains a table listing out the details of all the users past purchases. 
 - The user can update information on their profile if they require.
 - ![User Profile](assets/readme/profile.png)
 
+
 ## Register, Sign In & Log Out of Account
 - Sign Up
-  - When a new user clicks on register they will be brought to the sign up page.
-  - After submitting the form,  The User are then emailed a verification link to confirm thier details and finalise the set up the useres account.
+  - When a new user clicks on register, they will be brought to the sign-up page.
+  - After submitting the form, The User are then emailed a verification link to confirm their details and finalise the setup of their new account.
   - ![Sign Up](assets/readme/signup.png)
 
 - Sign In
@@ -336,10 +353,11 @@ An agile approach was taken in the development of this project. The project will
   - ![Log In](assets/readme/login.png)
 
 - Log Out
-  - The logout page allows the user to sign out if they are signed into an account
-  - It also displays the useres name
+  - The logout page allows the user to sign out of their account.
+  - It also displays the users name
   - ![Log Out](assets/readme/signout.png)
-  
+
+
 ## Error Pages
 - Custom error pages were created and set up,
  - Error Pages Created
@@ -348,53 +366,59 @@ An agile approach was taken in the development of this project. The project will
     - 404 Page Not Found 
     - 500 Server Error 
 
-## Newsletter
-- Mail Chimp has been intergrated into this site via the newletter sign up form in the footer. Mail chimp will allow us the effectly collect useres emails and run email marketing campaigns.
-- Users will get feed back if thier email was succesfully submitted.
-- ![Newletter Signup](assets/readme/newletter_signup.png)
-- Mail Chimp interface shows how many subscripers we currently have from the form.
-- ![Newletter mailchimp](assets/readme/mail_chimp.png)
+  ## Newsletter
+- Mail Chimp has been integrated into this site via the newsletter sign up form in the footer. Mail chimp will allow us the effectively collect users emails and run email marketing campaigns.
+- Users will get feedback if their email was successfully submitted.
+- ![Newsletter Signup](assets/readme/newletter_signup.png)
+- Mail Chimp interface shows how many subscribers we currently have from the form.
+- ![Newsletter mail chimp](assets/readme/mail_chimp.png)
+
 
 ## Message and Alerts to site Users
 - In the top right-hand corner of the screen a box will pop up informing the user of any actions they have performed.
-- Diffrent alerts will have diffrent colors for example a success alert is green and and an error alert is red.
+- Different alerts will have different colours for example a success alert is green and an error alert is red.
 - ![success alert](assets/readme/success_toast.png)
 - ![info alert](assets/readme/info_alert.png)
 
 ## Blog
-- Tasty Tipples has a blog for content marketing, The inital page has a list of blog posts, that contantains a Title and a snippet of what the article is about. 
-- The blog posts will be paginated after 3 posts. Paginated pages can be found at the bottom blog post list..
+- Tasty Tipples has a blog for content marketing, The initial page has a list of blog posts, that contains a Title and a snippet of what the article is about. 
+- The blog posts will be paginated after 3 posts. Paginated pages can be found at the bottom blog post list.
 - Once the user clicks on a blog post to read, they will be brought to a blog detail page. This will contain all the articles information.
 - Currently blog posts can only be added from the admin panel. Summer note has also been set up to format blog post.
 
+
 ## Admin Panel
-- On the Admin Panel and as an admin/superuser they have full CRUD functionality.For all apps on the admin apanel.
+- On the Admin Panel and as an admin/superuser they have full CRUD functionality. For all apps on the admin panel.
 - They can also quickly view and inspect recent orders.
 - <img src="assets/readme/admin.png" alt="admin" width="800"/>
 
+<br>
 
 # <img src="assets/readme/design_icon.png" alt="design" width="45"/> Design 
+
  - Theme
-   - The Theme of the website was to build a bright and engaging ecommereance site. The styling was kept to the minimum as we dident want to take away from the product images. And wanted the customer to focous 100% on the products.
-   - Fonts were imported from google fonts, Pacifico for the logo & Lato were chosen gor general text. These were picked as they were bold, simple and easy to read.
+   - The Theme of the website was to build a bright and engaging ecommerce site. The styling was kept to the minimum as we didn’t want to take away from the product images. And wanted the customer to focus 100% on the products.
+   - Fonts were imported from google fonts, Pacifico for the logo & Lato were chosen for general text. These were picked as they were bold, simple and easy to read.
 
  - Data Model
    - Lucid Charts was used to design and visualise the models used in this project.
 
-    - <img src="assets/readme/database_erd.png" alt="erd diadram" width="750"/>
+    - <img src="assets/readme/database_erd.png" alt="erd diagram" width="750"/>
     - Green refers to custom models
 
- - Color Palette
-   - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the green for a hover effects on buttons.
+ - Colour Palette
+   - The colour palette is made up of Three main colours. Although simple they create a good contrast with each other and helps support the overall theme. The Blue was used mainly for buttons and the green for a hover effect on buttons.
 
- ![Color Palette](assets/readme/color_pallet.png)
+ ![Colour Palette](assets/readme/color_pallet.png)
+
 
 - Imagery
-   - The images that were selected for the website were bold and bright and conveyed fun and enjoyment. products were kept with white backround where possible to highlight them more.
+   - The images that were selected for the website were bold and bright and conveyed fun and enjoyment. products were kept with white background where possible to highlight them more.
 
 - Wireframes
   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required. 
   (Home Page Wire Frame Below)
+
 
   -<img src="assets/readme/home_wireframe.png" alt="home page wire frame" width="500"/>
 
@@ -443,34 +467,40 @@ An agile approach was taken in the development of this project. The project will
   ![Mobile Contact Us](assets/readme/contact_us_wireframe.png)
   </details>  
 
+<br>
    
 # <img src="assets/readme/devlopment_icon.png" alt="devlopment" width="45"/> Future Development 
 
 - Wish List
-  - The user will be able to select products they like and add them to a wish that will be stored in thier profile page.
+  - The user will be able to select products they like and add them to a wish list that will be stored in their profile page.
  
 - Blog 
-  - When i have time add full CRUD capabilities to the blog from the front end for the admin.And add comments section to the blog.
+  - When I have time add full CRUD capabilities to the blog from the front end for the admin. And add comments section to the blog post detail.
  
-- Sign Up & Log In with Socail Media
-  - Allow the user to quickly register an account or log in via a socail media profile.
+- Sign Up & Log in with social media
+  - Allow the user to quickly register a new account or log in via a social media profile.
 
 - Age Verification
   - A modal to pop up on the home screen so the user needs to verify age before they can enter the site.
 
 
+
 # <img src="assets/readme/marketing_icon.png" alt="marketing" width="45"/>  Web Marketing
 
-## Target Audiecne
- Tasty Tipples is  Business to Cutomer business model.Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
+## Target Audience
+ Tasty Tipples is Business to Customer business model. Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
+
 
 ## Marketing Mix
-  We have decided to adopt a multi prong approach to digital marketing to target our audience. A mixtuer of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website.As the staff are proficent already in all elements of social media. They will manage this internally, they will leverage content creation and short form video content to gain brand awarness and drive traffic to the site. Dut to lack of knowledge and time some service will be outsourced such as paid marketing, email marketing and SEO. With this multi channel approach it will drive short,medium and long term growth for the Tasty Tipples.
+  We have decided to adopt a multi prong approach to digital marketing to target our audience. A mixture of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website. The staff are already proficient in all elements of social media. They will manage this internally; they will leverage content creation and short form video content to gain brand awareness and drive traffic to the site. Due to lack of knowledge and time some services will be outsourced such as paid marketing, email marketing and SEO. With this multi-channel approach, it will drive short-, medium- and long-term growth for Tasty Tipples.
 
-## Socail Media
-- Facebook,Instagram,Youtube,Tiktok
-  - Our social channels is how we aim to build our brand awareness and drive organic traffic initally to our website.
-  - We will aim to create short snappy fun video content and leverage the growning trends of Tiktok,Youtube Shorts & reels to grown our followers and drive traffic quickly. With the aim of getting our content to go viral.
+
+## Social Media
+- Facebook, Instagram, YouTube, TikTok
+  - Our social channels are how we aim to build our brand awareness and drive organic traffic initially to our website.
+  - We will aim to create short snappy fun video content and leverage the growing trends of TikTok, YouTube Shorts & reels to grown our followers and drive traffic quickly. With the aim of getting our content viral.
+
+<br>
 
 ### Facebook Page
 <img src="assets/readme/facebook_page_new.gif" alt="log out" width="800"/>
@@ -481,45 +511,52 @@ An agile approach was taken in the development of this project. The project will
 
 ## SEO (Search Engine Optimisation)
 - Keyword Research
-  - A number of tools were used to complile a list of keywords and analyse keywords to see the search volume, the competivteness & buyers intent.
+  - A number of tools were used to compile a list of keywords and analyse keywords to see the search volume, difficulty & buyers intent.
   - [Googles Keyword planner](assets/readme/google_planner_ireland.png)
   - [Wordtracker.com](assets/readme/whiskey_keywords.png)
-  - [And the related searchs section at the bottom of a google search page](assets/readme/related_searches.png)
-  - A list of keywords were seleceted to represent the  buyers journey. A mixtuer of long tail and short tail Keywords with low to high keyword competivtness were picked.
+  - [And the related searches section at the bottom of a google search page](assets/readme/related_searches.png)
+  - A list of keywords was selected to represent the buyer’s journey. A mixture of long tail and short tail Keywords with low to high keyword competitiveness were picked.
   - ![keyword funnel](assets/readme/keyword-funnel-stages.jpg)
-  - Onsite SEO will be carried out to optomise product pages & alt tags. Due to time constraints it will not be completed in this iteration of the project.
-  - Long term off site SEO link building campaigns will also be used to grow organic search traffic. This will be completed futuer iterations of the project.
+  - Onsite SEO will be carried out to optimise product pages & alt tags. Due to time constraints, it will not be completed in this iteration of the project.
+  - Long-term off-site SEO link building campaigns will also be used to grow organic search traffic. This will be completed future iterations of the project.
+
 
 ## Content Marketing
 
 - The Tipple Blog
-  - Our blog will be used to target SEO keywords and answer questions that people are actively searching for answers online. This will not only educate our shoppers but it also help build confidence and trust in our brand. While at the same time ranking the website in search results for more keywords.
+  - Our blog will be used to target SEO keywords and answer questions that people are actively searching for answers online. This will not only educate our shoppers but it also helps build confidence and trust in our brand. While at the same time ranking the website in search results for more keywords.
 
 - Short Form Content 
-  - With a huge shift on all social channels to short form video content we sill actively release short videos on a daily basis to leverage this trends. Software like [repurpose.io](https://repurpose.io/) will be used to post content across all channels at the same time to reduce time and get maximum exposure.
+  - With a huge shift on all social channels to short form video content we still actively release short videos on a daily basis to leverage this trend. Software like [repurpose.io](https://repurpose.io/) will be used to post content across all channels at the same time to reduce time and get maximum exposure.
+
 
 
 ## Paid
-- As this is a brand new website it will take time to generate organic traffic from search engines. So will for the first 6 months be activly be using and testing paid ads to drive traffic and conversions.
+- As this is a brand-new website it will take time to generate organic traffic from search engines. For the first 6 months we will actively be using and testing paid ads to drive traffic and conversions.
 - Google PPC
-  - We will actively run google ads especially targeting our high ticket products.
-- Facebook,Tiktok,Youtube
-  - We will run ad campaigns on these channels mainly focused on brand awreness and builing an online presence. We wont direcly market drink products on these channels. But adopt a playful and fun approach to enagae with users.
+  - We will actively run google ads especially targeting our high-ticket products.
+- Facebook, TikTok, YouTube
+  - We will run ad campaigns on these channels mainly focused on brand awareness and building an online presence. We won’t directly market drink products on these channels. But adopt a playful and fun approach to engage with users.
+
 
 ## Email Marketing
-- Email marketing when done correctly has low input costs and allows us to target our customers with a more customised offering giveing a Better ROI.
+- Email marketing when done correctly has low input costs and allows us to target our customers with a more customised offering giving a Better ROI.
 - Mail Chimp
-  - We will initally build a subscriber list to our newletter via the form in the footer of our website.
-  - We will send weekly newsletters of our latests drinks deals, secret sales and new products releases.
+  - We will initially build a subscriber list to our newsletter via the form in the footer of our website.
+  - We will send weekly newsletters of our latest’s drinks deals, secret sales and new products releases.
+
 
 ## Outsourcing
-- The intention is to outsource all paid marketing to an digital agency & also get them to monitor and update our keywords for SEO on a perodic basis.The agency will also take care of the email marketing campaigns. The rest will be done inshouse by the staff of Tasty Tipples.
+- The intention is to outsource all paid marketing to a digital agency & also get them to monitor and update our keywords for SEO & build backlinks on a periodic basis. The agency will also take care of the email marketing campaigns. The rest will be done in-house by the staff of Tasty Tipples.
+
 
 ## Sitemap.xml
-- A sitemap file with a list of all the important URLs were created to allow  search engines to quickly crawl the website and index its pages. This was made using [XML-sitemaps](https://www.xml-sitemaps.com/) This can then be submitted to google search console and bing webmaster tools to allow the quick and fast indexing of Tasty Tipples in search engines.
+- A sitemap file with a list of all the important URLs were created to allow search engines to quickly crawl the website and index its pages. This was made using [XML-sitemaps](https://www.xml-sitemaps.com/) This can then be submitted to google search console and Bing webmaster tools to allow the quick and fast indexing of Tasty Tipples in search engines.
+
 
 ## Robots.txt
-- A robots.txt file was created to tell search engines the website pages not to vist or index.
+- A robots.txt file was created to tell search engines the website pages not to visit or index.
+
 
 # Testing <img src="assets/readme/icons8_testing_new.png" alt="testing" width="35"/>
 
@@ -545,27 +582,29 @@ An agile approach was taken in the development of this project. The project will
 
 ## CSS Validator
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
-  - The website had a few [errors](assets/readme/css_errors_1.png) initally but were fixed.
+  - The website had a few [errors](assets/readme/css_errors_1.png) initially but were fixed.
   - The website passed with no errors
+
 
   ![CSS Pass](assets/readme/css_pass.png)
 
   ## Python
-  - Python code was tested to ensure that it met PEP8 style guidelines. This was done within the terminal console using the command python3 -m flake8, which displayed errors and warnings within the code. Files were gone through an fixed indivdually the majority were in relaion to exceeding the amount of characters per line.
-  - [Erors fixed in Checkout App](assets/readme/python_error.png)
-  - [Erors fixed in Products App](assets/readme/product_error_py.png)
+  - Python code was tested to ensure that it met PEP8 style guidelines. This was done within the terminal console using the command python3 -m flake8, which displayed errors and warnings within the code. Files were gone through a fixed individually the majority were in relation to exceeding the number of characters per line.
+  - [Errors fixed in Checkout App](assets/readme/python_error.png)
+  - [Errors fixed in Products App](assets/readme/product_error_py.png)
 
 
   ## Java Script
-  - [some erros found during testing](assets/readme/errors_js.png)
-  - All erros were fixed. And now passed ok through [JSHint](https://jshint.com/)
+  - [some errors found during testing](assets/readme/errors_js.png)
+  - All errors were fixed. And now passed ok through [JSHint](https://jshint.com/)
+
   
  
 ## Lighthouse
  - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
  - [See Light House Before Improvements](media/light_house_first.png)
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests were redone in incognito window and performance score increased. Results below from home page
- - As the hompage has alot of imagery to allow for an engaging landing page. I was unable to improve lighthouse results further. With more time i would like to tackle other errors on oulined in lighthouse report.
+ - As the homepage has a lot of imagery to allow for an engaging landing page. I was unable to improve lighthouse results further. With more time I would like to tackle other errors outlined on the lighthouse report.
  - Desktop Result’s
  ![Homepage](media/light_house_test.png)
 
