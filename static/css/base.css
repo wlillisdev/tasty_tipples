@@ -63,6 +63,27 @@ a {
     width: 100%;
 }
 
+.nav-icon:hover{
+    background: green;
+    color: white;
+}
+
+.fa-user:hover {
+    color: green;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.fa-shopping-bag:hover {
+    color: green;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.fa-search:hover {
+    color: green;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+
 /* Hero Image */
 .background-image {
     background: url("/media/hero_edit_new.webp") no-repeat center;
@@ -122,6 +143,7 @@ a {
 .img-contactimg {
     height: auto;
 }
+
 .logo-font {
     /* text-transform: uppercase; */
     font-family: 'Lato', Arial, Helvetica, sans-serif;
@@ -131,7 +153,7 @@ a {
     width: fit-content;
 }
 
- /* Button Styling */
+/* Button Styling */
 .shop-now-button {
     background:blue;
     color: white;
