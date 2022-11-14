@@ -612,7 +612,7 @@ An agile approach was taken in the development of this project. The project will
  
 ## Manual Testing
   - All the site links were manually tested to see if they all worked ok and linked to the correct locations.
-  - The site was further tested using feedback from mentor, family and friends who checked it on different devices they had.
+  - The site was further tested using feedback from my mentor, family and friends who checked it on different devices they had.
   - All of the page's features were tested on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, and Opera.
   - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify and debug issues within the HTML and CSS.
   - The README.md was checked before final submission and links verified.
@@ -625,116 +625,117 @@ An agile approach was taken in the development of this project. The project will
 | User Register account | Each mandatory fields were left blank intentionally to check if error messages appeared if form submitted blank | Pass | 
 | User Register account - Invalid Email Field | An invalid email address was tested to ensure error message appeared | Pass | 
 | User login to account - Blank Fields | All fields were left blank to ensure an error message was displayed to the user | Pass |
-| New User Confirmation email - to verify details | tested with a temopary email, signed up for a new account, confirmation email sent from website so user can verify details | Pass |
-| User recover password - forgot login password  | At login screen, Forgot password was clicked, at password reset screen, previously registered email entered, reset email was sent and password was reset | Pass |
-| User login to account - wrong password | Incorrect user password was intentionally used with wrong spelling and upper and lower case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
-| Non registered user - can not a add a review |  As a unregistered user their is not option in product detail page to leave a review |  Pass |
-| User Logged In - can add a product review | Logged in as registered user. Add a review form appears on at the bottom of product detail page, rating for product selected and review written. Add review clicked , review saved to reviews section |  Pass |       
-| Update a previous product review -  user logged in | Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and upadte review clicked and new review updated and stored, Toast update also displayed |  Pass |
-| Delete a product review -  user logged in | User clicks on delete review they have previouly wrote, Modal pops up, With warning, Click delete, review deleted from website,Toast delete review alert appears  |  Pass |
-| Delete or Update review -  that you did not create |  manually enter a url for delete/update review on a review that was not created by the user, redirected to error page  |  Pass | 
-| Admin Create a blog post -  No Featured Image | Blog post was added with no featured image from admin. A  placeholder image was added by default    | Pass
-| Admin Create a blog post -  Unique Title | A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required |  Pass | 
-| Admin Update a blog post - edit old post | In the admin panel changes made to previous blog post and checked to see if they were updated on the front end |  Pass 
-| Admin delete a blog post - remove old blog post | In the admin panel click on old blog post click on delete and confirm delete, post sucessfully removed | Pass
-| Contact Us form | various mandatory fields were blank and checked it the form was submitted, alert messages appears to user if field was blank | Pass 
-| Contact Us alert | all fields were filled out on the form and submitted, alert message appeared, form submitted sucessfully | Pass
-| Contact Us Admin | the admin panel contact us app, was checked to see if the inquiry had been sucessfully saved in the database | Pass         
-| Socail Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
-| Footer - Shop & Company Details | All links in the fotter were clicked and checked to be working and directed to the correct pages | Pass |
-| Newletter - Subscribe to newletter  | A valid email was entered into form, and submitted. A message thank you for subscribeing appeared, Email checked in mailchimp to confirm it was added ok  | Pass |
-| Search -  user can serach for products | Keywords of products and categories were entered in search bar, this returned products that were searched. Also products that are not on site were also searched , it returned a message No Products found. |  Pass |
-| Sort Products | All options of the sort by drop down tab was tested, to confirm they filtered the products correctly |  Pass |  
-| Shopping Bag - adding a product | From the product detail page add to bag was clicked, item was added to bag.toast success displayed item added to bag | Pass |
-| Update Shopping Bag | The + & - icons were used to adjust qty of items. Then update was clicked, the grand total was updated. The quantity was typed in and update clicked,grand total updated. The remove link clicked, removed the item from the bag,Toasts alerts worked for update and delete bag  | Pass |
-| Stripe - incorrect card number | entered an invalid 16 digit card number, got error message your card number is incomplete | Pass | 
+| New User Confirmation email - to verify details | tested with a temporary email, signed up for a new account, confirmation email sent from website so user can verify details | Pass |
+| User recover password - forgot login password | At login screen, forgot password was clicked, at password reset screen, previously registered email entered, reset email was sent and password was reset | Pass |
+| User login to account - wrong password | Incorrect user password was intentionally used with wrong spelling and upper- and lower-case letters and numbers were tested to ensure an error message was displayed to the user | Pass |
+| Non registered user - can not a add a review | As an unregistered user there is not option in product detail page to leave a review | Pass |
+| User Logged In - can add a product review | Logged in as registered user. Add a review form appears on at the bottom of product detail page, rating for product selected and review written. Add review clicked, review saved to reviews section | Pass |       
+| Update a previous product review - user logged in | Logged in user clicked update on previous review they wrote, user brought to update review page, both text of review and star rating edited, and update review clicked and new review updated and stored, Toast update also displayed | Pass |
+| Delete a product review - user logged in | User clicks on delete review they have previously wrote, Modal pops up, With warning, Click delete, review deleted from website, Toast delete review alert appears | Pass |
+| Delete or Update review - that you did not create | manually enter a URL for delete/update review on a review that was not created by the user, redirected to error page | Pass | 
+| Admin Create a blog post - No Featured Image | Blog post was added with no featured image from admin. A placeholder image was added by default    | Pass
+| Admin Create a blog post - Unique Title | A blog post with the same title as an existing post was created, error message displayed appeared saying unique title required | Pass | 
+| Admin Update a blog post - edit old post | In the admin panel changes made to previous blog post and checked to see if they were updated on the front end | Pass 
+| Admin delete a blog post - remove old blog post | In the admin panel click on old blog post click on delete and confirm delete, post successfully removed | Pass
+| Contact Us form | various mandatory fields were left blank and the form was submitted; alert messages appear to user if field was left blank | Pass 
+| Contact Us alert | all fields were filled out on the form and submitted, alert message appeared, form submitted successfully | Pass
+| Contact Us Admin | the admin panel contact us app, was checked to see if the inquiry had been successfully saved in the database | Pass         
+| Social Media Icons - Links in Footer | All social media icons links clicked, all opened in new screens and to the correct channel | Pass |
+| Footer - Shop & Company Details | All links in the footer were clicked and checked to be working and directed to the correct pages | Pass |
+| Newsletter - Subscribe to newsletter | A valid email was entered into the form, and submitted. A message thank you for subscribing appeared, Email checked in mail chimp to confirm it was added ok | Pass |
+| Search - user can search for products | Keywords of products and categories were entered in search bar, this returned products that were searched. Also, products that are not on site were also searched, it returned a message No Products found. | Pass |
+| Sort Products | All options of the sort by drop down tab were tested, to confirm they filtered the products correctly | Pass |  
+| Shopping Bag - adding a product | From the product detail page add to bag was clicked, item was added to bag. Toast success displayed item added to bag | Pass |
+| Update Shopping Bag | The + & - icons were used to adjust qty of items. Then update was clicked, the grand total was updated. The quantity was typed in and update clicked, grand total updated. The remove link clicked, removed the item from the bag, Toasts alerts worked for update and delete bag page | Pass |
+| Stripe - incorrect card number | entered an invalid 16-digit card number, got error message your card number is incomplete | Pass | 
 | Stripe - incorrect expiry date on card | entered an invalid expiry date on card, got an error message | Pass |
-| Stripe - 4 digit security number  | entered only 3 digits on the security code, got an error message your cards security code is incomplete | Pass |
-| Stripe - invalid zip code  | did not fill out the zip code field on the form, got an error message your postal code is incomplete | Pass |
-| Stripe - Make payment | Stripe test card details 4242424242424242 were entered, payment was sucessful,toast alert appeared. And the a record was logged in orders and stripe | Pass |
-| Stripe - Webhooks | After making a successful payment, the Stripe portal was checked to see if webhooks got a responses 200 | Pass |
-| Order Success | When payment has been processed, the user is redirected to a Thank you page, with a summary of thier order and thier shipping details | Pass |
-| Order Confirmation - email of order | Using a tempoary email an order was submitted and checked to see it an order confirmation email was sent, with details of the order and an order number | Pass |
-| Order History -  saved to profile | multiple orders were made under a user profile. All orders were stored in user profile, order number,date and total cost displayed on profile | Pass |
-| Checkout Form | Various Mandatory fields were left blank intentionaly, and checkout attempted, error messages displayed to user  | Pass |
-| Checkout - Save to profile | Checkout box save this delivery information to profile was clicked, user profile was checked to see if information was saved to profile.  | Pass |
-| Update User Profile | The user profile is already prepopulated with users information, all fields were edited and updated to check if working ok  | Pass |
-| Admin Add product | Signed in as admin, Cliked on product management, filled out add product page, Product added to website, toast displayed product added  | Pass |
-| Admin Edit product | Signed in as admin, Cliked on edit product button, edit product page with prepopulated information of product, all fields were changeed and updated, toast update product appears. | Pass |
-| Admin delete product | Signed in as admin, Cliked on delte product button, modal pops up asking if you are sure if you want to delete product, toast update product deleted. | Pass |
+| Stripe - 4-digit security number | entered only 3 digits on the security code, got an error message your cards security code is incomplete | Pass |
+| Stripe - invalid zip code | did not fill out the zip code field on the form, got an error message your postal code is incomplete | Pass |
+| Stripe - Make payment | Stripe test card details 4242424242424242 were entered, payment was successful, toast alert appeared. And a record was logged in orders and in stripe | Pass |
+| Stripe - Webhooks | After making a successful payment, the Stripe portal was checked to see if webhooks got a response 200 | Pass |
+| Order Success | When payment has been processed, the user is redirected to a Thank you page, with a summary of their order and their shipping details | Pass |
+| Order Confirmation - email of order | Using a temporary email an order was submitted and checked to see it an order confirmation email was sent, with details of the order and an order number | Pass |
+| Order History - saved to profile | multiple orders were made under a user profile. All orders were stored in user profile, order number, date and total cost displayed on profile | Pass |
+| Checkout Form | Various Mandatory fields were left blank intentionally, and checkout attempted, error messages displayed to user | Pass |
+| Checkout - Save to profile | Checkout box save this delivery information to profile was clicked; user profile was checked to see if information was saved to profile.  | Pass |
+| Update User Profile | The user profile is already prepopulated with users information, all fields were edited and updated to check if updated information was stored | Pass |
+| Admin Add product | Signed in as admin, clicked on product management, filled out add product page, Product added to website, toast displayed product added | Pass |
+| Admin Edit product | Signed in as admin, clicked on edit product button, edit product page with prepopulated information of product, all fields were changed and updated, information was updated & toast update product appears. | Pass |
+| Admin delete product | Signed in as admin, clicked on delete product button, modal pops up asking if you are sure if you want to delete product, toast update product deleted displayed. | Pass |
 | Alert message - sign in | Alert to confirm user has successfully signed in appears on top of screen. | Pass |  
 | Alert message - sign out | Alert requests user to confirm they want to log out before logging out of site, and alert appears you have successfully signed out | Pass |  
 | Alert message - Add review | Alert your review was successfully added appears on top of screen | Pass |
-| Alert message - edit review | Alert your your review was updated on top of the screen | Pass |
+| Alert message - edit review | Alert your review was updated on top of the screen | Pass |
 | Alert message - delete review | Alert your review was successfully deleted on top of the screen | Pass | 
-| Alert message - add product | Alert your sucessfully updated product appears on top of screen | Pass |
+| Alert message - add product | Alert your successfully updated product appears on top of screen | Pass |
 | Alert message - edit product | Alert your product successfully updated appears on top of screen | Pass |
 | Alert message - delete product | Alert product deleted appears on top of screen | Pass |
 | Admin - restricted access | Only the admin/superuser account can log into the admin view panel. | Pass |
 | Admin Panel - CRUD in the admin panel| Admin has capability to create, update and delete in the installed apps | Pass |
-| Error Alerts - custom error pages| The Urls were manipulated to test 403,404, & 500 errors, all errors delivered a unique error page | Pass |
+| Error Alerts - custom error pages| The URLs were manipulated to test 403,404, & 500 errors, all errors delivered a unique error page | Pass |
 
 
 
-## User Sory / Issue Testing
+
+## User Story / Issue Testing
   - All the issues previously created in git hub at the start of the project were checked to see if the acceptance criteria were met in the final project delivery of this iteration.
 
   | Issue | User Story | Acceptance Criteria | Result |  
 | --- | --- | --- | --- |
-| [1](https://github.com/wlillisdev/tasty_tipples/issues/1) | As a User I can sign up for a new user account so that I can have complete functionality of the whole store. |  A sign-up link is clearly shown in the nav bar, The user can easily enter all required details in form, name, email, password,form won't submit if it is not filled out correctly| Pass |
-| [2](https://github.com/wlillisdev/tasty_tipples/issues/2) |  As a returning User I can quickly log in to my account so that i can vire my profile, history of past orders, or leave a review | Login displayed in nav bar so user can quickly access the login page | Pass |
-| [3](https://github.com/wlillisdev/tasty_tipples/issues/3) | As a user I can log out of my account so that i can ensure no one else accesses my information | User can quickly logout of their account via a link on the nav bar,User will get an update that they have logged out | Pass |
-| [4](https://github.com/wlillisdev/tasty_tipples/issues/4) | As a User I can receive an email from the shop so that the user can verify my information and confirm my registration was successful | An email is sent to the user after the user has registered a new account. The user clicks on the link to verify thier email address. | Pass |   
-| [5](https://github.com/wlillisdev/tasty_tipples/issues/5) | As a Registered User I will have my own personal profile so that the user view order history, and update delivery information | Users can access their personal profile from the nav bar,he profile contains their order history and delivery details, Delivery details can be updated | Pass |   
+| [1](https://github.com/wlillisdev/tasty_tipples/issues/1) | As a User I can sign up for a new user account so that I can have complete functionality of the whole store. | A sign-up link is clearly shown in the nav bar, The user can easily enter all required details in form, name, email, password, form won't submit if it is not filled out correctly| Pass |
+| [2](https://github.com/wlillisdev/tasty_tipples/issues/2) |  As a returning User I can quickly log in to my account so that I can view my profile, history of past orders, or leave a review | Login displayed in nav bar so user can quickly access the login page | Pass |
+| [3](https://github.com/wlillisdev/tasty_tipples/issues/3) | As a user I can log out of my account so that I can ensure no one else accesses my information | User can quickly logout of their account via a link on the nav bar, User will get an update that they have logged out | Pass |
+| [4](https://github.com/wlillisdev/tasty_tipples/issues/4) | As a User I can receive an email from the shop so that the user can verify my information and confirm my registration was successful | An email is sent to the user after the user has registered a new account. The user clicks on the link to verify their email address. | Pass |   
+| [5](https://github.com/wlillisdev/tasty_tipples/issues/5) | As a Registered User I will have my own personal profile so that the user can view past orders , and update delivery information | Users can access their personal profile from the nav bar, User profile contains their order history and delivery details, Delivery details can be updated | Pass |   
 | [6](https://github.com/wlillisdev/tasty_tipples/issues/6) | As a Shopper I would like to be able to contact the site owner so that I can ask questions about products or get information about delivery | The shopper can easily find and click on the contact us form. The shopper can fill out the form with a message to send to the owner. | Pass | 
-| [7](https://github.com/wlillisdev/tasty_tipples/issues/7) | As a new user I can quickly find out what this site is about and what it can do for me so that I can decide whether I want to buy any products |  Easy to Navigate site that gives the user a clear path,Engaging landing page imagery that tells users straight away what this site is about,Testimonials are displayed on the homepage to build trust with new users | Pass | 
+| [7](https://github.com/wlillisdev/tasty_tipples/issues/7) | As a new user I can quickly find out what this site is about and what it can do for me so that I can decide whether I want to buy any products |  The site is easy to navigate it gives the user a clear path, Engaging landing page imagery that tells users straight away what this site is about, Testimonials are displayed on the homepage to build trust with new users | Pass | 
 | [8](https://github.com/wlillisdev/tasty_tipples/issues/8) | As a Shopper I want to get feedback from the website when I interact with it so that I know if I have completed a task successfully or if an error has occurred | Users will get a message displayed on the screen when they interact with the site | Pass |
-| [9](https://github.com/wlillisdev/tasty_tipples/issues/9) | As a User I can sign up to the newsletter so that I can find out about new products, special offers or find out more about the company |  Users can easily find the signup to newsletter form on all pages of the site,The form captures users' details and gives them a success message | Pass |  
+| [9](https://github.com/wlillisdev/tasty_tipples/issues/9) | As a User I can sign up to the newsletter so that I can find out about new products, special offers or find out more about the company |  Users can easily find the signup to newsletter form on all pages of the site via the footer, The form captures users' details and gives them a success message | Pass |  
 | [10](https://github.com/wlillisdev/tasty_tipples/issues/10) | As a Shopper I can easily find the store's social media accounts so that so I can follow them and find out more about the store | Shoppers can easily find out Facebook business page, and our social channels. And follow us | Pass |
 | [11](https://github.com/wlillisdev/tasty_tipples/issues/11) | As a user I can get a custom error message displayed so that if something is not working or an error occurs on the website |  . Users get a custom error message displayed if a 404 or 500 error occurs | Pass |
-| [12](https://github.com/wlillisdev/tasty_tipples/issues/12) | As an Admin I want a sitemap.xml and robots.txt files so that search engines can quickly and accurately crawl my site and index my pages to allow shoppers to find our products in search engines | Sitemap & Robots.txt files are stored in the root directory of the project,The Robot.txt file contains pages that you don't want search engines to index | Pass |
-| [13](https://github.com/wlillisdev/tasty_tipples/issues/13) | As a site Admin I can use onsite SEO and keywords so that my website will rank in search engines for relevant keywords and drive traffic to my site |  There are keywords in the head of the HTML page and in the content of the site.Relevant keywords are chosen that are low in competition and high in traffic. | Pass |
-| [14](https://github.com/wlillisdev/tasty_tipples/issues/14) | As Admin I can leverage web marketing to drive website traffic, increase sales, and build brand awareness and customer retention |   Newsletter sign-up integration and set up in Mailchimp, set up marketing campaigns at a later date,. Social media, leveraging followers on social channels to increase sales,Blog, content marketing using targeted keywords and educating customers | Pass |
-| [15](https://github.com/wlillisdev/tasty_tipples/issues/15) | As a site owner I want the ability to to add new products so that I can quickly add products to the website |  Only the admin when logged in can add a product from the nav bar,. Admin can add new products from the front end of the website via a form. | Pass |
+| [12](https://github.com/wlillisdev/tasty_tipples/issues/12) | As an Admin I want a sitemap.xml and robots.txt files so that search engines can quickly and accurately crawl my site and index my pages to allow shoppers to find our products in search engines | Sitemap & Robots.txt files are stored in the root directory of the project, The Robot.txt file contains pages that you don't want search engines to index | Pass |
+| [13](https://github.com/wlillisdev/tasty_tipples/issues/13) | As a site Admin I can use onsite SEO and keywords so that my website will rank in search engines for relevant keywords and drive traffic to my site |  There are keywords in the head of the HTML page and in the content of the site. Relevant keywords are chosen that are low in competition and high in traffic. | Pass |
+| [14](https://github.com/wlillisdev/tasty_tipples/issues/14) | As Admin I can leverage web marketing to drive website traffic, increase sales, and build brand awareness and customer retention | Newsletter sign-up form integrated into footer and set up in Mail chimp to build subscriber list for email marketing, Paid marketing campaigns at a later date. Social media & short form videos used leveraging followers on social channels to increase sales, Blog, content marketing using targeted keywords and educating customers | Pass |
+| [15](https://github.com/wlillisdev/tasty_tipples/issues/15) | As a site owner I want the ability to add new products so that I can quickly add products to the website |  Only the admin when logged in can add a product from the nav bar in product management. Admin can add new products from the front end of the website via a form. | Pass |
 | [16](https://github.com/wlillisdev/tasty_tipples/issues/16) | As a site owner I can edit and update a product so that I can quickly alter the products information when required | Admin can click on edit product and edit products information from the front end, Product details can be updated quickly from the product management menu | Pass |
 | [17](https://github.com/wlillisdev/tasty_tipples/issues/17) | As a site owner I want to be able to delete a product so that remove products that are out of season or no longer for sale | Admin can click on delete in product management to delete a product from the website | Pass |
 | [18](https://github.com/wlillisdev/tasty_tipples/issues/18) | As a User I can view the privacy policy so that I can see it the website is credible and trustworthy | A privacy policy link is visible in the footer so the user can read the policy | Pass |
 | [19](https://github.com/wlillisdev/tasty_tipples/issues/19) | As a shopper I can view a list of website products so that I can see if there are any products I want to buy |  Users can view a page that displays all the site products | Pass |
-| [20](https://github.com/wlillisdev/tasty_tipples/issues/20) | As a Shopper I can view individual product details so that I can read the product descriptions and see if I want to buy the product |  User can click on the product image/link and is brought to a single page all about the product | Pass |
-| [21](https://github.com/wlillisdev/tasty_tipples/issues/21) | As a User I can easily navigate the site so that so I can find products and pages I want to see |  The navigation bar to appear on all pages with clear links,A hamburger navigation menu to appear on mobile | Pass |
-| [22](https://github.com/wlillisdev/tasty_tipples/issues/22) | As a shopper I can quickly search for a particular product so that I can find the item I am looking for |  Users can type in a search query and it will return results,If the product is not on site they will get a notification product is not on site | Pass|
-| [23](https://github.com/wlillisdev/tasty_tipples/issues/23) | As a Shopper I can make payments easily & safely so that I can pay for my purchase | Users can easily and quickly enter payment details.Users feel that their payment is secure | Pass |
+| [20](https://github.com/wlillisdev/tasty_tipples/issues/20) | As a Shopper I can view individual product details so that I can read the product descriptions and see if I want to buy the product |  User can click on the product image/link and is brought to a single page with product description and product details about the product | Pass |
+| [21](https://github.com/wlillisdev/tasty_tipples/issues/21) | As a User I can easily navigate the site so that so I can find products and pages I want to see |  The navigation bar to appear on all pages with clear links, A hamburger navigation menu to appear on mobile | Pass |
+| [22](https://github.com/wlillisdev/tasty_tipples/issues/22) | As a shopper I can quickly search for a particular product so that I can find the item I am looking for |  Users can type in a search query and it will return results, If the product is not on site they will get a notification product is not on site | Pass|
+| [23](https://github.com/wlillisdev/tasty_tipples/issues/23) | As a Shopper I can make payments easily & safely so that I can pay for my purchase | Users can easily and quickly enter payment details and checkout via stripe. Users feel that their payment is secure | Pass |
 | [24](https://github.com/wlillisdev/tasty_tipples/issues/24) | As a Shopper I can add a product to the cart so that so that I can buy it later | On the product detail page, the user can click on add to bag button and it will add the selected item to the shopping bag. | Pass |
-| [25](https://github.com/wlillisdev/tasty_tipples/issues/25) | As a Shopper I can adjust the number of items in the bag so that so I can adjust the quantity if needed | The user can use the quantity +/- buttons to adjust the quantity and update the number of items in the bag,The totals will also adjust as the quantity is adjusted | Pass |
-| [26](https://github.com/wlillisdev/tasty_tipples/issues/26) | As a shopper I can view all the items in the shopping bag so that so I can confirm that I have all the correct products before checkout | Users can click on the shopping bag and will be brought to a page that shows all the items in the bag.If no items are in the bag users have a message no items have been added, with a button to return to the shop | Pass |
-| [27](https://github.com/wlillisdev/tasty_tipples/issues/27) | As a shopper I want a confirmation email of my order so that so I have a record of what I bought | The user receives a confirmation email if the purchase was successful | Pass |
+| [25](https://github.com/wlillisdev/tasty_tipples/issues/25) | As a Shopper I can adjust the number of items in the bag so that I can adjust the quantity if needed | The user can use the quantity +/- buttons to adjust the quantity and update the number of items in the bag, The totals will also adjust as the quantity is adjusted | Pass |
+| [26](https://github.com/wlillisdev/tasty_tipples/issues/26) | As a shopper I can view all the items in the shopping bag so that so I can confirm that I have all the correct products before checkout | Users can click on the shopping bag and will be brought to a page that shows all the items in the bag. If no items are in the bag a message no items have been added will be displayed, with a button return to the shop | Pass |
+| [27](https://github.com/wlillisdev/tasty_tipples/issues/27) | As a shopper I want a confirmation email of my order so that so I have a record of what I bought | The user receives a confirmation email with order number of order details if the purchase was successful | Pass |
 | [28](https://github.com/wlillisdev/tasty_tipples/issues/28) | As an Admin I can post relevant informative content on a blog so that I can educate customers, build brand awareness, and leverage SEO keywords | A blog that displays detailed posts so the shopper can learn more about our products with important SEO keywords included | Pass |
-| [29](https://github.com/wlillisdev/tasty_tipples/issues/29) | As a Shopper I can like to add a product review so that so I give feedback on my experience of the product purchased | Users can add a product review to a product they have purchased | Pass |
+| [29](https://github.com/wlillisdev/tasty_tipples/issues/29) | As a Shopper  I can add a product review so that so I give feedback on my experience of the product purchased | Users can add a product review to a product they have purchased | Pass |
 | [30](https://github.com/wlillisdev/tasty_tipples/issues/30) | As a Shopper I can sort through products quickly so that so I can find the products I want easily | The user can sort through products quickly by applying various filters, for example by price (low to high), by price (high to low). | Pass |
 
 
   
 # <img src="assets/readme/bugs_icon.png" alt="bugs" width="45"/>  Fixed Bugs
 
-  - When testing teh shopping bag, i noticed that the user could type in any quantity and form validation was not working. Further investigation i noticed that the update and remove options were just links and they were outside the form. I chaged the update link to button with "submit" and put it inside the form. Form validation is now working and the user can only enter 99 not any number
+  - When testing the shopping bag, I noticed that the user could type in any quantity and form validation was not working. Further investigation I noticed that the update and remove options were just links and they were outside the form tags. I changed the update link to a button with "submit" and put it inside the form tags. Form validation is now working and the user can only enter a number between 1 & 99 only.
   [Bug in Bag View Quantity](assets/readme/form_bug.png)  
-  - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
+  - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, I went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
   - After running all python code through pep 8 validator a number of errors were identified and fixed. 
-  - When using crispy form on product detail page for the review form it would not appear, i did a lot alot of reasearch and discussed with tutor support, No easy fix was found, so i came up with a work around and manually coded the form.
-  - When deploying the site AWS was displaying images on the site, but when i uploaded a pictuer it crashed the site. After much troubleshooting i discovered there was white space in AWS keys in the Heroku config varaibles. When this was deleted it worked fine.
-  - After deploying i noticed the confirmation emails were not sending and the webhooks were failing,  i updated the webhook.url to the deployed site and it worked fine.
-  - During devlopment in gitpod stripe webhooks were working ok, but they started failing 2 weeks after initally being setup, After much head scratching i noticed that my url in gitpod had changed for some reason and no longer matched what was initally setup in stripe. Once updated it worked ok.
+  - When using crispy forms on product detail page for the review form it would not appear, I did a lot a lot of research and discussed with tutor support, no easy fix was found, so I came up with a work around and manually coded the form. It worked out better in the end as I was able to apply better styling and formatting manually.
+  - When deploying the site AWS was displaying images on the site, but when I uploaded a picture, it crashed the site. After much troubleshooting I discovered there was white space in AWS keys in the Heroku config variables. When this was deleted, it worked fine.
+  - After deploying the site i noticed the confirmation emails were not sending and the webhooks were failing, I updated the webhook.url to the deployed site URL and it worked fine.
+  - During development in gitpod, the stripe webhooks were working ok, but they started failing 2 weeks after initially being setup, after much head scratching, I noticed that my URL in gitpod had changed for some reason and no longer matched what was initially setup in stripe. Once updated in stripe it worked ok.
   
 
 
   # Unfixed Bugs
-  - I am unaware of any unfixed bugs.
+  - I am unaware of any unfixed bugs at the moment.
 
   # <img src="assets/readme/security_icon.png" alt="security" width="45"/> Security
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
   - Secret access keys were stored safely in env.py this was set up before the first push to Github.
-  - Django allauth was used to ensure only signed in users can edit or detele review. And for super user permissions.
+  - Django allauth was used to ensure only signed in users can edit or delete review. And for super user permissions.
 
 
 # <img src="assets/readme/gdpr_icon.png" alt="gdpr" width="45"/> GDPR (General Data Protection Regulation)
@@ -846,27 +847,28 @@ The deployed site uses AWS S3 Buckets to store the webpages static and media fil
 ```
 
 1. Ensure the policy has been given a name and a brief description, then click "Create Policy".
-2. Click "User groups", and then the group you created previouly. Under permissions click "Add Permission" then  click "Attach Policies".
+2. Click "User groups", and then the group you created previously. Under permissions click "Add Permission" then click "Attach Policies".
 3. Select "Users" from the sidebar and click "Add User".
 4. Provide a username and check "Programmatic Access", then click 'Next: Permissions'.
 5. Ensure your policy is selected and navigate through until you click "Add User".
 6. Download the "CSV file", which contains the user's access key and secret access key.
 
-## Connecting AWS to django
 
-Now that you have created a S3 bucket with its user group attached, we need to connect it to django.
+## Connecting AWS to Django
+
+Now that you have created a S3 bucket with its user group attached, we need to connect it to Django.
 
 1. First you we will install two packages. Boto3 and Django storages.  
     ```
     pip3 install boto3
-    pip3 install django-storages
+    pip3 install Django-storages
     ```
     And remember to freeze the requirements with:  
     ```
     pip3 freeze > requirements.txt
     ```
 2. You will then need to add 'storages' to your installed apps section inside your settings.py file. Do that now. 
-3. Next, we will need to add some additional settings to the same file to let django know what bucket it's communicating with. 
+3. Next, we will need to add some additional settings to the same file to let Django know what bucket it's communicating with. 
 4. Somewhere near the bottom of the file you should write an if statement to check if there is an environment variable called USE_AWS. This variable does not exist yet but we will add it later. Inside the if statement, write the following settings so it looks like this:  
     ```
     if 'USE_AWS' in os.environ:
@@ -875,16 +877,16 @@ Now that you have created a S3 bucket with its user group attached, we need to c
         AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     ```
-5. Next, back in heroku and in the settings tab, under config vars, you will need to add  keys with values that were downloaded earlier in the CSV file.
+5. Next, back in Heroku and in the settings tab, under config vars, you will need to add  keys with values that were downloaded earlier in the CSV file.
 6. Add the key, AWS_ACCESS_KEY_ID with the value that was generated in the CSV file earlier. Then add the key AWS_SECRET_ACCESS_KEY, and again add the value that was generated in the CSV file. Once they have both been added, add the key USE_AWS, and set the value to True.
-7. You can now also remove the DISABLE_COLLECTSTAIC variable, since django should now collect static files automatically and upload them to S3.
-8. Now head back to the settings.py file in your django project and head back to the if statement we wrote earlier and inside the statement add this line setting:  
+7. You can now also remove the DISABLE_COLLECTSTAIC variable, since Django should now collect static files automatically and upload them to S3.
+8. Now head back to the settings.py file in your Django project and head back to the if statement we wrote earlier and inside the statement add this line setting:  
     ```
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
     ```
-    This is to tell django where our static files will be coming from in production.
-9. Next we need to create a file to tell django that we want to use S3 to store our static files whenever someone runs collectstatic and also that we want any uploaded product images to go there also.
-10. In the root directory of your project create a file called 'custom_storages.py'. Inside this file you will need to import your settings as well as the s3boto3 storage class. So at the top of the file insert the code:  
+    This is to tell Django where our static files will be coming from in production.
+9. Next we need to create a file to tell Django that we want to use S3 to store our static files whenever someone runs collect static and also that we want any uploaded product images to go there also.
+10. In the root directory of your project create a file called 'custom_storages.py'. Inside this file you will need to import your settings as well as the s3boto3 storage class. So, at the top of the file insert the code:  
     ```
     from django.conf import settings
     from storages.backends.s3boto3 import S3Boto3Storage
@@ -893,7 +895,6 @@ Now that you have created a S3 bucket with its user group attached, we need to c
     ```
     class StaticStorage(S3Boto3Storage):
         location = settings.STATICFILES_LOCATION
-
 
     class MediaStorage(S3Boto3Storage):
         location = settings.MEDIAFILES_LOCATION
@@ -919,29 +920,31 @@ Now that you have created a S3 bucket with its user group attached, we need to c
     }
     ```
 15. Back in S3, go to your bucket and click 'Create folder'. Name the folder 'media' and click 'Save'. 
-16. Inside the  media folder you just created, click 'Upload', 'Add files', and then select all the images that you are using on your site.
+16. Inside the media folder you just created, click 'Upload', 'Add files', and then select all the images that you are using on your site.
 17. Then under 'Permissions' select the option 'Grant public-read access' and click upload.  
-18. Once that is completed you're ready. All your static files and media files should be  linked from django to your S3 bucket.
+18. Once that is completed, you're ready. All your static files and media files should be linked from Django to your S3 bucket.
 
 ## Payments
 
 1. To set up stripe payments you can use this guide [here](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
 
+
+
 ## Webhooks
 
 1. To set up a webhook, sign into your stripe account and click 'Developers' located in the top right of the navbar.
 2. Then in the side-nav under the Developers title, click on 'Webhooks', then 'Add endpoint'.
-3. On the next page you will need to input the link to your heroku app followed by /checkout/wh/. It should look something like this:  
+3. On the next page you will need to input the link to your Heroku app followed by /checkout/wh/. It should look something like this:  
 4. Then click '+ Select events' and check the 'Select all events' checkbox at the top before clicking 'Add events' at the bottom. Once this is done finish the form by clicking 'Add endpoint'.
-5. Your webhook is now created and you should see that it has generated a secret key. You will need this to add to your heroku config vars.
-6. Head over to your app in heroku and navigate to the config vars section under settings. You will need the secret key you just generated for your webhook, in addition to your Publishable key and secret key that you can find in the API keys section back in stripe.
+5. Your webhook is now created and you should see that it has generated a secret key. You will need this to add to your Heroku config vars.
+6. Head over to your app in Heroku and navigate to the config vars section under settings. You will need the secret key you just generated for your webhook, in addition to your Publishable key and secret key that you can find in the API keys section back in stripe.
 7. Add these values under these keys:  
     ```
     STRIPE_PUBLIC_KEY = 'insert your stripe publishable key'
     STRIPE_SECRET_KEY = 'insert your secret key'
     STRIPE_WH_SECRET = 'insert your webhooks secret key'
     ```
-8. Finally, back in your setting.py file in django, insert the following near the bottom of the file:  
+8. Finally, back in your setting.py file in Django, insert the following near the bottom of the file:  
     ```
     STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
     STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
@@ -950,13 +953,12 @@ Now that you have created a S3 bucket with its user group attached, we need to c
 ## Webhooks in Stripe Portal
 ![Stripe Webhooks](assets/readme/webhooks_page.png)
 
-
  ## Version Control
-  - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
+  - Git was used as the version control software. Commands such as git add., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
 
 ## Cloning
 
-1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Reposititory Link](https://github.com/wlillisdev/hiking-hub)
+1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Repository Link](https://github.com/wlillisdev/hiking-hub)
 
 2. Above the list of files, click Code.
 
@@ -964,7 +966,7 @@ Now that you have created a S3 bucket with its user group attached, we need to c
 
 4. Open Git Bash and change the current working directory to the location where you want the cloned directory.
 
-5. Type git clone, and then paste the URL that was copied previously  in step 3.
+5. Type git clone, and then paste the URL that was copied previously in step 3.
 
 6. Press Enter to create the local clone.
 
@@ -977,6 +979,7 @@ Now that you have created a S3 bucket with its user group attached, we need to c
 1. Open GitHub
 2. Find the 'Fork' button at the top right of the page
 3. Once you click the button the fork will be in your repository
+
 
 
 # <img src="assets/readme/code_icon.png" alt="deploy" width="45"/>  Technologies Used
@@ -1067,9 +1070,9 @@ Now that you have created a S3 bucket with its user group attached, we need to c
  
 ## Credits
    - Reference was made to the [Code Institute](https://codeinstitute.net/ie/) Django Boutique Ado tutorials and modified.
-   - [Corey Schafer Django Tutorial](https://www.youtube.com/watch?v=UmljXZIypDc) Very helpful with understanding all elements of setting up a django blog & for implementing user crud on blog posts.
-   - [Codemy Django Blog Series](https://www.youtube.com/watch?v=B40bteAMM_M) Used to understand setting up views,templates & bootstrap.
-   - [Net Ninja Django Tutorial series](https://www.youtube.com/watch?v=n-FTlQ7Djqc) recommended by other students in slack, provided a simplified explanation Djangos MVT.
+   - [Corey Schafer Django Tutorial](https://www.youtube.com/watch?v=UmljXZIypDc) Very helpful with understanding all elements of setting up a Django blog & for implementing user crud on blog posts.
+   - [Codemy Django Blog Series](https://www.youtube.com/watch?v=B40bteAMM_M) Used to understand setting up views, templates & bootstrap.
+   - [Net Ninja Django Tutorial series](https://www.youtube.com/watch?v=n-FTlQ7Djqc) recommended by other students in slack, provided a simplified explanation Django’s MVT.
    - [Django Documentation ](https://docs.djangoproject.com/en/4.0/) used to trubleshoot problems and get information.
    - [Bootstrap](https://www.youtube.com/watch?v=4sosXZsdy-s) Tutorials used to understand bootstrap.
    - [Code with Stein Django Tutorials](https://www.youtube.com/watch?v=bAG_Ia8LX-M&list=PLpyspNLjzwBmIDrDOaPkLLuy5YDDNW9SA)
@@ -1081,17 +1084,16 @@ Now that you have created a S3 bucket with its user group attached, we need to c
   - [w3docs](https://www.w3docs.com/)
   - Notes & Videos from course work from [Code Institute](https://codeinstitute.net/ie/)
 
-
 ## <img src="assets/readme/thankyou_icon.png" alt="thumbs up" width="38"/> Acknowledgements
- - Special thanks to my mentor Miguel Martinez
- for ALL his help and guidance in the development of my final project. Special thanks to the Code Institute Tutor Support, Kasia and our regular class meetings and members of the awesome slack community.
-
+ - Special thanks to my mentor <strong>Miguel Martinez</strong> for all his help and guidance in the development of my final project & during my codeing journey. Special thanks to the Code Institute Tutor Support, Kasia and our regular class meetings and members of the awesome slack community.
 
 # <img src="assets/readme/completed_icon.png" alt="completed" width="38"/> Conclusion
-  - I would like to experiment more with Django and build some more ecommerance projects. Overall, I learned a lot and enjoyed working with Django framework.
+  - I would like to experiment more with Django and build some more ecommerce projects. Overall, I learned a lot and enjoyed working with Django framework.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
-  - If it had time, I would like to have added a wishlist and and related products to the site.   
+  - If it had time, I would like to have added a Wishlist and related products to the site.   
   - I would also learn to make more commits during the project built.
+
+
 
 
 
