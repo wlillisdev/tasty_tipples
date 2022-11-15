@@ -84,9 +84,7 @@ a {
 }
 
 .logo-effect:hover {
-    color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    color: green;
 }
 
 /* Hero Image */
@@ -99,6 +97,7 @@ a {
 
 .logo-text{
     font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
 }
 
 .contact-heading{
@@ -555,6 +554,13 @@ a.category-badge > span.badge:hover {
         font-size:75%;
         line-height: 1;
     }
+
+    .btn-responsive-footer{
+        padding:4px 4px;
+        min-width: 125px;
+        font-size: 1rem;
+    }
+
 
     .intro-responsive {
         font-size:140%;
