@@ -18,16 +18,19 @@
                 <hr class="w-80 m-auto">
             </div>
         </div>
+        <!-- Blog Post list display-->
         <div class="row">
             <div class="col-xl-8 m-4 mx-auto">
                 {% for post in post_list %}
                     <div class="card m-3">
                         <div class="text-center">
+                            <!-- Blog Post Image-->
                             {% if post.image %}
                             <img src="{{ post.image.url }}" alt="{{ post.title }}" class="blog-card-image card-img-top-blog img-fluid">
                             {% else %}
                             <img src="{{ MEDIA_URL }}noimage.png" alt="{{ post.title }}" class="blog-card-image card-img-top-blog img-fluid">
                             {% endif %}
+                            <!-- Blog Post Text-->
                             <div class="card-body bg-light">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">
@@ -67,6 +70,7 @@
             </div>
         </div>
     </div>
+    <!-- Back to Top -->
     <div class="btt-button shadow-sm bg-white p-1 rounded-circle">
         <a class="btt-link d-flex h-100">
             <i class="fa-2x fas fa-arrow-circle-up back-to-top mx-auto my-auto"></i>
