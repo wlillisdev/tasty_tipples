@@ -5,6 +5,7 @@
 
 <head>
   {% block meta %}
+   <!-- Required meta tags -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +23,9 @@
   {% block corecss %}
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS Link -->
   <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
@@ -36,7 +39,9 @@
   {% endblock %}
 
   {% block corejs %}
+  <!-- Font Awsome -->
   <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -55,6 +60,7 @@
 </head>
 
 <body>
+  <!-- Special Instructions  Banner-->
   <header class="container-fluid fixed-top">
     <div id="delivery-banner" class="row text-center">
       <div class="col  header-top text-white">
@@ -62,12 +68,15 @@
           €{{ free_delivery_threshold }}!</h4>
       </div>
     </div>
+    <!-- Logo, Search bar,account and cart icons in the nav-->
     <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+        <!-- Logo-->
         <a href="{% url 'home' %}" class="nav-link main-logo-link">
           <h2 class="logo-text my-0 mt-3 logo-effect">Tasty Tipples</h2>
         </a>
       </div>
+      <!-- Search Bar-->
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
         <form method="GET" action="{% url 'products' %}">
           <div class="input-group w-100">
@@ -83,6 +92,7 @@
           </div>
         </form>
       </div>
+      <!-- Account-->
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
         <ul class="list-inline list-unstyled text-center text-lg-right my-0">
           <li class="list-inline-item dropdown">
@@ -93,6 +103,7 @@
                 <p class="my-0">My Account</p>
               </div>
             </a>
+            <!-- Drop-down menu if user is logged in -->
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
@@ -106,6 +117,7 @@
               {% endif %}
             </div>
           </li>
+          <!-- Shopping Bag -->
           <li class="list-inline-item">
             <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
               href="{% url 'view_bag' %}">
@@ -135,7 +147,7 @@
       </nav>
     </div>
   </header>
-
+  <!-- Toasts Messages-->
   {% if messages %}
   <div class="message-container">
     {% for message in messages %}
@@ -166,10 +178,12 @@
     <hr class="rule-home">
     <div class="container">
       <div class="row">
+        <!-- Trust Pilot-->
         <div class="col-lg-3 col-md-6 mb-3 mb-lg-0 text-center m-1">
           <a href="https://ie.trustpilot.com/" target="_blank" rel="noopener noreferrer" aria-label="Go to trust pilot">
             <img src="{{ MEDIA_URL }}trustpilot.png" alt="trust pilot rating" width="180" class="mb-1">
           </a>
+          <!-- Social Media-->
           <p class="font-weight-bold">Follow Us On</p>
           <ul class="list-inline">
             <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100087413854348" target="_blank" rel="noopener noreferrer"
@@ -184,6 +198,7 @@
               <i class="fab fa-tiktok fa-lg"></i></a></li>
           </ul>
         </div>
+        <!-- shop-->
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center m-1">
           <h6 class="text-uppercase font-weight-bold mb-1">Shop</h6>
           <ul class="list-unstyled mb-0">
@@ -196,6 +211,7 @@
                 class="text-muted">Wines</a></li>
           </ul>
         </div>
+        <!-- company details-->
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0 text-center m-1">
           <h6 class="text-uppercase font-weight-bold mb-1">Company Details</h6>
           <ul class="list-unstyled mb-0">
@@ -206,10 +222,12 @@
             <li class="mb-2"><a href="{% url 'contact' %}" class="text-muted">Contact Us</a></li>
           </ul>
         </div>
+        <!-- newsletter-->
         <div class="col-lg-4 col-md-6 mb-lg-0 text-center m-1" id="newsletter_signup">
           <h6 class="text-uppercase font-weight-bold mb-1">Newsletter</h6>
           <p class="text-muted mb-4">Sign up to today! <br>To get details of our latests drinks deals, secret sales and new
             products releases</p>
+            <!-- mail chimp-->
           <div id="mc_embed_signup">
             <form
               action="https://herokuapp.us11.list-manage.com/subscribe/post?u=32c443894d9a1307b454dc3bc&amp;id=634bfdbab2&amp;f_id=001994e0f0"
