@@ -83,6 +83,11 @@ a {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
+.logo-effect:hover {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
 
 /* Hero Image */
 .background-image {
