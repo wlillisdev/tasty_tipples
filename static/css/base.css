@@ -249,6 +249,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.back-to-top{
+    color: #1e7e34;
+}
+
 /*------------------------ Allauth form formatting */
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
