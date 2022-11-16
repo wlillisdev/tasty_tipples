@@ -15,6 +15,7 @@
 {% endblock %}
 
 {% block content %}
+    <!-- Checkout page -->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -25,6 +26,7 @@
         </div>
 
         <div class="row">
+            <!-- Order Summary -->
             <div class="col-12 col-lg-6 order-lg-last mb-5">
                 <p class="text-muted">Order Summary ({{ product_count }})</p>
                 <div class="row">
@@ -56,6 +58,7 @@
                     </div>
                 {% endfor %}
                 <hr class="my-0">
+                <!-- Order Totals -->
                 <div class="row text-black text-right">
                     <div class="col-7 offset-2">
                         <p class="my-0">Order Total:</p>
@@ -69,6 +72,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Customers Details -->
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
@@ -128,6 +132,7 @@
 							</span>
 							<span>Your card will be charged <strong>€{{ grand_total|floatformat:2 }}</strong></span>
 						</p>
+                        <!-- Stripe logo and link -->
                         <p>
                             <a href="https://stripe.com/ie" target="_blank" rel="noopener noreferrer" aria-label="Go to stripe">
                                 <img class="img-fluid float-right" src="{{ MEDIA_URL }}secure_payments.png" alt="secure payment strip" width="350" height="200">
@@ -137,6 +142,7 @@
                 </form>
             </div>
         </div>
+        <!-- processing order spinner -->
         <div id="loading-overlay">
             <h1 class="text-light logo-font loading-spinner">
                 <span class="icon">
