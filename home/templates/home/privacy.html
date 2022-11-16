@@ -146,10 +146,22 @@
                 age of 13. If you think that your child provided this kind of information on our website, we strongly
                 encourage you to contact us immediately and we will do our best efforts to promptly remove such
                 information from our records.</p>
-
+            <div class="btt-button shadow-sm bg-white p-1 rounded-circle">
+                <a class="btt-link d-flex h-100">
+                    <i class="fa-2x fas fa-arrow-circle-up back-to-top mx-auto my-auto"></i>
+                </a>	
+            </div>
         </div>
-
     </div>
 </div>
 
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script>
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
 {% endblock %}
