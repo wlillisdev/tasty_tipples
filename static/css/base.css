@@ -33,6 +33,7 @@ a {
     transition: all 300ms ease;
 }
 
+/* Navbar */
 .nav-hover{
     position: relative;
     text-decoration: none;

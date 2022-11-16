@@ -12,6 +12,7 @@
 {% endblock %}
 
 {% block content %}
+    <!-- All products -->
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-1">
@@ -21,9 +22,10 @@
                         <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
-                <hr class="w-50 mb-1">
+                <hr class="w-50 mb-1 rule-home">
             </div>
         </div>
+        <!-- Filter Products -->
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
@@ -51,6 +53,7 @@
                         </p>
                     </div>
                 </div>
+                <!-- Product Card -->
                 <div class="row">
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
@@ -123,6 +126,7 @@
             </div>
         </div>
     </div>
+    <!-- Back to Top -->
     <div class="btt-button shadow-sm bg-white p-1 rounded-circle">
         <a class="btt-link d-flex h-100">
             <i class="fa-2x fas fa-arrow-circle-up back-to-top mx-auto my-auto"></i>
