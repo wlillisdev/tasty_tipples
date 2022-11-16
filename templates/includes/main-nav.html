@@ -1,11 +1,14 @@
+<!-- Main Nav Bar -->
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <!-- Only appears in hamburger menu -->
         <li class="nav-item d-block d-md-none">
             <a class="contact-heading font-weight-bold nav-link text-black mr-5 nav-link nav-hover" href="{% url 'home' %}">Tasty Tipples</a>
         </li>
         <li class="nav-item d-block d-md-none">
             <a class="logo-font font-weight-bold nav-link text-black mr-5 nav-link nav-hover" href="{% url 'home' %}" id="home-link">Home</a>
         </li>
+        <!-- All Product drop down tab -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link nav-hover text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -17,7 +20,7 @@
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
-
+        <!-- Spirits drop down tab -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-hover nav-link text-black mr-5" href="#" id="spirits" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Spirits
@@ -30,7 +33,7 @@
                 <a href="{% url 'products' %}?category=whiskey,gin,vodka,rum" class="dropdown-item">All Spirits</a>
             </div>
         </li>
-
+        <!-- Beer drop down tab -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-hover nav-link text-black mr-5" href="#" id="beer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Beer
@@ -42,7 +45,7 @@
                 <a href="{% url 'products' %}?category=larger,ales,cider" class="dropdown-item">All Beers</a>
             </div>
         </li>
-
+        <!-- Wine drop down tab -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-hover nav-link text-black mr-5" href="#" id="wine" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Wine
@@ -54,7 +57,7 @@
                 <a href="{% url 'products' %}?category=red_wine,white_wine,rose" class="dropdown-item">All Wine</a>
             </div>
         </li>
-
+        <!-- Blog Link -->
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-hover nav-link text-black" href="{% url 'blogview' %}">
                 The Tipple Blog
