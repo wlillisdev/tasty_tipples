@@ -11,7 +11,6 @@
 </div>
 {% endblock %}
 
-
 {% block content %}
 
 <div class="container">
@@ -19,15 +18,6 @@
         <!-- Image -->
         <div class="col-md-6 mt-5">
             <img src="{{ MEDIA_URL }}aboutus_ed.jpg" class="img-fluid mt-2" alt="A picture of people having beer">
-            <p class="text-center font-italic text-muted mt-1"></p>
-            <div class="text-center mt-5">
-                <hr class="rule-home">
-                <p class="mt-4"><strong>Always Drink in moderation and if you feel you need some supports there are some helpful links below.</strong></p>
-                <hr class="rule-home">
-                <a href="https://spunout.ie/" target="_blank"><img src="{{ MEDIA_URL }}spun_out.png" alt="Spun Out logo" rel="sponsored" class=" m-2 img-fluid" width="250" height="150"></a>
-                <a href="https://www.alcoholicsanonymous.ie/" target="_blank"><img src="{{ MEDIA_URL }}aa_logo.webp" alt="Alcoholics Anonymous" rel="sponsored" class="img-fluid mt-3 mb-2" width="250" height="150"></a>
-                <a href="https://www.drinkaware.ie/" target="_blank"><img src="{{ MEDIA_URL }}drinkawre_logo_new.jpg" alt="Alcoholics Anonymous" rel="sponsored" class="img-fluid mt-3" width="250" height="150"></a>
-            </div>
         </div>
         <!-- About us -->
         <div class="col-md-6 mt-3 text-center order-first">
@@ -35,31 +25,40 @@
             <hr class="rule-home">
             <p> Firstly, Welcome to Tasty Tipples. <br> We are a group of friends who set up Tasty Tipples back in the great lock down of 2021.
                 When the pubs closed and the off licences were jammed, we said Hey.... lets sell direct to the customer via an online drink shop, and so it all began.</p>
-
             <p>We are passionate about everything artisanal, including beer, whiskey, tequila, wine, and gin. Do we really need to say more?
                 Our aim is to bring unique, creative drinks right to your home. 
                 The drinks industry is always evolving, and our committed team is constantly looking for the newest trends,
                 enticing beverages, and ingredients to create any cocktail imaginable.</p>
-            
             <div class="text-center lg-block">
                 <hr class="rule-home">
                 <p class="text-muted text-center my-5"><em><strong>Mission Statement</strong><br>'To support all Microbreweries and distillers in Ireland and promote their products to both
                     the local Irish Market and on the world stage via our website' <br> <strong>Tom Tipple...C.E.O Tasty Tipples</strong></em>
                 </p>
                 <hr class="rule-home">
-                <p>Our aim is to deliver an awsome customer experience and our expert, 
+                <p>Our aim is to deliver an awesome customer experience and our expert, 
                     enthusiastic team members are delighted to share their knowledge and help customers to find their perfect tipple.
                 </p>
-                <p><a href="#newsletter_signup"><strong>Sign Up to Our Newletter</strong></a><br> where we have secret sales, Discounts, new products and awsome cocktail creations. <br><a href="{% url 'blogview' %}"><br><strong>The Tipple Blog</strong></a><br>We have
-                    weekly posts about everything, From how to pick the perfect whiskey to how to cure a hangover quickly!!!
+                <p><a href="#newsletter_signup"><strong>Sign Up to Our Newletter</strong></a><br> where we have secret sales, Discounts, new products and awesome cocktail creations. <br><a href="{% url 'blogview' %}"><br><strong>The Tipple Blog</strong></a><br>We have
+                    weekly posts about everything, from how to pick the perfect whiskey to how to cure a hangover quickly!!!
                 </p>
             </div>
+            <!-- buttons to products and contact us -->
             <div class="text-center">
                 <p><strong>If you Have any questions feel free to contact us</strong></p>
                 <a href="{% url 'contact' %}" class="btn btn-success m-2">Contact Us</a>
                 <a href="{% url 'products' %}" class="btn btn-primary">View Our Products</a>
             </div>
-          
+        </div>
+    </div>
+    <!-- external links -->
+    <div class="row">
+        <div class="col-12 text-center mt-3 mb-3">
+            <hr class="rule-home">
+            <p class="mt-4"><strong>Always Drink in moderation and if you feel you need some supports there are some helpful links below.</strong></p>
+            <hr class="rule-home">
+            <a href="https://spunout.ie/" target="_blank"><img src="{{ MEDIA_URL }}spun_out.png" alt="Spun Out logo" rel="sponsored" class=" mx-2 img-fluid" width="250" height="150"></a>
+            <a href="https://www.alcoholicsanonymous.ie/" target="_blank"><img src="{{ MEDIA_URL }}aa_logo.webp" alt="Alcoholics Anonymous" rel="sponsored" class="img-fluid mt-3 mx-3" width="250" height="150"></a>
+            <a href="https://www.drinkaware.ie/" target="_blank"><img src="{{ MEDIA_URL }}drinkawre_logo_new.jpg" alt="Alcoholics Anonymous" rel="sponsored" class="img-fluid mt-3" width="250" height="150"></a>
         </div>
     </div>
 </div>
