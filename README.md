@@ -1,7 +1,7 @@
 # Tasty Tipples
 ## <img src="assets/readme/overview_icon.png" alt="overview" width="25"/> Overview 
 Tasty Tipples in a fictious online drink shop that has a drink for every occasion! It is a full-stack Django website built using Python, JavaScript, HTML and CSS. This is a B2C e-commerce website (Business to Customer).
-Customers can purchase a wide variety of high-quality beverages such as Spirits, Wines and Beers and get it delivered straight to their door.
+Customers can purchase a wide variety of high-quality beverages such as Spirits, Wines and Beers and get them delivered straight to their door.
 Users are able to subscribe to the newsletter for details of our latest’s drinks deals, secret sales and new products releases.
 
 Tasty Tipples allows the users CRUD functionality when leaving product reviews. The site admin also has full CRUD functionality for product management adding, editing and deleting products. The user can Sign Up / Log In to their user profile, check order history as well as viewing all products and adding items to their bag. The website has full payment functionality through Stripe. Although this is a fictious site the logic and design could be used for any company selling products online.
@@ -14,7 +14,7 @@ Tasty Tipples allows the users CRUD functionality when leaving product reviews. 
 
 # Aim of Website
 
-The goal of this website is to become Ireland numer one Online Drinks Store. To provide a platform so users can find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be to go to place to get unique Spirits, Wines & Beers that currently cannot be easily got for customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
+The goal of this website is to become Ireland number one Online Drinks Store. To provide a platform so users can find and buy products produced in Ireland by Irish Distilleries and Craft Brewers. We also want to be the go to website to get unique Spirits, Wines & Beers that currently cannot be easily got by customers in the Irish Market. This ecommerce platform will also aim to be a hub for educating people about products, distillers, brewers and provide honest reviews so customers can make an informed purchase.
 
 # Target Audience
 
@@ -63,7 +63,7 @@ The goal of this website is to become Ireland numer one Online Drinks Store. To 
    
 # <img src="assets/readme/agile_icon.png" alt="agile" width="45"/> Agile Approach to Project Devlopment 
 
-An agile approach was taken in the development of this project. The project will be dissected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optimise time usage.
+An agile approach was taken in the development of this project. The project was dissected into smaller parts and an iterative approach to project management and development will be used to achieve faster development of the project and optimise time usage.
 
 - MoSoCoW Method:
   - I will also aim to integrate the MoSoCoW Method in to this project. Which is a four-step approach to prioritizing which project requirements need to be carried out first in order to achieve project goals and criteria of user stories. Custom labels will be created in GitHub and allocated to each requirement so they can be easily filtered and identified.
@@ -71,7 +71,7 @@ An agile approach was taken in the development of this project. The project will
 - User Stories
   - The whole project was broken down in 30 individual user stories, each user story was a self-contained development mini project that helped reach the overall goal of the website. They were entered into GitHub as GitHub issues.
   - [View List of 30 User Stories](https://github.com/wlillisdev/tasty_tipples/issues?page=1&q=is%3Aissue+is%3Aclosed)
-  - Specific acceptance criteria were allocated for each user story and a list of tasks were also established. Each task would need to be completed to ensure acceptance criteria is met. See example below.
+  - Specific acceptance criteria was allocated for each user story and a list of tasks were also established. Each task would need to be completed to ensure acceptance criteria is met. See example below.
   - ![Issue Example](assets/readme/issue_example.png)
   - The Moscow method was then applied to each user story. And tags were applied to prioritise the order of work.
   - [Example of MOSCOW tags](assets/readme/moscow_tags.png)
@@ -97,7 +97,7 @@ An agile approach was taken in the development of this project. The project will
   - The Navigation bar is located at the top of all Pages. It is simple but clean design. It includes the logo, Main Products Links, search bar, My Account and a Shopping Bag.
   - If a user has logged it, they can view their profile via the account link.
   - Notification Banner, is located on top of the nav and displays important information.
-  - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
+  - The nav design will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
   - The nav elements of the main products has a hover underline transition effect that is generated when hovered over which adds to the user experience.
   - The nav bar is responsive and collapse’s in to hamburger menu when on smaller screens.
 
@@ -116,13 +116,13 @@ An agile approach was taken in the development of this project. The project will
 ## Landing Page
 
   - The landing page contains an eye-catching background image of lots of bright bottles of spirits and immediately catches the user’s attention.
-  - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. And they are encouraged to Shop Now.
+  - The text on the screen clearly tells the user what’s the site is about and what the user needs to do next. They are encouraged to click the Shop Now button.
   - Hero image displayed below
   - <img src="assets/readme/hereo_image.png" alt="hero not logged in" width="750"/>
 
 ## Welcome Section
 
-- If the users scroll down from the hero image, looking for more information. They will come across the welcome section.
+- If the users scrolls down from the hero image, looking for more information. They will come across the welcome section.
 - It provides the user with a brief statement about who we are and what we can do for the user.
 - A product carousel with three eye catching product images helps to keep the user engaged and displays important product information.
 - It also gives the user an opportunity to sign up to our newsletter.
@@ -168,7 +168,7 @@ An agile approach was taken in the development of this project. The project will
  
 ## About Us
 
-  - About Us section is a very brief description about Tasty Tipples to quickly give the user more information about the website and why we started the business.
+  - The about us section is a very brief description about Tasty Tipples to quickly give the user more information about the business and why the business was started.
   - It highlights the goals of the Business so the user can understand and build trust with the brand.
   
   - <img src="assets/readme/new_about.png" alt="About Us" width="800"/>
@@ -186,14 +186,14 @@ An agile approach was taken in the development of this project. The project will
 
   - The contact information for Tasty Tipples is visible to the user, including their address, phone number.
   - The user is asked for their contact information and a brief message about their inquiry
-  - All fields are required for the message to be sent user will be given feedback if any errors occur.
+  - All fields are required for the message to be sent, user will be given feedback if any errors occur.
 
   - <img src="assets/readme/contact_2.png" alt="Contact Us" width="800"/>
   - The user will get an alert if the message was successfully submitted.
 
 ![success message](assets/readme/email_success.png)
 
-  - The site owner can view this inquiry from the admin page under the contact us app.
+  - The site owner can view the contact us inquiry from the admin page under the contact us app.
 
   - <img src="assets/readme/email admin.png" alt="Admin email" width="800"/>
  
@@ -227,7 +227,7 @@ An agile approach was taken in the development of this project. The project will
   - This page displays important information about the product. It shows Name, Category, Review score and product description on the top part of the card.
   - Product details give the user more information to the buyer in relation to the producer, size and alcohol content. It is also a collapsible accordion menu.
   - The user has the ability to type in a specific quantity or use the + or - buttons.
-  - The user adds the product to the bag if they would like to buy the product.
+  - The user adds the product to the shopping bag if they would like to buy the product.
   - When the Admin is logged in the edit and delete buttons will only appear to give the admin CRUD capabilities for the product.
 
   <br>
@@ -257,7 +257,7 @@ An agile approach was taken in the development of this project. The project will
 
 - Delete Review
   - The user can also delete a review they have made, when the delete button is pressed a modal pops up on screen and asks are they sure if they want to delete this review.
-  -	The review will be removed from  the website if delete is picked by the user and a notification alert displayed.
+  -	The review will be removed from  the website if delete is clicked by the user and a notification alert displayed.
 
   <br>
 
@@ -297,8 +297,9 @@ An agile approach was taken in the development of this project. The project will
 
 ## Checkout
 - Here the shopper fills out his or her contact details, delivery address, and card number.
-- If the user is signed in and has delivery information saved in their profile, the delivery details and email address will be automatically filled in.
-- A box can also be ticked for new users so all their delivery details are saved to their profile.
+- If the user is signed in and has save delivery information box ticked it will be saved it to their profile, the delivery details and email address will be automatically filled in the next time they make a purchase.
+
+
 - <img src="assets/readme/checkout.png" alt="checkout page" width="650"/>
 
 - The order summary will also appear to the right.
@@ -309,12 +310,12 @@ An agile approach was taken in the development of this project. The project will
 ## Payment
 - Payment is made via Stripe payments.
 - The site can be tested by using the dummy card number 4242 4242 4242 4242 with the expiry date 04/24 and the CVC code 242.
-- An image saying secure payments was added with an external link to stripe if customers want to find out more about stripe.
+- An image saying secure payments was added with an external link to stripe if customers want to find out more about stripe payments.
 - <img src="assets/readme/stripe.png" alt="stripe" width="650"/>
 
 <br>
 
-- A loading spinner page appears and if payment is successful, you will be redirected to a Thank You page, with details of your order and alert saying order successfully processed.
+- A loading spinner page appears. if payment is successful, you will be redirected to a Thank You page, with details of your order and alert saying order successfully processed.
 - <img src="assets/readme/thank_you.png" alt="stripe" width="650"/>
 
 
@@ -327,7 +328,7 @@ An agile approach was taken in the development of this project. The project will
 ## Confirmation Email
 - If the order is successful a confirmation email will be sent to customer.
 
-- <img src="assets/readme/confirmation_email_sent.png" alt="stripe" width="700"/>
+- <img src="assets/readme/confirmation_email_sent.png" alt="confirmaion email" width="700"/>
 
 
 ## Webhooks
@@ -370,24 +371,36 @@ An agile approach was taken in the development of this project. The project will
 - Mail Chimp has been integrated into this site via the newsletter sign up form in the footer. Mail chimp will allow us the effectively collect users emails and run email marketing campaigns.
 - Users will get feedback if their email was successfully submitted.
 - ![Newsletter Signup](assets/readme/newletter_signup.png)
-- Mail Chimp interface shows how many subscribers we currently have from the form.
+- Mail Chimp interface shows how many subscribers we currently have from the newsletter sign up form.
 - ![Newsletter mail chimp](assets/readme/mail_chimp.png)
 
 
 ## Message and Alerts to site Users
 - In the top right-hand corner of the screen a box will pop up informing the user of any actions they have performed.
 - Different alerts will have different colours for example a success alert is green and an error alert is red.
+
 - ![success alert](assets/readme/success_toast.png)
 - ![info alert](assets/readme/info_alert.png)
 
+<b>
+
+- When the Shopper spends over €50 they will get a message  you got free delivery.
+
+<br>
+
+- ![Free Delivery](assets/readme/free_delivery.png)
+
 ## Blog
-- Tasty Tipples has a blog for content marketing, The initial page has a list of blog posts, that contains a Title and a snippet of what the article is about. 
+- Tasty Tipples has a blog for content marketing, The initial page has a list of blog posts, that contains a Title and a snippet of what the article is about.
+- <img src="assets/readme/blog_list.png" alt="blog_list" width="700"/> 
 - The blog posts will be paginated after 3 posts. Paginated pages can be found at the bottom blog post list.
 - Once the user clicks on a blog post to read, they will be brought to a blog detail page. This will contain all the articles information.
-- Currently blog posts can only be added from the admin panel. Summer note has also been set up to format blog post.
-- <img src="assets/readme/blog.gif" alt="stripe" width="900"/>
+- <img src="assets/readme/blog_post.png" alt="blog_post" width="700"/> 
+- Currently blog posts can only be added from the admin panel. Summer note has also been set up to format blog post by the admin.
 
+<br>
 
+- <img src="assets/readme/blog_new_video.gif" alt="blog_overview" width="900"/>
 
 
 ## Admin Panel
@@ -401,7 +414,7 @@ An agile approach was taken in the development of this project. The project will
 
  - Theme
    - The Theme of the website was to build a bright and engaging ecommerce site. The styling was kept to the minimum as we didn’t want to take away from the product images. And wanted the customer to focus 100% on the products.
-   - Fonts were imported from google fonts, Pacifico for the logo & Lato were chosen for general text. These were picked as they were bold, simple and easy to read.
+   - Fonts were imported from google fonts, Pacifico for the logo & Lato were chosen for general text.
 
  - Data Model
    - Lucid Charts was used to design and visualise the models used in this project.
@@ -491,11 +504,11 @@ An agile approach was taken in the development of this project. The project will
 # <img src="assets/readme/marketing_icon.png" alt="marketing" width="45"/>  Web Marketing
 
 ## Target Audience
- Tasty Tipples is Business to Customer business model. Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
+ Tasty Tipples is a Business to Customer business model. Our Target market currently is male and female aged between 25 to 50 located in Ireland. Once the shop is established, we will be aiming our sights on high value clients on the world market with our high-end spirits made in Ireland
 
 
 ## Marketing Mix
-  We have decided to adopt a multi prong approach to digital marketing to target our audience. A mixture of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website. The staff are already proficient in all elements of social media. They will manage this internally; they will leverage content creation and short form video content to gain brand awareness and drive traffic to the site. Due to lack of knowledge and time some services will be outsourced such as paid marketing, email marketing and SEO. With this multi-channel approach, it will drive short-, medium- and long-term growth for Tasty Tipples.
+  We have decided to adopt a multi prong approach to launch Tasty Tipples. A mixture of paid and organic methods will be adopted to get quick and consistent traffic and sales to the new website. The staff are already proficient in all elements of social media. They will manage this internally; they will leverage content creation and short form video content to gain brand awareness and drive traffic to the site. Due to lack of knowledge and time some services will be outsourced such as paid marketing, email marketing and SEO. With this multi-channel approach, it will drive short-, medium- and long-term growth for Tasty Tipples.
 
 
 ## Social Media
@@ -521,16 +534,16 @@ An agile approach was taken in the development of this project. The project will
   - A list of keywords was selected to represent the buyer’s journey. A mixture of long tail and short tail Keywords with low to high keyword competitiveness were picked.
   - ![keyword funnel](assets/readme/keyword-funnel-stages.jpg)
   - Onsite SEO will be carried out to optimise product pages & alt tags. Due to time constraints, it will not be completed in this iteration of the project.
-  - Long-term off-site SEO link building campaigns will also be used to grow organic search traffic. This will be completed future iterations of the project.
+  - Long-term off-site SEO link building campaigns will also be used to grow organic search traffic. This will be completed in future iterations of the project.
 
 
 ## Content Marketing
 
 - The Tipple Blog
-  - Our blog will be used to target SEO keywords and answer questions that people are actively searching for answers online. This will not only educate our shoppers but it also helps build confidence and trust in our brand. While at the same time ranking the website in search results for more keywords.
+  - Our blog will be used to target SEO keywords and answer questions that people are actively searching for answers to online. This will not only educate our shoppers but it also helps build confidence and trust in our brand. While at the same time ranking the website in search results for more keywords.
 
 - Short Form Content 
-  - With a huge shift on all social channels to short form video content we still actively release short videos on a daily basis to leverage this trend. Software like [repurpose.io](https://repurpose.io/) will be used to post content across all channels at the same time to reduce time and get maximum exposure.
+  - With a huge shift on all social channels to short form video content we still actively release short videos on a daily basis to leverage this trend. Software like [repurpose.io](https://repurpose.io/) will be used to post content across all channels at the same time to improve productivity and get maximum exposure.
 
 
 
@@ -546,7 +559,7 @@ An agile approach was taken in the development of this project. The project will
 - Email marketing when done correctly has low input costs and allows us to target our customers with a more customised offering giving a Better ROI.
 - Mail Chimp
   - We will initially build a subscriber list to our newsletter via the form in the footer of our website.
-  - We will send weekly newsletters of our latest’s drinks deals, secret sales and new products releases.
+  - We will also send weekly newsletters about our latest’s drinks deals, secret sales and new products releases.
 
 
 ## Outsourcing
@@ -698,7 +711,7 @@ An agile approach was taken in the development of this project. The project will
 | [11](https://github.com/wlillisdev/tasty_tipples/issues/11) | As a user I can get a custom error message displayed so that if something is not working or an error occurs on the website |  . Users get a custom error message displayed if a 404 or 500 error occurs | Pass |
 | [12](https://github.com/wlillisdev/tasty_tipples/issues/12) | As an Admin I want a sitemap.xml and robots.txt files so that search engines can quickly and accurately crawl my site and index my pages to allow shoppers to find our products in search engines | Sitemap & Robots.txt files are stored in the root directory of the project, The Robot.txt file contains pages that you don't want search engines to index | Pass |
 | [13](https://github.com/wlillisdev/tasty_tipples/issues/13) | As a site Admin I can use onsite SEO and keywords so that my website will rank in search engines for relevant keywords and drive traffic to my site |  There are keywords in the head of the HTML page and in the content of the site. Relevant keywords are chosen that are low in competition and high in traffic. | Pass |
-| [14](https://github.com/wlillisdev/tasty_tipples/issues/14) | As Admin I can leverage web marketing to drive website traffic, increase sales, and build brand awareness and customer retention | Newsletter sign-up form integrated into footer and set up in Mail chimp to build subscriber list for email marketing, Paid marketing campaigns at a later date. Social media & short form videos used leveraging followers on social channels to increase sales, Blog, content marketing using targeted keywords and educating customers | Pass |
+| [14](https://github.com/wlillisdev/tasty_tipples/issues/14) | As Admin I can leverage web marketing to drive website traffic, increase sales, and build brand awareness and customer retention | Newsletter sign-up form integrated into footer and set up in Mail chimp to build subscriber list for email marketing, Paid marketing campaigns at a later date. Social media icons in the footer, Blog used for content marketing using targeted keywords and educating customers | Pass |
 | [15](https://github.com/wlillisdev/tasty_tipples/issues/15) | As a site owner I want the ability to add new products so that I can quickly add products to the website |  Only the admin when logged in can add a product from the nav bar in product management. Admin can add new products from the front end of the website via a form. | Pass |
 | [16](https://github.com/wlillisdev/tasty_tipples/issues/16) | As a site owner I can edit and update a product so that I can quickly alter the products information when required | Admin can click on edit product and edit products information from the front end, Product details can be updated quickly from the product management menu | Pass |
 | [17](https://github.com/wlillisdev/tasty_tipples/issues/17) | As a site owner I want to be able to delete a product so that remove products that are out of season or no longer for sale | Admin can click on delete in product management to delete a product from the website | Pass |
@@ -711,7 +724,7 @@ An agile approach was taken in the development of this project. The project will
 | [24](https://github.com/wlillisdev/tasty_tipples/issues/24) | As a Shopper I can add a product to the cart so that so that I can buy it later | On the product detail page, the user can click on add to bag button and it will add the selected item to the shopping bag. | Pass |
 | [25](https://github.com/wlillisdev/tasty_tipples/issues/25) | As a Shopper I can adjust the number of items in the bag so that I can adjust the quantity if needed | The user can use the quantity +/- buttons to adjust the quantity and update the number of items in the bag, The totals will also adjust as the quantity is adjusted | Pass |
 | [26](https://github.com/wlillisdev/tasty_tipples/issues/26) | As a shopper I can view all the items in the shopping bag so that so I can confirm that I have all the correct products before checkout | Users can click on the shopping bag and will be brought to a page that shows all the items in the bag. If no items are in the bag a message no items have been added will be displayed, with a button return to the shop | Pass |
-| [27](https://github.com/wlillisdev/tasty_tipples/issues/27) | As a shopper I want a confirmation email of my order so that so I have a record of what I bought | The user receives a confirmation email with order number of order details if the purchase was successful | Pass |
+| [27](https://github.com/wlillisdev/tasty_tipples/issues/27) | As a shopper I want a confirmation email of my order so that so I have a record of what I bought | The user receives a confirmation email with order number and order details if the purchase was successful | Pass |
 | [28](https://github.com/wlillisdev/tasty_tipples/issues/28) | As an Admin I can post relevant informative content on a blog so that I can educate customers, build brand awareness, and leverage SEO keywords | A blog that displays detailed posts so the shopper can learn more about our products with important SEO keywords included | Pass |
 | [29](https://github.com/wlillisdev/tasty_tipples/issues/29) | As a Shopper  I can add a product review so that so I give feedback on my experience of the product purchased | Users can add a product review to a product they have purchased | Pass |
 | [30](https://github.com/wlillisdev/tasty_tipples/issues/30) | As a Shopper I can sort through products quickly so that so I can find the products I want easily | The user can sort through products quickly by applying various filters, for example by price (low to high), by price (high to low). | Pass |
@@ -720,13 +733,13 @@ An agile approach was taken in the development of this project. The project will
   
 # <img src="assets/readme/bugs_icon.png" alt="bugs" width="45"/>  Fixed Bugs
 
-  - When testing the shopping bag, I noticed that the user could type in any quantity and form validation was not working. Further investigation I noticed that the update and remove options were just links and they were outside the form tags. I changed the update link to a button with "submit" and put it inside the form tags. Form validation is now working and the user can only enter a number between 1 & 99 only.
+  - When testing the shopping bag, I noticed that the user could type in any quantity and form validation was not working. Further investigation I noticed that the update and remove options were just links and they were outside the form tags. I changed the update link to a button with "submit" and put it inside the form tags. Form validation is now working and the user can only enter a number between 1 & 99.
   [Bug in Bag View Quantity](assets/readme/form_bug.png)  
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, I went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
-  - After running all python code through pep 8 validator a number of errors were identified and fixed. 
-  - When using crispy forms on product detail page for the review form it would not appear, I did a lot a lot of research and discussed with tutor support, no easy fix was found, so I came up with a work around and manually coded the form. It worked out better in the end as I was able to apply better styling and formatting manually.
-  - When deploying the site AWS was displaying images on the site, but when I uploaded a picture, it crashed the site. After much troubleshooting I discovered there was white space in AWS keys in the Heroku config variables. When this was deleted, it worked fine.
+  - After running all python code through the terminal console using the command python3 -m flake8 a number of errors were identified and fixed. 
+  - When using crispy forms on product detail page for the review form it would not appear, I did a lot of research and discussed with tutor support, no easy fix was found, so I came up with a work around and manually coded the form. It worked out better in the end as I was able to apply better styling and formatting manually.
+  - When deploying the site. AWS was displaying images on the site, but when I uploaded a picture, it crashed the site. After much troubleshooting I discovered there was white space in AWS keys in the Heroku config variables. When this was deleted, it worked fine.
   - After deploying the site i noticed the confirmation emails were not sending and the webhooks were failing, I updated the webhook.url to the deployed site URL and it worked fine.
   - During development in gitpod, the stripe webhooks were working ok, but they started failing 2 weeks after initially being setup, after much head scratching, I noticed that my URL in gitpod had changed for some reason and no longer matched what was initially setup in stripe. Once updated in stripe it worked ok.
   
@@ -737,7 +750,6 @@ An agile approach was taken in the development of this project. The project will
 
   # <img src="assets/readme/security_icon.png" alt="security" width="45"/> Security
   - Cross-Site Request Forgery (CSRF) tokens were used on all forms.
-  - Secret access keys were stored safely in env.py this was set up before the first push to Github.
   - Django allauth was used to ensure only signed in users can edit or delete review. And for super user permissions.
 
 
@@ -759,9 +771,9 @@ The site was deployed via Heroku.
 6.  The next page you will see is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars and enter the following:
     *   DATABASE_URL = the url of your heroku postgres database
     *   SECRET_KEY = a secret key for your app.
-    *   STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-    *   STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
-    *   STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+    *   STRIPE_PUBLIC_KEY = ('STRIPE_PUBLIC_KEY', '')
+    *   STRIPE_SECRET_KEY = ('STRIPE_SECRET_KEY', '')
+    *   STRIPE_WH_SECRET = ('STRIPE_WH_SECRET', '')
     *   DISABLE_COLLECTSTATIC = 1 during development only
     *   EMAIL_HOST_PASS  =  Password from email client                                                    
     *   EMAIL_HOST_USER  =  Site's email address
@@ -1094,7 +1106,6 @@ Now that you have created a S3 bucket with its user group attached, we need to c
   - I would like to experiment more with Django and build some more ecommerce projects. Overall, I learned a lot and enjoyed working with Django framework.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
   - If it had time, I would like to have added a Wishlist and related products to the site.   
-  - I would also learn to make more commits during the project built.
 
 
 
