@@ -392,10 +392,8 @@ An agile approach was taken in the development of this project. The project was 
 
 ## Blog
 - Tasty Tipples has a blog for content marketing, The initial page has a list of blog posts, that contains a Title and a snippet of what the article is about.
-- <img src="assets/readme/blog_list.png" alt="blog_list" width="700"/> 
 - The blog posts will be paginated after 3 posts. Paginated pages can be found at the bottom blog post list.
 - Once the user clicks on a blog post to read, they will be brought to a blog detail page. This will contain all the articles information.
-- <img src="assets/readme/blog_post.png" alt="blog_post" width="700"/> 
 - Currently blog posts can only be added from the admin panel. Summer note has also been set up to format blog post by the admin.
 
 <br>
@@ -587,7 +585,7 @@ An agile approach was taken in the development of this project. The project was 
  ![Home Page](assets/readme/homepage_html_pass.png)
    - [Link to Homepage Test Passed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2F)
    - [Link to all products passsed](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F)
-   - [Link to product detail](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F2%2F#l426c6)
+   - [Link to product detail](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fproducts%2F41%2F#l404c55)
    - [Link to all Contact Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fcontactus%2F#l282c107) 
    - [Link to About Us passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fabout%2F#l282c107)
    - [Link to Terms of Service passed](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ftasty-tipples.herokuapp.com%2Fterms%2F#l282c107) 
@@ -1105,7 +1103,7 @@ Now that you have created a S3 bucket with its user group attached, we need to c
 # <img src="assets/readme/completed_icon.png" alt="completed" width="38"/> Conclusion
   - I would like to experiment more with Django and build some more ecommerce projects. Overall, I learned a lot and enjoyed working with Django framework.
   - If I was to build this site again, I would spend more time on the wireframes and model designs.
-  - If it had time, I would like to have added a Wishlist and related products to the site.   
+  - If it had time, I would like to have added a Wishlist and related products to the site.
 
 
 
