@@ -160,7 +160,7 @@ An agile approach was taken in the development of this project. The project will
   - Newsletter column - Contains a form to allow the user to sign up to our newsletter.
   - The main aim of the footer is to increase engagement with visitors and allow easy navigation and links to important information. With the goal of getting the user to subscribe to the social channels & newsletter.
 
- ![Footer Bar](assets/readme/new_footer_1.png)
+ ![Footer Bar](assets/readme/fotter_revised.png)
 
 ## Scroll Back to Top
   - When the user scrolls below the fold on certain pages in the bottom right of the screen there is an arrow. When the user clicks on it, the user will be returned to the top of the screen. And the icon will be hidden. This feature will improve user experience.
@@ -179,7 +179,7 @@ An agile approach was taken in the development of this project. The project will
 
 <br>
 
-![About Us Links](assets/readme/drink_supports.png)
+![About Us Links](assets/readme/drink_aware_3.png)
 
 
 ## Contact Us
@@ -188,7 +188,7 @@ An agile approach was taken in the development of this project. The project will
   - The user is asked for their contact information and a brief message about their inquiry
   - All fields are required for the message to be sent user will be given feedback if any errors occur.
 
-  - <img src="assets/readme/new_contact.png" alt="Contact Us" width="800"/>
+  - <img src="assets/readme/contact_2.png" alt="Contact Us" width="800"/>
   - The user will get an alert if the message was successfully submitted.
 
 ![success message](assets/readme/email_success.png)
@@ -385,6 +385,9 @@ An agile approach was taken in the development of this project. The project will
 - The blog posts will be paginated after 3 posts. Paginated pages can be found at the bottom blog post list.
 - Once the user clicks on a blog post to read, they will be brought to a blog detail page. This will contain all the articles information.
 - Currently blog posts can only be added from the admin panel. Summer note has also been set up to format blog post.
+- <img src="assets/readme/blog.gif" alt="stripe" width="900"/>
+
+
 
 
 ## Admin Panel
