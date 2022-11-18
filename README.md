@@ -372,7 +372,7 @@ An agile approach was taken in the development of this project. The project was 
 - Users will get feedback if their email was successfully submitted.
 - ![Newsletter Signup](assets/readme/newletter_signup.png)
 - Mail Chimp interface shows how many subscribers we currently have from the newsletter sign up form.
-- ![Newsletter mail chimp](assets/readme/mail_chimp.png)
+- ![Newsletter mail chimp](assets/readme/mail_chimp_account.png)
 
 
 ## Message and Alerts to site Users
